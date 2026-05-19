@@ -236,7 +236,7 @@ h is a alphabet
 
 # 25.wap to check if a string starts with "A".
 a = input("enter a string: ")
-if a[0] is "A":
+if a[0] == "A":
     print(f"{a} starts with A")
 
 """
