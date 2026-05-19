@@ -265,9 +265,9 @@ list contains more than 5 items
 """
 
 # 28.wap to check if a number is between 1 and 10.
-n = int(input("enter a number: "))
-if 1 < n < 10:
-    print(f"{n} is between 1 and 10")
+# n = int(input("enter a number: "))
+# if 1 < n < 10:
+#     print(f"{n} is between 1 and 10")
 
 """
 enter a number: 5
