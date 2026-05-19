@@ -11,6 +11,12 @@
 n = int(input("enter a number: "))
 if n % 2 == 0:
     print(f"{n} is even")
+else:
+    print(f"{n} is odd")
+
+"""
+
+"""
 
 # 2.wap to check whether a person is eligible for driving.
 
