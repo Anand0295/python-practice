@@ -23,11 +23,11 @@ enter a number: 6
 """
 
 # 2.wap to check whether a person is eligible for driving.
-age = int(input("enter your age: "))
-if age >= 18:
-    print(f"{age} is eligible for driving")
-else:
-    print(f"{age} is not eligible for driving")
+# age = int(input("enter your age: "))
+# if age >= 18:
+#     print(f"{age} is eligible for driving")
+# else:
+#     print(f"{age} is not eligible for driving")
 
 """
 enter your age: 20
