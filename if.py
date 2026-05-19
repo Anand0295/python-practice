@@ -268,3 +268,8 @@ list contains more than 5 items
 n = int(input("enter a number: "))
 if 1 < n < 10:
     print(f"{n} is between 1 and 10")
+
+"""
+enter a number: 5
+5 is between 1 and 10
+"""
