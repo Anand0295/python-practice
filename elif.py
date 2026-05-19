@@ -499,26 +499,121 @@ go
 """
 
 # 22.wap to create a menu-driven hotel ordering system using elif.
-# item = input("enter food item: ")
 
-# if item == "biryani":
-#     print("biryani order placed")
-# elif item == "dosa":
-#     print("dosa order placed")
-# elif item == "fried rice":
-#     print("fried rice order placed")
+# print("welcome to hotel")
+# print("choose your course")
+# print("1.breakfast")
+# print("2.lunch")
+# print("3.dinner")
+
+# course = int(input("enter your choice: "))
+
+# if course == 1:
+#     print("breakfast menu")
+#     print("1.idli - 40")
+#     print("2.dosa - 50")
+#     print("3.poori - 60")
+#     print("4.pongal - 70")
+#     print("5.vada - 30")
+
+#     item = int(input("enter item number: "))
+
+#     if item == 1:
+#         print("idli ordered")
+#         print("total bill = 40")
+#     elif item == 2:
+#         print("dosa ordered")
+#         print("total bill = 50")
+#     elif item == 3:
+#         print("poori ordered")
+#         print("total bill = 60")
+#     elif item == 4:
+#         print("pongal ordered")
+#         print("total bill = 70")
+#     elif item == 5:
+#         print("vada ordered")
+#         print("total bill = 30")
+#     else:
+#         print("invalid item")
+
+# elif course == 2:
+#     print("lunch menu")
+#     print("1.meals - 120")
+#     print("2.biryani - 180")
+#     print("3.fried rice - 150")
+#     print("4.noodles - 140")
+#     print("5.curd rice - 80")
+
+#     item = int(input("enter item number: "))
+
+#     if item == 1:
+#         print("meals ordered")
+#         print("total bill = 120")
+#     elif item == 2:
+#         print("biryani ordered")
+#         print("total bill = 180")
+#     elif item == 3:
+#         print("fried rice ordered")
+#         print("total bill = 150")
+#     elif item == 4:
+#         print("noodles ordered")
+#         print("total bill = 140")
+#     elif item == 5:
+#         print("curd rice ordered")
+#         print("total bill = 80")
+#     else:
+#         print("invalid item")
+
+# elif course == 3:
+#     print("dinner menu")
+#     print("1.chapati - 60")
+#     print("2.parotta - 80")
+#     print("3.idiyappam - 90")
+#     print("4.paneer dosa - 100")
+#     print("5.tomato rice - 70")
+
+#     item = int(input("enter item number: "))
+
+#     if item == 1:
+#         print("chapati ordered")
+#         print("total bill = 60")
+#     elif item == 2:
+#         print("parotta ordered")
+#         print("total bill = 80")
+#     elif item == 3:
+#         print("idiyappam ordered")
+#         print("total bill = 90")
+#     elif item == 4:
+#         print("paneer dosa ordered")
+#         print("total bill = 100")
+#     elif item == 5:
+#         print("tomato rice ordered")
+#         print("total bill = 70")
+#     else:
+#         print("invalid item")
+
 # else:
-#     print("item not available")
+#     print("invalid course")
 
 """
-enter food item: biryani
-biryani order placed
+welcome to hotel
+choose your course
+1.breakfast
+2.lunch
+3.dinner
 
-enter food item: dosa
-dosa order placed
+enter your choice: 2
 
-enter food item: pizza
-item not available
+lunch menu
+1.meals - 120
+2.biryani - 180
+3.fried rice - 150
+4.noodles - 140
+5.curd rice - 80
+
+enter item number: 2
+biryani ordered
+total bill = 180
 """
 
 # 23.wap to check whether a given year is leap year or century year using elif.
