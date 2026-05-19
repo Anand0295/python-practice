@@ -1300,12 +1300,184 @@ enter device name: tv
 device not found
 """
 
-# 51.wap to print fizzbuzz if the given number is divisible by 5 and 3, else print fizz if the given number is divisible by 5, else print buzz if the given number is divisible by 3.
+# 51.wap to print fizzbuzz if the given number is divisible by 5 and 3,
+# else print fizz if the given number is divisible by 5,
+# else print buzz if the given number is divisible by 3.
+
+# num = int(input("enter a number: "))
+
+# if num % 5 == 0 and num % 3 == 0:
+#     print("fizzbuzz")
+# elif num % 5 == 0:
+#     print("fizz")
+# elif num % 3 == 0:
+#     print("buzz")
+# else:
+#     print(f"{num} is not divisible by 5 or 3")
+
+"""
+enter a number: 15
+fizzbuzz
+
+enter a number: 10
+fizz
+
+enter a number: 9
+buzz
+
+enter a number: 7
+7 is not divisible by 5 or 3
+"""
 
 # 52.wap to calculate total loan amount with interest based on loan type using elif.
 
-# 53.wap to check whether a student belongs to python full stack, java full stack, or testing based on batch code using elif.
+# print("1.personal loan")
+# print("2.agriculture loan")
+# print("3.car loan")
+
+# loan_amount = int(input("enter loan amount: "))
+# choice = int(input("enter your choice: "))
+
+# if choice == 1:
+#     interest = loan_amount * 11 // 100
+#     total = loan_amount + interest
+#     print(f"total amount = {total}")
+
+# elif choice == 2:
+#     interest = loan_amount * 5 // 100
+#     total = loan_amount + interest
+#     print(f"total amount = {total}")
+
+# elif choice == 3:
+#     interest = loan_amount * 9 // 100
+#     total = loan_amount + interest
+#     print(f"total amount = {total}")
+
+# else:
+#     print("invalid option")
+
+"""
+1.personal loan
+2.agriculture loan
+3.car loan
+
+enter loan amount: 100000
+enter your choice: 1
+total amount = 111000
+"""
+
+# 53.wap to check whether a student belongs to python full stack,
+# java full stack, or testing based on batch code using elif.
+
+# batch = input("enter batch code: ")
+
+# if batch[0:3].upper() == "PSP":
+#     print("python full stack student")
+
+# elif batch[0:3].upper() == "JSP":
+#     print("java full stack student")
+
+# elif batch[0:3].upper() == "QSP":
+#     print("testing student")
+
+# else:
+#     print("invalid batch code")
+
+"""
+enter batch code: psp_e9
+python full stack student
+
+enter batch code: jsp_e5
+java full stack student
+
+enter batch code: qsp_e2
+testing student
+"""
 
 # 54.wap to welcome the tourist in their state language based on entered city using elif.
 
+# city = input("enter city name: ").lower()
+
+# if city in ["bangalore", "mysore", "mangalore"]:
+#     print("😊ಕರ್ನಾಟಕಕ್ಕೆ ಸ್ವಾಗತ😊")
+
+# elif city in ["tirupati", "vijayawada", "visakhapatnam"]:
+#     print("😊ఆంధ్ర ప్రదేశ్ కు స్వాగతం😊")
+
+# elif city in ["chennai", "madurai", "coimbatore"]:
+#     print("😊தமிழகத்திற்கு வரவேற்கிறோம்😊")
+
+# else:
+#     print("city not found")
+
+"""
+enter city name: chennai
+😊தமிழகத்திற்கு வரவேற்கிறோம்😊
+
+enter city name: bangalore
+😊ಕರ್ನಾಟಕಕ್ಕೆ ಸ್ವಾಗತ😊
+"""
+
 # 55.wap to create a simple restaurant menu billing system using elif.
+
+# print("1.breakfast")
+# print("2.lunch")
+# print("3.dinner")
+
+# course = int(input("enter your choice: "))
+
+# if course == 1:
+#     print("1.idli - 40")
+#     print("2.dosa - 50")
+
+#     item = int(input("enter item number: "))
+
+#     if item == 1:
+#         print("total bill = 40")
+#     elif item == 2:
+#         print("total bill = 50")
+#     else:
+#         print("invalid item")
+
+# elif course == 2:
+#     print("1.meals - 120")
+#     print("2.biryani - 180")
+
+#     item = int(input("enter item number: "))
+
+#     if item == 1:
+#         print("total bill = 120")
+#     elif item == 2:
+#         print("total bill = 180")
+#     else:
+#         print("invalid item")
+
+# elif course == 3:
+#     print("1.chapati - 60")
+#     print("2.parotta - 80")
+
+#     item = int(input("enter item number: "))
+
+#     if item == 1:
+#         print("total bill = 60")
+#     elif item == 2:
+#         print("total bill = 80")
+#     else:
+#         print("invalid item")
+
+# else:
+#     print("invalid course")
+
+"""
+1.breakfast
+2.lunch
+3.dinner
+
+enter your choice: 2
+
+1.meals - 120
+2.biryani - 180
+
+enter item number: 2
+total bill = 180
+"""
