@@ -8,11 +8,11 @@
 #     |----------|
 
 # 1.wap to check whether a number is even or odd.
-n = int(input("enter a number: "))
-if n % 2 == 0:
-    print(f"{n} is even")
-else:
-    print(f"{n} is odd")
+# n = int(input("enter a number: "))
+# if n % 2 == 0:
+#     print(f"{n} is even")
+# else:
+#     print(f"{n} is odd")
 
 """
 enter a number: 1
@@ -23,6 +23,16 @@ enter a number: 6
 """
 
 # 2.wap to check whether a person is eligible for driving.
+age = int(input("enter your age: "))
+if age >= 18:
+    print(f"{age} is eligible for driving")
+else:
+    print(f"{age} is not eligible for driving")
+
+"""
+
+
+"""
 
 # 3.wap to find the greater number between two numbers.
 
