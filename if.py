@@ -224,6 +224,16 @@ enter a character: 12
 12 is a digit
 """
 
+# 23.wap to check if a character is a special character.
+# ch = input("enter a character: ")
+# if not ch.isalnum():
+#     print(f"{ch} is a special character")
+
+"""
+enter a character: @
+@ is a special character
+"""
+
 # 24.wap to check if a character is alphabet.
 # ch = input("enter a character: ")
 # if ch.isalpha():
