@@ -680,3 +680,99 @@ enter a number: 50
 enter a number: 150
 150 does not belong to range 1 to 100
 """
+
+# 45.wap to check whether a vehicle speed exceeds speed limit.
+# speed = int(input("enter vehicle speed: "))
+# if speed > 80:
+#     print(f"{speed} exceeds speed limit")
+# else:
+#     print(f"{speed} is within speed limit")
+
+"""
+enter vehicle speed: 100
+100 exceeds speed limit
+
+enter vehicle speed: 60
+60 is within speed limit
+"""
+
+# 46.wap to implement simple calculator using if-elif.
+# a = int(input("enter first number: "))
+# b = int(input("enter second number: "))
+# op = input("enter operator: ")
+# if op == "+":
+#     print(f"sum is {a+b}")
+# else:
+#     print(f"difference is {a-b}")
+
+"""
+enter first number: 10
+enter second number: 20
+enter operator: +
+sum is 30
+
+enter first number: 20
+enter second number: 10
+enter operator: -
+difference is 10
+"""
+
+# 47.wap to assign grades based on marks using if-elif.
+# marks = int(input("enter marks: "))
+# if marks >= 50:
+#     print("pass")
+# else:
+#     print("fail")
+
+"""
+enter marks: 75
+pass
+
+enter marks: 20
+fail
+"""
+
+# 48.wap to create a mini ATM balance checker.
+# balance = int(input("enter account balance: "))
+# if balance > 1000:
+#     print(f"{balance} balance available")
+# else:
+#     print("low balance")
+
+"""
+enter account balance: 5000
+5000 balance available
+
+enter account balance: 500
+low balance
+"""
+
+# 49.wap to create a traffic signal action checker.
+# signal = input("enter traffic signal: ")
+# if signal == "green":
+#     print("go")
+# else:
+#     print("stop")
+
+"""
+enter traffic signal: green
+go
+
+enter traffic signal: red
+stop
+"""
+
+# 50.wap to create a simple menu-driven hotel ordering system.
+# item = input("enter food item: ")
+# if item == "biryani":
+#     print("order placed for biryani")
+# else:
+#     print("item not available")
+
+"""
+enter food item: biryani
+order placed for biryani
+
+enter food item: dosa
+item not available
+"""
