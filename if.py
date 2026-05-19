@@ -273,3 +273,5 @@ list contains more than 5 items
 enter a number: 5
 5 is between 1 and 10
 """
+
+# 29.wap to check if a number is a 3-digit number.
