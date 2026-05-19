@@ -137,8 +137,11 @@ else:
 enter a year: 2024
 2024 is leap year
 
-enter a year: 2023
-2023 is not leap year
+enter a year: 1900
+1900 is not leap year
+
+enter a year: 2000
+2000 is leap year
 """
 
 # 10.wap to check whether a character is uppercase or lowercase.
