@@ -257,4 +257,9 @@ enter a password: 123456789
 # 27.wap to check if a list contains more than 5 items.
 lst = [1, "a", "apple", ["a", "b"], (1, 2, 3)]
 if len(lst) > 5:
-    print(f"{lst}")
+    print("list contains more than 5 items")
+
+
+"""
+
+"""
