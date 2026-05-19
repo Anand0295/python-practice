@@ -224,4 +224,4 @@ enter a character: 12
 12 is a digit
 """
 
-# 24 WAP to check if a character is alphabet.
+# 24.wap to check if a character is alphabet.
