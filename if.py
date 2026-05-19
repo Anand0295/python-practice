@@ -224,19 +224,4 @@ enter a character: 12
 12 is a digit
 """
 
-import os
-import sys
-
-
-def logic_check_exercise(number):
-    ans = number * 2
-    if ans > 50:
-        print("Value is too high!")
-    else:
-        print("Value is fine")
-    return ans
-
-
-a = 40
-b = 50
-msg = "Testing the 1,000,000% working pipeline"
+"hello world"
