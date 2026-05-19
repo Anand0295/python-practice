@@ -223,5 +223,3 @@ a is lowercase
 enter a character: 12
 12 is a digit
 """
-
-print("hello world")
