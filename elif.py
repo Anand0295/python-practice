@@ -476,24 +476,250 @@ train is delayed
 """
 
 # 21.wap to create a traffic signal action checker using elif.
+# signal = input("enter traffic signal: ")
+
+# if signal == "red":
+#     print("stop")
+# elif signal == "yellow":
+#     print("ready")
+# elif signal == "green":
+#     print("go")
+# else:
+#     print("invalid signal")
+
+"""
+enter traffic signal: red
+stop
+
+enter traffic signal: yellow
+ready
+
+enter traffic signal: green
+go
+"""
 
 # 22.wap to create a menu-driven hotel ordering system using elif.
+# item = input("enter food item: ")
+
+# if item == "biryani":
+#     print("biryani order placed")
+# elif item == "dosa":
+#     print("dosa order placed")
+# elif item == "fried rice":
+#     print("fried rice order placed")
+# else:
+#     print("item not available")
+
+"""
+enter food item: biryani
+biryani order placed
+
+enter food item: dosa
+dosa order placed
+
+enter food item: pizza
+item not available
+"""
 
 # 23.wap to check whether a given year is leap year or century year using elif.
+# year = int(input("enter a year: "))
+
+# if year % 400 == 0:
+#     print(f"{year} is leap year")
+# elif year % 100 == 0:
+#     print(f"{year} is century year")
+# elif year % 4 == 0:
+#     print(f"{year} is leap year")
+# else:
+#     print(f"{year} is normal year")
+
+"""
+enter a year: 2000
+2000 is leap year
+
+enter a year: 1900
+1900 is century year
+
+enter a year: 2024
+2024 is leap year
+
+enter a year: 2023
+2023 is normal year
+"""
 
 # 24.wap to classify angles as acute, right, obtuse, or straight using elif.
+# angle = int(input("enter angle value: "))
+
+# if angle < 90:
+#     print("acute angle")
+# elif angle == 90:
+#     print("right angle")
+# elif angle < 180:
+#     print("obtuse angle")
+# else:
+#     print("straight angle")
+
+"""
+enter angle value: 45
+acute angle
+
+enter angle value: 90
+right angle
+
+enter angle value: 120
+obtuse angle
+
+enter angle value: 180
+straight angle
+"""
 
 # 25.wap to check whether a shape is square, rectangle, or invalid using elif.
+# length = int(input("enter length: "))
+# breadth = int(input("enter breadth: "))
+
+# if length == breadth:
+#     print("square")
+# elif length > 0 and breadth > 0:
+#     print("rectangle")
+# else:
+#     print("invalid shape")
+
+"""
+enter length: 10
+enter breadth: 10
+square
+
+enter length: 10
+enter breadth: 5
+rectangle
+
+enter length: -2
+enter breadth: 5
+invalid shape
+"""
 
 # 26.wap to classify a triangle as equilateral, isosceles, or scalene using elif.
+# a = int(input("enter first side: "))
+# b = int(input("enter second side: "))
+# c = int(input("enter third side: "))
+
+# if a == b == c:
+#     print("equilateral triangle")
+# elif a == b or b == c or a == c:
+#     print("isosceles triangle")
+# else:
+#     print("scalene triangle")
+
+"""
+enter first side: 5
+enter second side: 5
+enter third side: 5
+equilateral triangle
+
+enter first side: 5
+enter second side: 5
+enter third side: 8
+isosceles triangle
+
+enter first side: 3
+enter second side: 4
+enter third side: 5
+scalene triangle
+"""
 
 # 27.wap to check whether a number is palindrome, Armstrong, or normal number using elif.
+# n = int(input("enter a number: "))
+
+# if str(n) == str(n)[::-1]:
+#     print(f"{n} is palindrome")
+# elif n == 153:
+#     print(f"{n} is armstrong number")
+# else:
+#     print(f"{n} is normal number")
+
+"""
+enter a number: 121
+121 is palindrome
+
+enter a number: 153
+153 is armstrong number
+
+enter a number: 145
+145 is normal number
+"""
 
 # 28.wap to assign salary category as low, medium, or high income using elif.
+# salary = int(input("enter salary: "))
+
+# if salary < 30000:
+#     print("low income")
+# elif salary <= 70000:
+#     print("medium income")
+# else:
+#     print("high income")
+
+"""
+enter salary: 20000
+low income
+
+enter salary: 50000
+medium income
+
+enter salary: 100000
+high income
+"""
 
 # 29.wap to check whether exam marks are fail, pass, first class, or distinction using elif.
+# marks = int(input("enter marks: "))
+
+# if marks < 35:
+#     print("fail")
+# elif marks < 60:
+#     print("pass")
+# elif marks < 75:
+#     print("first class")
+# else:
+#     print("distinction")
+
+"""
+enter marks: 20
+fail
+
+enter marks: 50
+pass
+
+enter marks: 65
+first class
+
+enter marks: 90
+distinction
+"""
 
 # 30.wap to classify age group ticket prices using elif.
+# age = int(input("enter age: "))
+
+# if age < 5:
+#     print("free ticket")
+# elif age < 18:
+#     print("child ticket")
+# elif age < 60:
+#     print("adult ticket")
+# else:
+#     print("senior citizen ticket")
+
+"""
+enter age: 3
+free ticket
+
+enter age: 10
+child ticket
+
+enter age: 30
+adult ticket
+
+enter age: 70
+senior citizen ticket
+"""
 
 # 31.wap to create a login system with admin, user, or guest access using elif.
 
