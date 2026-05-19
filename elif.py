@@ -12,13 +12,13 @@
 #     |----------|
 
 # 1.wap to check whether a number is positive, negative, or zero using elif.
-n = int(input("enter a number: "))
-if n > 0:
-    print(f"{n} is positive")
-elif n < 0:
-    print(f"{n} is negative")
-else:
-    print(f"{n} is zero")
+# n = int(input("enter a number: "))
+# if n > 0:
+#     print(f"{n} is positive")
+# elif n < 0:
+#     print(f"{n} is negative")
+# else:
+#     print(f"{n} is zero")
 
 """
 enter a number: 5
@@ -27,7 +27,8 @@ enter a number: 5
 enter a number: -10
 -10 is negative
 
-
+enter a number: 0
+0 is zero
 """
 # 2.wap to check whether a student got pass, fail, or distinction using elif.
 
