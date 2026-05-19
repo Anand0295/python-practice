@@ -224,7 +224,6 @@ enter a character: 12
 12 is a digit
 """
 
-
 import os
 import sys
 
