@@ -710,3 +710,404 @@ enter rainfall in mm: 150
 is river level high (yes/no): yes
 flood warning needed
 """
+
+# 36.wap to check whether a student marks are above 90 and attendance above 95 using nested if.
+# marks = int(input("enter marks: "))
+
+# if marks > 90:
+#     attendance = int(input("enter attendance percentage: "))
+
+#     if attendance > 95:
+#         print("student is outstanding")
+#     else:
+#         print("marks are good but attendance is low")
+# else:
+#     print("marks are below 90")
+
+"""
+enter marks: 95
+enter attendance percentage: 97
+student is outstanding
+"""
+
+# 37.wap to check whether electricity units are above 500 and bill is unpaid using nested if.
+# units = int(input("enter electricity units: "))
+
+# if units > 500:
+#     status = input("is bill unpaid (yes/no): ")
+
+#     if status == "yes":
+#         print("electricity connection may be disconnected")
+#     else:
+#         print("bill already paid")
+# else:
+#     print("units are below 500")
+
+"""
+enter electricity units: 650
+is bill unpaid (yes/no): yes
+electricity connection may be disconnected
+"""
+
+# 38.wap to check whether a train ticket is confirmed and passenger age is senior citizen using nested if.
+# ticket = input("is ticket confirmed (yes/no): ")
+
+# if ticket == "yes":
+#     age = int(input("enter passenger age: "))
+
+#     if age >= 60:
+#         print("senior citizen passenger")
+#     else:
+#         print("regular passenger")
+# else:
+#     print("ticket not confirmed")
+
+"""
+is ticket confirmed (yes/no): yes
+enter passenger age: 65
+senior citizen passenger
+"""
+
+# 39.wap to check whether a file exists and has read permission using nested if.
+# file = input("does file exist (yes/no): ")
+
+# if file == "yes":
+#     permission = input("does file have read permission (yes/no): ")
+
+#     if permission == "yes":
+#         print("file can be opened")
+#     else:
+#         print("read permission denied")
+# else:
+#     print("file does not exist")
+
+"""
+does file exist (yes/no): yes
+does file have read permission (yes/no): yes
+file can be opened
+"""
+
+# 40.wap to check whether a number is prime and odd using nested if.
+# n = int(input("enter a number: "))
+
+# if n in [2, 3, 5, 7, 11, 13]:
+#     if n % 2 != 0:
+#         print(f"{n} is odd prime number")
+#     else:
+#         print(f"{n} is even prime number")
+# else:
+#     print(f"{n} is not prime number")
+
+"""
+enter a number: 11
+11 is odd prime number
+
+enter a number: 2
+2 is even prime number
+
+enter a number: 9
+9 is not prime number
+"""
+
+# 41.wap to check whether a laptop battery is charging and percentage reached 100 using nested if.
+# charging = input("is laptop charging (yes/no): ")
+
+# if charging == "yes":
+#     battery = int(input("enter battery percentage: "))
+
+#     if battery == 100:
+#         print("battery fully charged")
+#     else:
+#         print("battery still charging")
+# else:
+#     print("laptop not charging")
+
+"""
+is laptop charging (yes/no): yes
+enter battery percentage: 100
+battery fully charged
+"""
+
+# 42.wap to check whether an employee is permanent and eligible for bonus using nested if.
+# employee = input("is employee permanent (yes/no): ")
+
+# if employee == "yes":
+#     salary = int(input("enter salary: "))
+
+#     if salary > 30000:
+#         print("employee eligible for bonus")
+#     else:
+#         print("employee not eligible for bonus")
+# else:
+#     print("temporary employee")
+
+"""
+is employee permanent (yes/no): yes
+enter salary: 50000
+employee eligible for bonus
+"""
+
+# 43.wap to check whether a customer selected premium plan and completed payment using nested if.
+# plan = input("did customer select premium plan (yes/no): ")
+
+# if plan == "yes":
+#     payment = input("is payment completed (yes/no): ")
+
+#     if payment == "yes":
+#         print("premium plan activated")
+#     else:
+#         print("payment pending")
+# else:
+#     print("basic plan selected")
+
+"""
+did customer select premium plan (yes/no): yes
+is payment completed (yes/no): yes
+premium plan activated
+"""
+
+# 44.wap to check whether a student belongs to science stream and scored above 85 using nested if.
+# stream = input("enter student stream: ")
+
+# if stream == "science":
+#     marks = int(input("enter marks: "))
+
+#     if marks > 85:
+#         print("science student scored above 85")
+#     else:
+#         print("science student scored below 85")
+# else:
+#     print("student not from science stream")
+
+"""
+enter student stream: science
+enter marks: 90
+science student scored above 85
+"""
+
+# 45.wap to check whether a player is selected and medically fit using nested if.
+# selected = input("is player selected (yes/no): ")
+
+# if selected == "yes":
+#     fitness = input("is player medically fit (yes/no): ")
+
+#     if fitness == "yes":
+#         print("player can participate")
+#     else:
+#         print("player medically unfit")
+# else:
+#     print("player not selected")
+
+"""
+is player selected (yes/no): yes
+is player medically fit (yes/no): yes
+player can participate
+"""
+
+# 46.wap to check whether a user entered valid captcha and OTP using nested if.
+# captcha = input("enter captcha: ")
+
+# if captcha == "AB12":
+#     otp = int(input("enter OTP: "))
+
+#     if otp == 1234:
+#         print("verification successful")
+#     else:
+#         print("invalid OTP")
+# else:
+#     print("invalid captcha")
+
+"""
+enter captcha: AB12
+enter OTP: 1234
+verification successful
+"""
+
+# 47.wap to check whether a flight ticket is booked and passport is verified using nested if.
+# ticket = input("is flight ticket booked (yes/no): ")
+
+# if ticket == "yes":
+#     passport = input("is passport verified (yes/no): ")
+
+#     if passport == "yes":
+#         print("ready for boarding")
+#     else:
+#         print("passport verification pending")
+# else:
+#     print("ticket not booked")
+
+"""
+is flight ticket booked (yes/no): yes
+is passport verified (yes/no): yes
+ready for boarding
+"""
+
+# 48.wap to check whether a number is divisible by both 4 and 8 using nested if.
+# n = int(input("enter a number: "))
+
+# if n % 4 == 0:
+#     if n % 8 == 0:
+#         print(f"{n} is divisible by 4 and 8")
+#     else:
+#         print(f"{n} is divisible by 4 but not by 8")
+# else:
+#     print(f"{n} is not divisible by 4")
+
+"""
+enter a number: 16
+16 is divisible by 4 and 8
+
+enter a number: 12
+12 is divisible by 4 but not by 8
+"""
+
+# 49.wap to check whether a hospital patient is critical and ICU bed is available using nested if.
+# critical = input("is patient critical (yes/no): ")
+
+# if critical == "yes":
+#     icu = input("is ICU bed available (yes/no): ")
+
+#     if icu == "yes":
+#         print("admit patient to ICU")
+#     else:
+#         print("ICU bed not available")
+# else:
+#     print("patient condition stable")
+
+"""
+is patient critical (yes/no): yes
+is ICU bed available (yes/no): yes
+admit patient to ICU
+"""
+
+# 50.wap to create a mini smart home security system using nested if.
+# door = input("is main door locked (yes/no): ")
+
+# if door == "yes":
+#     motion = input("is motion detected (yes/no): ")
+
+#     if motion == "yes":
+#         print("security alarm activated")
+#     else:
+#         print("home is secure")
+# else:
+#     print("lock the main door")
+
+"""
+is main door locked (yes/no): yes
+is motion detected (yes/no): yes
+security alarm activated
+"""
+
+# 51.wap to check whether the given positive number is even or odd using nested if.
+# n = int(input("enter a number: "))
+
+# if n > 0:
+#     if n % 2 == 0:
+#         print(f"{n} is even")
+#     else:
+#         print(f"{n} is odd")
+# else:
+#     print("enter only positive number")
+
+"""
+enter a number: 8
+8 is even
+
+enter a number: 7
+7 is odd
+"""
+
+# 52.wap to print the highest number among three numbers using nested if.
+# a = int(input("enter first number: "))
+# b = int(input("enter second number: "))
+# c = int(input("enter third number: "))
+
+# if a > b:
+#     if a > c:
+#         print(f"{a} is highest")
+#     else:
+#         print(f"{c} is highest")
+# else:
+#     if b > c:
+#         print(f"{b} is highest")
+#     else:
+#         print(f"{c} is highest")
+
+"""
+enter first number: 10
+enter second number: 25
+enter third number: 15
+25 is highest
+"""
+
+# 53.wap to print the second highest number among three numbers using nested if.
+# a = int(input("enter first number: "))
+# b = int(input("enter second number: "))
+# c = int(input("enter third number: "))
+
+# if a > b and a > c:
+#     if b > c:
+#         print(f"{b} is second highest")
+#     else:
+#         print(f"{c} is second highest")
+
+# else:
+#     if b > a and b > c:
+#         if a > c:
+#             print(f"{a} is second highest")
+#         else:
+#             print(f"{c} is second highest")
+#     else:
+#         if a > b:
+#             print(f"{a} is second highest")
+#         else:
+#             print(f"{b} is second highest")
+
+"""
+enter first number: 10
+enter second number: 30
+enter third number: 20
+20 is second highest
+"""
+
+# 54.wap to check whether a number is positive and divisible by both 2 and 3 using nested if.
+# n = int(input("enter a number: "))
+
+# if n > 0:
+#     if n % 2 == 0 and n % 3 == 0:
+#         print(f"{n} is divisible by both 2 and 3")
+#     else:
+#         print(f"{n} is not divisible by both 2 and 3")
+# else:
+#     print(f"{n} is not positive")
+
+"""
+enter a number: 12
+12 is divisible by both 2 and 3
+
+enter a number: 10
+10 is not divisible by both 2 and 3
+"""
+
+# 55.wap to check whether a student passed all subjects and scored distinction using nested if.
+# maths = int(input("enter maths marks: "))
+# science = int(input("enter science marks: "))
+# english = int(input("enter english marks: "))
+
+# if maths >= 35 and science >= 35 and english >= 35:
+#     average = (maths + science + english) / 3
+
+#     if average >= 75:
+#         print("student passed with distinction")
+#     else:
+#         print("student passed")
+# else:
+#     print("student failed")
+
+"""
+enter maths marks: 90
+enter science marks: 85
+enter english marks: 80
+student passed with distinction
+"""
