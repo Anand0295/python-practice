@@ -1418,66 +1418,32 @@ enter city name: bangalore
 😊ಕರ್ನಾಟಕಕ್ಕೆ ಸ್ವಾಗತ😊
 """
 
-# 55.wap to create a simple restaurant menu billing system using elif.
+# 55.wap to classify students based on attendance percentage using elif.
 
-# print("1.breakfast")
-# print("2.lunch")
-# print("3.dinner")
+# attendance = int(input("enter attendance percentage: "))
 
-# course = int(input("enter your choice: "))
+# if attendance >= 90:
+#     print("excellent attendance")
 
-# if course == 1:
-#     print("1.idli - 40")
-#     print("2.dosa - 50")
+# elif attendance >= 75:
+#     print("good attendance")
 
-#     item = int(input("enter item number: "))
-
-#     if item == 1:
-#         print("total bill = 40")
-#     elif item == 2:
-#         print("total bill = 50")
-#     else:
-#         print("invalid item")
-
-# elif course == 2:
-#     print("1.meals - 120")
-#     print("2.biryani - 180")
-
-#     item = int(input("enter item number: "))
-
-#     if item == 1:
-#         print("total bill = 120")
-#     elif item == 2:
-#         print("total bill = 180")
-#     else:
-#         print("invalid item")
-
-# elif course == 3:
-#     print("1.chapati - 60")
-#     print("2.parotta - 80")
-
-#     item = int(input("enter item number: "))
-
-#     if item == 1:
-#         print("total bill = 60")
-#     elif item == 2:
-#         print("total bill = 80")
-#     else:
-#         print("invalid item")
+# elif attendance >= 50:
+#     print("average attendance")
 
 # else:
-#     print("invalid course")
+#     print("poor attendance")
 
 """
-1.breakfast
-2.lunch
-3.dinner
+enter attendance percentage: 95
+excellent attendance
 
-enter your choice: 2
+enter attendance percentage: 80
+good attendance
 
-1.meals - 120
-2.biryani - 180
+enter attendance percentage: 60
+average attendance
 
-enter item number: 2
-total bill = 180
+enter attendance percentage: 30
+poor attendance
 """
