@@ -1,3 +1,26 @@
+#  if outer_condition:
+#      |--------------------------|
+#      |  Outer True Statement    |
+#      |  Block (TSB)             |
+#      |--------------------------|
+#
+#      if inner_condition:
+#          |----------------------|
+#          |  Inner True          |
+#          |  Statement Block     |
+#          |----------------------|
+#      else:
+#          |----------------------|
+#          |  Inner False         |
+#          |  Statement Block     |
+#          |----------------------|
+#  else:
+#      |--------------------------|
+#      |  Outer False Statement   |
+#      |  Block (FSB)             |
+#      |--------------------------|
+
+
 # 1.wap to check whether a number is positive and even using nested if.
 # n = int(input("enter a number: "))
 
