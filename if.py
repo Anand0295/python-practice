@@ -253,3 +253,5 @@ Anand starts with A
 enter a password: 123456789
 123456789 length is greater than 8
 """
+
+# 27.wap to check if a list contains more than 5 items.
