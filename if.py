@@ -245,3 +245,10 @@ Anand starts with A
 """
 
 # 26.wap to check if password length is greater than 8.
+password = input("enter a password: ")
+if len(password) > 8:
+    print(f"{password} length is greater than 8")
+
+"""
+
+"""
