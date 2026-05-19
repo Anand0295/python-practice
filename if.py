@@ -255,7 +255,7 @@ enter a password: 123456789
 """
 
 # 27.wap to check if a list contains more than 5 items.
-lst = [1, "a", "apple", ["a", "b"], (1, 2, 3)]
+lst = [1, "a", "apple", ["a", "b"], (1, 2, 3), {1, 2, 3}]
 if len(lst) > 5:
     print("list contains more than 5 items")
 
