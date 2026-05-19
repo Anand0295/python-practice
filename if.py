@@ -225,6 +225,11 @@ enter a character: 12
 """
 
 # 24.wap to check if a character is alphabet.
-ch = input("enter a character: ")
-if ch.isalpha():
-    print(f"{ch} is a alphabet")
+# ch = input("enter a character: ")
+# if ch.isalpha():
+#     print(f"{ch} is a alphabet")
+
+"""
+enter a character: h
+h is a alphabet
+"""
