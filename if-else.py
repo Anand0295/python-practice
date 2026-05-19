@@ -352,11 +352,8 @@ enter a number: 300
 # b = input('enter second string: ')
 
 # if a == b:
-
 # print('both strings are equal')
-
 # else:
-
 # print('both strings are not equal')
 
 """
