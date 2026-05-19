@@ -250,24 +250,230 @@ division is 4.0
 
 
 # 11.wap to check whether a day is weekday or weekend using elif.
+# day = input("enter a day: ")
+
+# if day in ["Saturday", "Sunday"]:
+#     print(f"{day} is weekend")
+# elif day in ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]:
+#     print(f"{day} is weekday")
+# else:
+#     print("invalid day")
+
+"""
+enter a day: Sunday
+Sunday is weekend
+
+enter a day: Monday
+Monday is weekday
+"""
 
 # 12.wap to check whether a month has 28, 30, or 31 days using elif.
+# month = input("enter month name: ")
+
+# if month == "February":
+#     print(f"{month} has 28 days")
+# elif month in ["April", "June", "September", "November"]:
+#     print(f"{month} has 30 days")
+# elif month in ["January", "March", "May", "July", "August", "October", "December"]:
+#     print(f"{month} has 31 days")
+# else:
+#     print("invalid month")
+
+"""
+enter month name: February
+February has 28 days
+
+enter month name: April
+April has 30 days
+
+enter month name: May
+May has 31 days
+"""
 
 # 13.wap to check whether a character is uppercase, lowercase, digit, or special character using elif.
+# ch = input("enter a character: ")
+
+# if ch.isupper():
+#     print(f"{ch} is uppercase")
+# elif ch.islower():
+#     print(f"{ch} is lowercase")
+# elif ch.isdigit():
+#     print(f"{ch} is digit")
+# else:
+#     print(f"{ch} is special character")
+
+"""
+enter a character: A
+A is uppercase
+
+enter a character: b
+b is lowercase
+
+enter a character: 7
+7 is digit
+
+enter a character: @
+@ is special character
+"""
 
 # 14.wap to check whether a person is eligible for school, college, or job using elif.
+# age = int(input("enter your age: "))
+
+# if age < 5:
+#     print("not eligible for school")
+# elif age < 18:
+#     print("eligible for school")
+# elif age < 23:
+#     print("eligible for college")
+# else:
+#     print("eligible for job")
+
+"""
+enter your age: 10
+eligible for school
+
+enter your age: 20
+eligible for college
+
+enter your age: 25
+eligible for job
+"""
 
 # 15.wap to classify BMI as underweight, normal, overweight, or obese using elif.
+# bmi = float(input("enter BMI value: "))
+
+# if bmi < 18.5:
+#     print("underweight")
+# elif bmi < 25:
+#     print("normal")
+# elif bmi < 30:
+#     print("overweight")
+# else:
+#     print("obese")
+
+"""
+enter BMI value: 17
+underweight
+
+enter BMI value: 22
+normal
+
+enter BMI value: 28
+overweight
+
+enter BMI value: 35
+obese
+"""
 
 # 16.wap to check whether a number belongs to range 1-10, 11-50, or above 50 using elif.
+# n = int(input("enter a number: "))
+
+# if 1 <= n <= 10:
+#     print(f"{n} belongs to range 1-10")
+# elif 11 <= n <= 50:
+#     print(f"{n} belongs to range 11-50")
+# else:
+#     print(f"{n} is above 50")
+
+"""
+enter a number: 5
+5 belongs to range 1-10
+
+enter a number: 25
+25 belongs to range 11-50
+
+enter a number: 80
+80 is above 50
+"""
 
 # 17.wap to check whether internet speed is slow, medium, or fast using elif.
+# speed = int(input("enter internet speed: "))
+
+# if speed < 10:
+#     print("slow")
+# elif speed <= 50:
+#     print("medium")
+# else:
+#     print("fast")
+
+"""
+enter internet speed: 5
+slow
+
+enter internet speed: 30
+medium
+
+enter internet speed: 100
+fast
+"""
 
 # 18.wap to assign movie category based on rating using elif.
+# rating = float(input("enter movie rating: "))
+
+# if rating >= 8:
+#     print("blockbuster")
+# elif rating >= 6:
+#     print("hit")
+# elif rating >= 4:
+#     print("average")
+# else:
+#     print("flop")
+
+"""
+enter movie rating: 9
+blockbuster
+
+enter movie rating: 7
+hit
+
+enter movie rating: 5
+average
+
+enter movie rating: 2
+flop
+"""
 
 # 19.wap to check whether battery percentage is low, medium, or full using elif.
+# battery = int(input("enter battery percentage: "))
+
+# if battery < 20:
+#     print("low battery")
+# elif battery <= 80:
+#     print("medium battery")
+# else:
+#     print("full battery")
+
+"""
+enter battery percentage: 10
+low battery
+
+enter battery percentage: 50
+medium battery
+
+enter battery percentage: 95
+full battery
+"""
 
 # 20.wap to check whether a train is early, on time, or delayed using elif.
+# status = input("enter train status: ")
+
+# if status == "early":
+#     print("train is early")
+# elif status == "ontime":
+#     print("train is on time")
+# else:
+#     print("train is delayed")
+
+"""
+enter train status: early
+train is early
+
+enter train status: ontime
+train is on time
+
+enter train status: delayed
+train is delayed
+"""
 
 # 21.wap to create a traffic signal action checker using elif.
 
