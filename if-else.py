@@ -38,12 +38,12 @@ enter your age: 15
 """
 
 # 3.wap to find the greater number between two numbers.
-a = int(input("enter a number: "))
-b = int(input("enter a number: "))
-if a > b:
-    print(f"{a} is greater than {b}")
-else:
-    print(f"{b} is greater than {a}")
+# a = int(input("enter a number: "))
+# b = int(input("enter a number: "))
+# if a > b:
+#     print(f"{a} is greater than {b}")
+# else:
+#     print(f"{b} is greater than {a}")
 
 """
 enter a number: 12
