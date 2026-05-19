@@ -21,6 +21,9 @@ else:
     print(f"{n} is zero")
 
 """
+enter a number: 5
+5 is positive
+
 
 """
 # 2.wap to check whether a student got pass, fail, or distinction using elif.
