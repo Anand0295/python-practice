@@ -46,6 +46,10 @@ else:
     print(f"{b} is greater than {a}")
 
 """
+enter a number: 12
+enter a number: 25
+25 is greater than 12
+
 
 """
 # 4.wap to check whether a character is vowel or consonant.
