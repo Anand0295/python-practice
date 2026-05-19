@@ -45,6 +45,9 @@ if a > b:
 else:
     print(f"{b} is greater than {a}")
 
+"""
+
+"""
 # 4.wap to check whether a character is vowel or consonant.
 
 # 5.wap to check whether a student is pass or fail.
