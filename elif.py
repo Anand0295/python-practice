@@ -817,44 +817,471 @@ senior citizen ticket
 """
 
 # 31.wap to create a login system with admin, user, or guest access using elif.
+# role = input("enter role: ")
+
+# if role == "admin":
+#     print("admin access granted")
+# elif role == "user":
+#     print("user access granted")
+# elif role == "guest":
+#     print("guest access granted")
+# else:
+#     print("invalid role")
+
+"""
+enter role: admin
+admin access granted
+
+enter role: user
+user access granted
+
+enter role: guest
+guest access granted
+"""
 
 # 32.wap to classify weather condition as rainy, sunny, cloudy, or snowy using elif.
+# weather = input("enter weather condition: ")
+
+# if weather == "rainy":
+#     print("take umbrella")
+# elif weather == "sunny":
+#     print("wear sunglasses")
+# elif weather == "cloudy":
+#     print("weather is cloudy")
+# elif weather == "snowy":
+#     print("wear jackets")
+# else:
+#     print("invalid weather")
+
+"""
+enter weather condition: rainy
+take umbrella
+
+enter weather condition: sunny
+wear sunglasses
+"""
 
 # 33.wap to check whether a character is alphabet, digit, whitespace, or special character using elif.
+# ch = input("enter a character: ")
+
+# if ch.isalpha():
+#     print(f"{ch} is alphabet")
+# elif ch.isdigit():
+#     print(f"{ch} is digit")
+# elif ch.isspace():
+#     print("it is whitespace")
+# else:
+#     print(f"{ch} is special character")
+
+"""
+enter a character: A
+A is alphabet
+
+enter a character: 9
+9 is digit
+
+enter a character:
+it is whitespace
+
+enter a character: @
+@ is special character
+"""
 
 # 34.wap to classify numbers as even positive, odd positive, even negative, or odd negative using elif.
+# n = int(input("enter a number: "))
+
+# if n > 0 and n % 2 == 0:
+#     print("even positive")
+# elif n > 0 and n % 2 != 0:
+#     print("odd positive")
+# elif n < 0 and n % 2 == 0:
+#     print("even negative")
+# else:
+#     print("odd negative")
+
+"""
+enter a number: 8
+even positive
+
+enter a number: 7
+odd positive
+
+enter a number: -4
+even negative
+
+enter a number: -9
+odd negative
+"""
 
 # 35.wap to classify a number as prime, composite, or neither using elif.
+# n = int(input("enter a number: "))
+
+# if n in [2, 3, 5, 7]:
+#     print(f"{n} is prime")
+# elif n == 1:
+#     print(f"{n} is neither prime nor composite")
+# else:
+#     print(f"{n} is composite")
+
+"""
+enter a number: 5
+5 is prime
+
+enter a number: 1
+1 is neither prime nor composite
+
+enter a number: 8
+8 is composite
+"""
 
 # 36.wap to create a unit converter menu using elif.
+# print("1.km to m")
+# print("2.m to cm")
+# print("3.kg to g")
+
+# choice = int(input("enter your choice: "))
+# value = int(input("enter value: "))
+
+# if choice == 1:
+#     print(f"{value*1000} meters")
+# elif choice == 2:
+#     print(f"{value*100} centimeters")
+# elif choice == 3:
+#     print(f"{value*1000} grams")
+# else:
+#     print("invalid choice")
+
+"""
+1.km to m
+2.m to cm
+3.kg to g
+
+enter your choice: 1
+enter value: 5
+5000 meters
+"""
 
 # 37.wap to check whether a vehicle is bike, car, bus, or truck using elif.
+# wheels = int(input("enter number of wheels: "))
+
+# if wheels == 2:
+#     print("bike")
+# elif wheels == 4:
+#     print("car")
+# elif wheels > 4 and wheels <= 6:
+#     print("bus")
+# else:
+#     print("truck")
+
+"""
+enter number of wheels: 2
+bike
+
+enter number of wheels: 4
+car
+
+enter number of wheels: 6
+bus
+"""
 
 # 38.wap to classify employee work hours as part-time, full-time, or overtime using elif.
+# hours = int(input("enter work hours: "))
+
+# if hours < 5:
+#     print("part-time")
+# elif hours <= 8:
+#     print("full-time")
+# else:
+#     print("overtime")
+
+"""
+enter work hours: 4
+part-time
+
+enter work hours: 8
+full-time
+
+enter work hours: 10
+overtime
+"""
 
 # 39.wap to assign tax percentage based on salary slabs using elif.
+# salary = int(input("enter salary: "))
+
+# if salary < 30000:
+#     print("5% tax")
+# elif salary <= 70000:
+#     print("10% tax")
+# else:
+#     print("20% tax")
+
+"""
+enter salary: 20000
+5% tax
+
+enter salary: 50000
+10% tax
+
+enter salary: 100000
+20% tax
+"""
 
 # 40.wap to classify students into house groups based on roll number using elif.
+# roll = int(input("enter roll number: "))
+
+# if 1 <= roll <= 10:
+#     print("red house")
+# elif 11 <= roll <= 20:
+#     print("blue house")
+# elif 21 <= roll <= 30:
+#     print("green house")
+# else:
+#     print("yellow house")
+
+"""
+enter roll number: 5
+red house
+
+enter roll number: 15
+blue house
+
+enter roll number: 25
+green house
+"""
 
 # 41.wap to create a simple ATM menu system using elif.
+# print("1.withdraw")
+# print("2.deposit")
+# print("3.balance check")
+
+# choice = int(input("enter your choice: "))
+
+# if choice == 1:
+#     print("withdraw selected")
+# elif choice == 2:
+#     print("deposit selected")
+# elif choice == 3:
+#     print("balance check selected")
+# else:
+#     print("invalid option")
+
+"""
+1.withdraw
+2.deposit
+3.balance check
+
+enter your choice: 2
+deposit selected
+"""
 
 # 42.wap to classify electricity bill based on units consumed using elif.
+# units = int(input("enter electricity units: "))
+
+# if units < 100:
+#     print("low bill")
+# elif units <= 300:
+#     print("medium bill")
+# else:
+#     print("high bill")
+
+"""
+enter electricity units: 80
+low bill
+
+enter electricity units: 200
+medium bill
+
+enter electricity units: 500
+high bill
+"""
 
 # 43.wap to create a simple banking transaction menu using elif.
+# print("1.transfer")
+# print("2.withdraw")
+# print("3.deposit")
+
+# choice = int(input("enter your choice: "))
+
+# if choice == 1:
+#     print("money transferred")
+# elif choice == 2:
+#     print("money withdrawn")
+# elif choice == 3:
+#     print("money deposited")
+# else:
+#     print("invalid transaction")
+
+"""
+1.transfer
+2.withdraw
+3.deposit
+
+enter your choice: 1
+money transferred
+"""
 
 # 44.wap to classify mobile storage usage as low, medium, high, or full using elif.
+# storage = int(input("enter storage percentage: "))
+
+# if storage < 30:
+#     print("low storage usage")
+# elif storage < 70:
+#     print("medium storage usage")
+# elif storage < 100:
+#     print("high storage usage")
+# else:
+#     print("storage full")
+
+"""
+enter storage percentage: 20
+low storage usage
+
+enter storage percentage: 60
+medium storage usage
+
+enter storage percentage: 90
+high storage usage
+
+enter storage percentage: 100
+storage full
+"""
 
 # 45.wap to create a simple e-commerce discount system using elif.
+# amount = int(input("enter purchase amount: "))
+
+# if amount < 1000:
+#     print("5% discount")
+# elif amount <= 5000:
+#     print("10% discount")
+# else:
+#     print("20% discount")
+
+"""
+enter purchase amount: 500
+5% discount
+
+enter purchase amount: 3000
+10% discount
+
+enter purchase amount: 7000
+20% discount
+"""
 
 # 46.wap to classify a number as perfect square, perfect cube, or both using elif.
+# n = int(input("enter a number: "))
+
+# if n == 64:
+#     print(f"{n} is both perfect square and perfect cube")
+# elif n ** 0.5 == int(n ** 0.5):
+#     print(f"{n} is perfect square")
+# elif round(n ** (1/3)) ** 3 == n:
+#     print(f"{n} is perfect cube")
+# else:
+#     print(f"{n} is neither")
+
+"""
+enter a number: 64
+64 is both perfect square and perfect cube
+
+enter a number: 25
+25 is perfect square
+
+enter a number: 27
+27 is perfect cube
+"""
 
 # 47.wap to create a simple railway reservation category checker using elif.
+# age = int(input("enter age: "))
+
+# if age < 5:
+#     print("free ticket")
+# elif age < 18:
+#     print("child reservation")
+# elif age < 60:
+#     print("general reservation")
+# else:
+#     print("senior citizen reservation")
+
+"""
+enter age: 3
+free ticket
+
+enter age: 10
+child reservation
+
+enter age: 30
+general reservation
+"""
 
 # 48.wap to classify password strength as weak, medium, or strong using elif.
+# password = input("enter password: ")
+
+# if len(password) < 5:
+#     print("weak password")
+# elif len(password) < 8:
+#     print("medium password")
+# else:
+#     print("strong password")
+
+"""
+enter password: 123
+weak password
+
+enter password: abc123
+medium password
+
+enter password: abc@12345
+strong password
+"""
 
 # 49.wap to create a simple grading dashboard using elif.
+# marks = int(input("enter marks: "))
+
+# if marks >= 90:
+#     print("grade A")
+# elif marks >= 75:
+#     print("grade B")
+# elif marks >= 50:
+#     print("grade C")
+# else:
+#     print("grade D")
+
+"""
+enter marks: 95
+grade A
+
+enter marks: 80
+grade B
+
+enter marks: 60
+grade C
+
+enter marks: 30
+grade D
+"""
 
 # 50.wap to create a mini smart home controller using elif.
+# device = input("enter device name: ")
+
+# if device == "light":
+#     print("light turned on")
+# elif device == "fan":
+#     print("fan turned on")
+# elif device == "ac":
+#     print("ac turned on")
+# else:
+#     print("device not found")
+
+"""
+enter device name: light
+light turned on
+
+enter device name: fan
+fan turned on
+
+enter device name: tv
+device not found
+"""
 
 # 51.wap to print fizzbuzz if the given number is divisible by 5 and 3, else print fizz if the given number is divisible by 5, else print buzz if the given number is divisible by 3.
 
