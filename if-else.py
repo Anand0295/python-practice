@@ -62,7 +62,8 @@ enter a character: a
 a is a vowel
 
 
-
+enter a character: b
+b is a consonant
 """
 
 # 5.wap to check whether a student is pass or fail.
