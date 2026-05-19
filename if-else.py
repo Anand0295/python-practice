@@ -8,7 +8,9 @@
 #     |----------|
 
 # 1.wap to check whether a number is even or odd.
-
+n = int(input("enter a number: "))
+if n % 2 == 0:
+    print(f"{n} is even")
 
 # 2.wap to check whether a person is eligible for driving.
 
@@ -107,5 +109,3 @@
 # 49.wap to create a traffic signal action checker.
 
 # 50.wap to create a simple menu-driven hotel ordering system.
-
-
