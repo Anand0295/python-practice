@@ -1216,21 +1216,38 @@ general reservation
 # 48.wap to classify password strength as weak, medium, or strong using elif.
 # password = input("enter password: ")
 
-# if len(password) < 5:
-#     print("weak password")
-# elif len(password) < 8:
-#     print("medium password")
-# else:
+# upper = False
+# lower = False
+# digit = False
+# special = False
+
+# for ch in password:
+#     if ch.isupper():
+#         upper = True
+#     elif ch.islower():
+#         lower = True
+#     elif ch.isdigit():
+#         digit = True
+#     else:
+#         special = True
+
+# if len(password) >= 8 and upper and lower and digit and special:
 #     print("strong password")
 
+# elif len(password) >= 6 and digit and lower:
+#     print("medium password")
+
+# else:
+#     print("weak password")
+
 """
-enter password: 123
+enter password: abc
 weak password
 
 enter password: abc123
 medium password
 
-enter password: abc@12345
+enter password: Abc@1234
 strong password
 """
 
