@@ -24,6 +24,9 @@ else:
 enter a number: 5
 5 is positive
 
+enter a number: -10
+-10 is negative
+
 
 """
 # 2.wap to check whether a student got pass, fail, or distinction using elif.
