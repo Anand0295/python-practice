@@ -18,6 +18,8 @@ else:
 enter a number: 1
 1 is odd
 
+enter a number: 6
+6 is even
 """
 
 # 2.wap to check whether a person is eligible for driving.
