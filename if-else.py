@@ -51,11 +51,11 @@ enter a number: 25
 25 is greater than 12
 """
 # 4.wap to check whether a character is vowel or consonant.
-ch = input("enter a character: ")
-if ch in "aeiouAEIOU":
-    print(f"{ch} is a vowel")
-else:
-    print(f"{ch} is a consonant")
+# ch = input("enter a character: ")
+# if ch in "aeiouAEIOU":
+#     print(f"{ch} is a vowel")
+# else:
+#     print(f"{ch} is a consonant")
 
 """
 enter a character: a
