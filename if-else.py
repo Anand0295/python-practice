@@ -33,6 +33,8 @@ else:
 enter your age: 20
 20 is eligible for driving
 
+enter your age: 15
+15 is not eligible for driving
 """
 
 # 3.wap to find the greater number between two numbers.
