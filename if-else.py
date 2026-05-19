@@ -529,11 +529,11 @@ person cannot donate blood
 """
 
 # 35.wap to check whether a number is prime or not.
-# n = int(input("enter a number: "))
-# if n in [2, 3, 5, 7]:
-#     print(f"{n} is prime number")
-# else:
-#     print(f"{n} is not prime number")
+n = int(input("enter a number: "))
+if n in [2, 3, 5, 7]:
+    print(f"{n} is prime number")
+else:
+    print(f"{n} is not prime number")
 
 """
 enter a number: 5
