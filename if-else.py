@@ -15,6 +15,8 @@ else:
     print(f"{n} is odd")
 
 """
+enter a number: 1
+1 is odd
 
 """
 
