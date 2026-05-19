@@ -30,7 +30,8 @@ else:
     print(f"{age} is not eligible for driving")
 
 """
-
+enter your age: 20
+20 is eligible for driving
 
 """
 
