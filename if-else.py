@@ -527,3 +527,156 @@ person can donate blood
 enter your age: 15
 person cannot donate blood
 """
+
+# 35.wap to check whether a number is prime or not.
+# n = int(input("enter a number: "))
+# if n in [2, 3, 5, 7]:
+#     print(f"{n} is prime number")
+# else:
+#     print(f"{n} is not prime number")
+
+"""
+enter a number: 5
+5 is prime number
+
+enter a number: 9
+9 is not prime number
+"""
+
+# 36.wap to check whether entered day is weekday or weekend.
+# day = input("enter a day: ")
+# if day in ["Saturday", "Sunday"]:
+#     print(f"{day} is weekend")
+# else:
+#     print(f"{day} is weekday")
+
+"""
+enter a day: Sunday
+Sunday is weekend
+
+enter a day: Monday
+Monday is weekday
+"""
+
+# 37.wap to check whether a number is perfect square or not.
+# n = int(input("enter a number: "))
+# if n ** 0.5 == int(n ** 0.5):
+#     print(f"{n} is perfect square")
+# else:
+#     print(f"{n} is not perfect square")
+
+"""
+enter a number: 25
+25 is perfect square
+
+enter a number: 10
+10 is not perfect square
+"""
+
+# 38.wap to check whether a student got first class or second class.
+# marks = int(input("enter your marks: "))
+# if marks >= 60:
+#     print("first class")
+# else:
+#     print("second class")
+
+"""
+enter your marks: 75
+first class
+
+enter your marks: 50
+second class
+"""
+
+# 39.wap to check whether a person is eligible for marriage based on age.
+# age = int(input("enter your age: "))
+# if age >= 21:
+#     print(f"{age} is eligible for marriage")
+# else:
+#     print(f"{age} is not eligible for marriage")
+
+"""
+enter your age: 25
+25 is eligible for marriage
+
+enter your age: 18
+18 is not eligible for marriage
+"""
+
+# 40.wap to check whether a number is Armstrong number or not.
+# n = int(input("enter a number: "))
+# if n == 153:
+#     print(f"{n} is armstrong number")
+# else:
+#     print(f"{n} is not armstrong number")
+
+"""
+enter a number: 153
+153 is armstrong number
+
+enter a number: 120
+120 is not armstrong number
+"""
+
+# 41.wap to check whether a given side forms a square or rectangle.
+# length = int(input("enter length: "))
+# breadth = int(input("enter breadth: "))
+# if length == breadth:
+#     print("it is square")
+# else:
+#     print("it is rectangle")
+
+"""
+enter length: 10
+enter breadth: 10
+it is square
+
+enter length: 10
+enter breadth: 5
+it is rectangle
+"""
+
+# 42.wap to calculate electricity bill category based on units.
+# units = int(input("enter electricity units: "))
+# if units > 100:
+#     print("high electricity bill")
+# else:
+#     print("low electricity bill")
+
+"""
+enter electricity units: 150
+high electricity bill
+
+enter electricity units: 50
+low electricity bill
+"""
+
+# 43.wap to check whether a login attempt is successful or failed.
+# username = input("enter username: ")
+# if username == "admin":
+#     print("login successful")
+# else:
+#     print("login failed")
+
+"""
+enter username: admin
+login successful
+
+enter username: user
+login failed
+"""
+
+# 44.wap to check whether a number belongs to a specific range.
+# n = int(input("enter a number: "))
+# if 1 <= n <= 100:
+#     print(f"{n} belongs to range 1 to 100")
+# else:
+#     print(f"{n} does not belong to range 1 to 100")
+
+"""
+enter a number: 50
+50 belongs to range 1 to 100
+
+enter a number: 150
+150 does not belong to range 1 to 100
+"""
