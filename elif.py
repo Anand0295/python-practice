@@ -32,12 +32,221 @@ enter a number: 0
 """
 
 # 2.wap to check whether a student got pass, fail, or distinction using elif.
+# marks = int(input("enter your marks: "))
+# if marks >= 75:
+#     print(f"{marks} is distinction")
+# elif marks >= 35:
+#     print(f"{marks} is pass")
+# else:
+#     print(f"{marks} is fail")
+
+"""
+enter your marks: 90
+90 is distinction
+
+enter your marks: 50
+50 is pass
+
+enter your marks: 20
+20 is fail
+"""
 
 # 3.wap to find the greatest among two numbers or equal using elif.
+# a = int(input("enter first number: "))
+# b = int(input("enter second number: "))
+# if a > b:
+#     print(f"{a} is greater")
+# elif b > a:
+#     print(f"{b} is greater")
+# else:
+#     print("both numbers are equal")
+
+"""
+enter first number: 20
+enter second number: 10
+20 is greater
+
+enter first number: 10
+enter second number: 30
+30 is greater
+
+enter first number: 5
+enter second number: 5
+both numbers are equal
+"""
 
 # 4.wap to check whether a character is vowel, consonant, or digit using elif.
+# ch = input("enter a character: ")
+# if ch in "aeiouAEIOU":
+#     print(f"{ch} is vowel")
+# elif ch.isalpha():
+#     print(f"{ch} is consonant")
+# else:
+#     print(f"{ch} is digit")
+
+"""
+enter a character: a
+a is vowel
+
+enter a character: b
+b is consonant
+
+enter a character: 7
+7 is digit
+"""
 
 # 5.wap to check whether a number is divisible by 2, 3, or 5 using elif.
+# n = int(input("enter a number: "))
+# if n % 2 == 0:
+#     print(f"{n} is divisible by 2")
+# elif n % 3 == 0:
+#     print(f"{n} is divisible by 3")
+# elif n % 5 == 0:
+#     print(f"{n} is divisible by 5")
+# else:
+#     print(f"{n} is not divisible by 2, 3, or 5")
+
+"""
+enter a number: 8
+8 is divisible by 2
+
+enter a number: 9
+9 is divisible by 3
+
+enter a number: 25
+25 is divisible by 5
+
+enter a number: 7
+7 is not divisible by 2, 3, or 5
+"""
+
+# 6.wap to assign grades A, B, C, or Fail based on marks using elif.
+# marks = int(input("enter your marks: "))
+# if marks >= 90:
+#     print("grade A")
+# elif marks >= 70:
+#     print("grade B")
+# elif marks >= 35:
+#     print("grade C")
+# else:
+#     print("fail")
+
+"""
+enter your marks: 95
+grade A
+
+enter your marks: 75
+grade B
+
+enter your marks: 50
+grade C
+
+enter your marks: 20
+fail
+"""
+
+# 7.wap to check whether a person is child, teenager, adult, or senior citizen using elif.
+# age = int(input("enter your age: "))
+# if age < 13:
+#     print("child")
+# elif age < 20:
+#     print("teenager")
+# elif age < 60:
+#     print("adult")
+# else:
+#     print("senior citizen")
+
+"""
+enter your age: 10
+child
+
+enter your age: 16
+teenager
+
+enter your age: 35
+adult
+
+enter your age: 70
+senior citizen
+"""
+
+# 8.wap to check whether temperature is cold, warm, or hot using elif.
+# temp = int(input("enter temperature: "))
+# if temp < 20:
+#     print("cold")
+# elif temp <= 30:
+#     print("warm")
+# else:
+#     print("hot")
+
+"""
+enter temperature: 15
+cold
+
+enter temperature: 28
+warm
+
+enter temperature: 40
+hot
+"""
+
+# 9.wap to check whether a number is single-digit, double-digit, or three-digit using elif.
+# n = int(input("enter a number: "))
+# if 0 <= n <= 9:
+#     print(f"{n} is single-digit")
+# elif 10 <= n <= 99:
+#     print(f"{n} is double-digit")
+# else:
+#     print(f"{n} is three-digit")
+
+"""
+enter a number: 5
+5 is single-digit
+
+enter a number: 45
+45 is double-digit
+
+enter a number: 456
+456 is three-digit
+"""
+
+# 10.wap to create a simple calculator for +, -, *, / using elif.
+# a = int(input("enter first number: "))
+# b = int(input("enter second number: "))
+# op = input("enter operator: ")
+
+# if op == "+":
+#     print(f"sum is {a+b}")
+# elif op == "-":
+#     print(f"difference is {a-b}")
+# elif op == "*":
+#     print(f"product is {a*b}")
+# elif op == "/":
+#     print(f"division is {a/b}")
+# else:
+#     print("invalid operator")
+
+"""
+enter first number: 10
+enter second number: 20
+enter operator: +
+sum is 30
+
+enter first number: 20
+enter second number: 10
+enter operator: -
+difference is 10
+
+enter first number: 5
+enter second number: 4
+enter operator: *
+product is 20
+
+enter first number: 20
+enter second number: 5
+enter operator: /
+division is 4.0
+"""
 
 # 6.wap to assign grades A, B, C, or Fail based on marks using elif.
 
