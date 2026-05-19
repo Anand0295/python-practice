@@ -1,3 +1,12 @@
+#  ┌──► while condition:
+#  │        |----------------------|
+#  │        |  True Statements     |
+#  │        |----------------------|
+#  │        |  Update Expression   |
+#  └────────|  (e.g., i += 1)      |
+#           |----------------------|
+
+
 # TODO: 1. WAP to print 1 to 5 numbers using while loop.
 # TODO: 2. WAP to print 1 to 10 numbers using while loop.
 # TODO: 3. WAP to print hello python 5 times using while loop.
