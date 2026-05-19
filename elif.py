@@ -248,15 +248,6 @@ enter operator: /
 division is 4.0
 """
 
-# 6.wap to assign grades A, B, C, or Fail based on marks using elif.
-
-# 7.wap to check whether a person is child, teenager, adult, or senior citizen using elif.
-
-# 8.wap to check whether temperature is cold, warm, or hot using elif.
-
-# 9.wap to check whether a number is single-digit, double-digit, or three-digit using elif.
-
-# 10.wap to create a simple calculator for +, -, *, / using elif.
 
 # 11.wap to check whether a day is weekday or weekend using elif.
 
