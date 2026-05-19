@@ -1,20 +1,11 @@
-# if else condition:
-
 # if condition:
-
-# |----------|
-
-# |   TSB    |
-
-# |----------|
-
-# else:
-
-# |----------|
-
-# |   FSB    |
-
-# |----------|
+#     |----------|
+#     |   TSB    |
+#     |----------|
+#  else:
+#     |----------|
+#     |   FSB    |
+#     |----------|
 
 # 1.wap to check whether a number is even or odd.
 
