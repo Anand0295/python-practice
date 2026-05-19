@@ -772,8 +772,8 @@ item not available
 """
 
 # 51.wap to convert  given character into upper if it is lower else convert into upper
-# ch=input('enter the character: ')
-# if ch.islower():
-#     print(ch.upper())
-# else:
-#     print(ch.lower())
+ch = input("enter the character: ")
+if ch.islower():
+    print(ch.upper())
+else:
+    print(ch.lower())
