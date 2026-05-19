@@ -275,7 +275,6 @@ enter a number: 5
 """
 
 # 29.wap to check if a number is a 3-digit number.
-# 29.wap to check if a number is a 3-digit number.
 # n = int(input("enter a number: "))
 # if 100 <= n <= 999:
 #     print(f"{n} is a 3-digit number")
