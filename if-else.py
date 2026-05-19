@@ -370,3 +370,160 @@ enter internet speed: 150
 enter internet speed: 50
 50 Mbps is slow
 """
+
+# 25.wap to check whether battery percentage is low or sufficient.
+# battery = int(input("enter battery percentage: "))
+# if battery < 20:
+#     print(f"{battery}% battery is low")
+# else:
+#     print(f"{battery}% battery is sufficient")
+
+"""
+enter battery percentage: 10
+10% battery is low
+
+enter battery percentage: 80
+80% battery is sufficient
+"""
+
+# 26.wap to check whether salary is taxable or not.
+# salary = int(input("enter your salary: "))
+# if salary > 50000:
+#     print(f"{salary} is taxable")
+# else:
+#     print(f"{salary} is not taxable")
+
+"""
+enter your salary: 70000
+70000 is taxable
+
+enter your salary: 25000
+25000 is not taxable
+"""
+
+# 27.wap to check whether a train is on time or delayed.
+# status = input("enter train status: ")
+# if status == "ontime":
+#     print("train is on time")
+# else:
+#     print("train is delayed")
+
+"""
+enter train status: ontime
+train is on time
+
+enter train status: delayed
+train is delayed
+"""
+
+# 28.wap to check whether a product is in stock or out of stock.
+# stock = int(input("enter stock quantity: "))
+# if stock > 0:
+#     print("product is in stock")
+# else:
+#     print("product is out of stock")
+
+"""
+enter stock quantity: 5
+product is in stock
+
+enter stock quantity: 0
+product is out of stock
+"""
+
+# 29.wap to check whether a movie rating is hit or flop.
+# rating = float(input("enter movie rating: "))
+# if rating >= 7:
+#     print("movie is hit")
+# else:
+#     print("movie is flop")
+
+"""
+enter movie rating: 8.5
+movie is hit
+
+enter movie rating: 4.5
+movie is flop
+"""
+
+# 30.wap to check whether entered PIN is correct or incorrect.
+# pin = int(input("enter pin: "))
+# if pin == 1234:
+#     print("correct pin")
+# else:
+#     print("incorrect pin")
+
+"""
+enter pin: 1234
+correct pin
+
+enter pin: 5678
+incorrect pin
+"""
+
+# 31.wap to find the greater among three numbers.
+# a = int(input("enter first number: "))
+# b = int(input("enter second number: "))
+# c = int(input("enter third number: "))
+# if a > b and a > c:
+#     print(f"{a} is greater")
+# else:
+#     print(f"{c} is greater")
+
+"""
+enter first number: 10
+enter second number: 20
+enter third number: 30
+30 is greater
+"""
+
+# 32.wap to check whether triangle is valid or invalid.
+# a = int(input("enter first side: "))
+# b = int(input("enter second side: "))
+# c = int(input("enter third side: "))
+# if a + b > c:
+#     print("triangle is valid")
+# else:
+#     print("triangle is invalid")
+
+"""
+enter first side: 3
+enter second side: 4
+enter third side: 5
+triangle is valid
+
+enter first side: 1
+enter second side: 2
+enter third side: 5
+triangle is invalid
+"""
+
+# 33.wap to check whether a number is palindrome or not.
+# n = input("enter a number: ")
+# if n == n[::-1]:
+#     print(f"{n} is palindrome")
+# else:
+#     print(f"{n} is not palindrome")
+
+"""
+enter a number: 121
+121 is palindrome
+
+enter a number: 123
+123 is not palindrome
+"""
+
+# 34.wap to check whether a person can donate blood or not.
+# age = int(input("enter your age: "))
+# if age >= 18:
+#     print("person can donate blood")
+# else:
+#     print("person cannot donate blood")
+
+"""
+enter your age: 25
+person can donate blood
+
+enter your age: 15
+person cannot donate blood
+"""
