@@ -24,7 +24,6 @@
 #      | (number //= 10)          |
 #      |--------------------------|
 
-
 # TODO: 1. WAP to reverse a number
 # TODO: 2. WAP to count digits in a number
 # TODO: 3. WAP to find sum of digits in a number
