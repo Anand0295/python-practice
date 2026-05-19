@@ -782,4 +782,6 @@ else:
 enter the character: A
 a
 
+enter the character: b
+B
 """
