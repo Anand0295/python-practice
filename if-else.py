@@ -58,6 +58,10 @@ else:
     print(f"{ch} is a consonant")
 
 """
+enter a character: a
+a is a vowel
+
+
 
 """
 
