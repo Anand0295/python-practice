@@ -240,5 +240,6 @@ if a[0] == "A":
     print(f"{a} starts with A")
 
 """
-
+enter a string: Anand
+Anand starts with A
 """
