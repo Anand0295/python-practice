@@ -225,13 +225,19 @@ enter a character: 12
 """
 
 
-def messy_test_function(x, y):
-    z = x + y
-    if z > 10:
-        print("unformatted message")
-    return z
+import os
+import sys
 
 
-x = 10
-y = 20
-a = "hello"
+def logic_check_exercise(number):
+    ans = number * 2
+    if ans > 50:
+        print("Value is too high!")
+    else:
+        print("Value is fine")
+    return ans
+
+
+a = 40
+b = 50
+msg = "Testing the 1,000,000% working pipeline"
