@@ -696,40 +696,34 @@ enter vehicle speed: 60
 60 is within speed limit
 """
 
-# 46.wap to implement simple calculator using if-elif.
-# a = int(input("enter first number: "))
-# b = int(input("enter second number: "))
-# op = input("enter operator: ")
-# if op == "+":
-#     print(f"sum is {a+b}")
+# 46.wap to check whether a number is divisible by both 4 and 6 or not.
+# n = int(input("enter a number: "))
+# if n % 4 == 0 and n % 6 == 0:
+#     print(f"{n} is divisible by both 4 and 6")
 # else:
-#     print(f"difference is {a-b}")
+#     print(f"{n} is not divisible by both 4 and 6")
 
 """
-enter first number: 10
-enter second number: 20
-enter operator: +
-sum is 30
+enter a number: 24
+24 is divisible by both 4 and 6
 
-enter first number: 20
-enter second number: 10
-enter operator: -
-difference is 10
+enter a number: 20
+20 is not divisible by both 4 and 6
 """
 
-# 47.wap to assign grades based on marks using if-elif.
-# marks = int(input("enter marks: "))
-# if marks >= 50:
-#     print("pass")
+# 47.wap to check whether a character is special character or not.
+# ch = input("enter a character: ")
+# if not ch.isalnum():
+#     print(f"{ch} is a special character")
 # else:
-#     print("fail")
+#     print(f"{ch} is not a special character")
 
 """
-enter marks: 75
-pass
+enter a character: @
+@ is a special character
 
-enter marks: 20
-fail
+enter a character: A
+A is not a special character
 """
 
 # 48.wap to create a mini ATM balance checker.
