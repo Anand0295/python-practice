@@ -30,6 +30,7 @@ enter a number: -10
 enter a number: 0
 0 is zero
 """
+
 # 2.wap to check whether a student got pass, fail, or distinction using elif.
 
 # 3.wap to find the greatest among two numbers or equal using elif.
