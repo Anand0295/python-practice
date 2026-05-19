@@ -233,3 +233,12 @@ enter a character: 12
 enter a character: h
 h is a alphabet
 """
+
+# 25.wap to check if a string starts with "A".
+a = input("enter a string: ")
+if a[0] is "A":
+    print(f"{a} starts with A")
+
+"""
+
+"""
