@@ -275,3 +275,222 @@ enter a number: 5
 """
 
 # 29.wap to check if a number is a 3-digit number.
+# 29.wap to check if a number is a 3-digit number.
+# n = int(input("enter a number: "))
+# if 100 <= n <= 999:
+#     print(f"{n} is a 3-digit number")
+
+"""
+enter a number: 456
+456 is a 3-digit number
+"""
+
+# 30.wap to check if a number ends with 5.
+# n = int(input("enter a number: "))
+# if n % 10 == 5:
+#     print(f"{n} ends with 5")
+
+"""
+enter a number: 25
+25 ends with 5
+"""
+
+# 31.wap to check if a student scored full marks.
+# marks = int(input("enter marks: "))
+# if marks == 100:
+#     print(f"{marks} is full marks")
+
+"""
+enter marks: 100
+100 is full marks
+"""
+
+# 32.wap to check if a month number is 12.
+# month = int(input("enter month number: "))
+# if month == 12:
+#     print(f"{month} is december")
+
+"""
+enter month number: 12
+12 is december
+"""
+
+# 33.wap to check if the entered day is Sunday.
+# day = input("enter a day: ")
+# if day == "Sunday":
+#     print(f"{day} is sunday")
+
+"""
+enter a day: Sunday
+Sunday is sunday
+"""
+
+# 34.wap to check if a fruit name is "apple".
+# fruit = input("enter a fruit name: ")
+# if fruit == "apple":
+#     print(f"{fruit} is apple")
+
+"""
+enter a fruit name: apple
+apple is apple
+"""
+
+# 35.wap to check if a color is "red".
+# color = input("enter a color: ")
+# if color == "red":
+#     print(f"{color} is red")
+
+"""
+enter a color: red
+red is red
+"""
+
+# 36.wap to check if the username is "admin".
+# username = input("enter username: ")
+# if username == "admin":
+#     print(f"{username} is admin")
+
+"""
+enter username: admin
+admin is admin
+"""
+
+# 37.wap to check if the entered PIN is 1234.
+# pin = int(input("enter pin: "))
+# if pin == 1234:
+#     print(f"{pin} is correct pin")
+
+"""
+enter pin: 1234
+1234 is correct pin
+"""
+
+# 38.wap to check if a number is square of 5.
+# n = int(input("enter a number: "))
+# if n == 25:
+#     print(f"{n} is square of 5")
+
+"""
+enter a number: 25
+25 is square of 5
+"""
+
+# 39.wap to check if a number is greater than both 20 and 50.
+# n = int(input("enter a number: "))
+# if n > 20 and n > 50:
+#     print(f"{n} is greater than both 20 and 50")
+
+"""
+enter a number: 75
+75 is greater than both 20 and 50
+"""
+
+# 40.wap to check if a number is less than 0.
+# n = int(input("enter a number: "))
+# if n < 0:
+#     print(f"{n} is less than 0")
+
+"""
+enter a number: -5
+-5 is less than 0
+"""
+
+# 41.wap to check if a person is taller than 170 cm.
+# height = int(input("enter height in cm: "))
+# if height > 170:
+#     print(f"{height} cm is taller than 170 cm")
+
+"""
+enter height in cm: 180
+180 cm is taller than 170 cm
+"""
+
+# 42.wap to check if a product price is above 1000.
+# price = int(input("enter product price: "))
+# if price > 1000:
+#     print(f"{price} is above 1000")
+
+"""
+enter product price: 1500
+1500 is above 1000
+"""
+
+# 43.wap to check if stock quantity is 0.
+# stock = int(input("enter stock quantity: "))
+# if stock == 0:
+#     print("stock is empty")
+
+"""
+enter stock quantity: 0
+stock is empty
+"""
+
+# 44.wap to check if internet speed is above 100 Mbps.
+# speed = int(input("enter internet speed: "))
+# if speed > 100:
+#     print(f"{speed} Mbps is above 100 Mbps")
+
+"""
+enter internet speed: 150
+150 Mbps is above 100 Mbps
+"""
+
+# 45.wap to check if battery percentage is below 20.
+# battery = int(input("enter battery percentage: "))
+# if battery < 20:
+#     print(f"{battery}% battery is below 20%")
+
+"""
+enter battery percentage: 15
+15% battery is below 20%
+"""
+
+# 46.wap to check if mobile storage is full.
+# storage = int(input("enter available storage in GB: "))
+# if storage == 0:
+#     print("mobile storage is full")
+
+"""
+enter available storage in GB: 0
+mobile storage is full
+"""
+
+# 47.wap to check if a train is late by more than 1 hour.
+# late = int(input("enter late time in hours: "))
+# if late > 1:
+#     print(f"train is late by {late} hours")
+
+"""
+enter late time in hours: 2
+train is late by 2 hours
+"""
+
+# 48.wap to check if movie rating is above 8.
+# rating = float(input("enter movie rating: "))
+# if rating > 8:
+#     print(f"{rating} is above 8")
+
+"""
+enter movie rating: 8.5
+8.5 is above 8
+"""
+
+# 49.wap to check if a number is divisible by both 2 and 3.
+# n = int(input("enter a number: "))
+# if n % 2 == 0 and n % 3 == 0:
+#     print(f"{n} is divisible by both 2 and 3")
+
+"""
+enter a number: 12
+12 is divisible by both 2 and 3
+"""
+
+# 50.wap to check if today’s temperature is below 15°C.
+# temp = int(input("enter temperature: "))
+# if temp < 15:
+#     print(f"{temp}°C is below 15°C")
+
+"""
+enter temperature: 10
+10°C is below 15°C
+"""
