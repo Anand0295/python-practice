@@ -243,3 +243,5 @@ h is a alphabet
 enter a string: Anand
 Anand starts with A
 """
+
+# 26.wap to check if password length is greater than 8.
