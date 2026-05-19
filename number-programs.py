@@ -11,19 +11,18 @@
 #          ↓   ↓   ↓   ↓   ↓
 #        process each digit individually
 
-# WAP:
-# 1.wap to reverse a number
-# 2.wap to count digits in a number
-# 3.wap to find sum of digits in a number
-# 4.wap to find product of digits in a number
-# 5.wap to find maximum digit in a number
-# 6.wap to find minimum digit in a number
-# 7.wap to count even digits in a number
-# 8.wap to count odd digits in a number
-# 9.wap to find sum of even digits in a number
-# 10.wap to find sum of odd digits in a number
-# 11.wap to find difference between even and odd digit sum
-# 12.wap to find digit frequency in a number
+# TODO: 1. WAP to reverse a number
+# TODO: 2. WAP to count digits in a number
+# TODO: 3. WAP to find sum of digits in a number
+# TODO: 4. WAP to find product of digits in a number
+# TODO: 5. WAP to find maximum digit in a number
+# TODO: 6. WAP to find minimum digit in a number
+# TODO: 7. WAP to count even digits in a number
+# TODO: 8. WAP to count odd digits in a number
+# TODO: 9. WAP to find sum of even digits in a number
+# TODO: 10. WAP to find sum of odd digits in a number
+# TODO: 11. WAP to find difference between even and odd digit sum
+# TODO: 12. WAP to find digit frequency in a number
 
 
 # =========================
@@ -42,9 +41,8 @@
 # Visual flow:
 # left → right  becomes  right → left
 
-# WAP:
-# 13.wap to reverse a number
-# 14.wap to check palindrome number
+# TODO: 13. WAP to reverse a number
+# TODO: 14. WAP to check palindrome number
 
 
 # =========================
@@ -61,8 +59,7 @@
 #              ↖   ↗
 #           mirror image
 
-# WAP:
-# 15.wap to check palindrome number
+# TODO: 15. WAP to check palindrome number
 
 
 # =========================
@@ -81,9 +78,8 @@
 # Visual:
 # digits → power → sum → original number
 
-# WAP:
-# 16.wap to check Armstrong number
-# 17.wap to print Armstrong numbers from 1 to n
+# TODO: 16. WAP to check Armstrong number
+# TODO: 17. WAP to print Armstrong numbers from 1 to n
 
 
 # =========================
@@ -102,8 +98,7 @@
 # Visual:
 # digits → factorial → sum
 
-# WAP:
-# 18.wap to check strong number
+# TODO: 18. WAP to check strong number
 
 
 # =========================
@@ -123,8 +118,7 @@
 # Visual:
 # number → divisors → sum = number
 
-# WAP:
-# 19.wap to check perfect number
+# TODO: 19. WAP to check perfect number
 
 
 # =========================
@@ -144,8 +138,7 @@
 # Visual:
 # SUM = PRODUCT ✔
 
-# WAP:
-# 20.wap to check spy number
+# TODO: 20. WAP to check spy number
 
 
 # =========================
@@ -164,8 +157,7 @@
 # Visual:
 # number → square → digit sum → original number
 
-# WAP:
-# 21.wap to check neon number
+# TODO: 21. WAP to check neon number
 
 
 # =========================
@@ -188,8 +180,7 @@
 # Visual:
 # number is suffix of square
 
-# WAP:
-# 22.wap to check automorphic number
+# TODO: 22. WAP to check automorphic number
 
 
 # =========================
@@ -207,8 +198,7 @@
 # Visual:
 # number ÷ digit sum → remainder 0
 
-# WAP:
-# 23.wap to check harshad number
+# TODO: 23. WAP to check harshad number
 
 
 # =========================
@@ -224,8 +214,7 @@
 # Visual:
 # ends with 7 OR divisible by 7
 
-# WAP:
-# 24.wap to check buzz number
+# TODO: 24. WAP to check buzz number
 
 
 # =========================
@@ -236,15 +225,13 @@
 # A number formed by multiplication of two consecutive numbers
 
 # Example:
-
 # 2 × 3 = 6
 # 3 × 4 = 12
 
 # Visual:
 # n × (n+1)
 
-# WAP:
-# 25.wap to check pronic number
+# TODO: 25. WAP to check pronic number
 
 
 # =========================
@@ -255,15 +242,13 @@
 # A number having only 2 factors
 
 # Example:
-
 # 7 → factors: 1, 7
 
 # Visual:
 # only two divisors
 
-# WAP:
-# 26.wap to check prime number
-# 27.wap to print prime numbers from 1 to n
+# TODO: 26. WAP to check prime number
+# TODO: 27. WAP to print prime numbers from 1 to n
 
 
 # =========================
@@ -274,14 +259,12 @@
 # A number having more than 2 factors
 
 # Example:
-
 # 6 → 1, 2, 3, 6
 
 # Visual:
 # multiple divisors
 
-# WAP:
-# 28.wap to check composite number
+# TODO: 28. WAP to check composite number
 
 
 # =========================
@@ -305,8 +288,7 @@
 # Visual:
 # outer == inner OR outer != inner
 
-# WAP:
-# 29.wap to check xylem number
+# TODO: 29. WAP to check xylem number
 
 
 # =========================
@@ -322,8 +304,7 @@
 # Visual:
 # prime —— gap 2 —— prime
 
-# WAP:
-# 30.wap to check twin prime number
+# TODO: 30. WAP to check twin prime number
 
 
 # =========================
@@ -342,5 +323,4 @@
 # Visual:
 # loop of digit squares → ends in 1
 
-# WAP:
-# 31.wap to check happy number
+# TODO: 31. WAP to check happy number
