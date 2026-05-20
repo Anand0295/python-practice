@@ -522,6 +522,13 @@ while i < len(lst1):
     i += 1
 print(lst2)
 
+# apple  --> starts with vowel     --> apple
+# even   --> starts with vowel     --> even
+# odd    --> starts with vowel     --> odd
+# hi     --> starts with consonant --> ih
+# spider --> starts with consonant --> redips
+
+
 """
 ['apple', 'even', 'odd', 'ih', 'redips']
 """
