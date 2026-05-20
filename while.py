@@ -141,7 +141,12 @@ enter a number: 256
 n = int(input("enter a number: "))
 rev = 0
 while n > 0:
-    rev = rev * 10 + n
+    rev = rev * 10 + n % 10
+    n = n // 10
+    if rev == n:
+        print("it is a palindrome")
+    else:
+        print("not a palindrome")
 # TODO: 10. WAP to traverse through a string using while loop.
 
 # TODO: 11. WAP to reverse a string using while loop.
