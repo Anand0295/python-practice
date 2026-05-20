@@ -639,7 +639,9 @@ print(d)
 """
 {1: 1, 2: 4, 3: 27, 4: 16, 5: 125, 6: 36, 7: 343, 8: 64, 9: 729, 0: 0}
 """
+
 # TODO: 28. WAP to print numbers from n to 1 using while loop.
+n
 # TODO: 29. WAP to print sum of first n natural numbers using while loop.
 # TODO: 30. WAP to print multiplication table in reverse order using while loop.
 
