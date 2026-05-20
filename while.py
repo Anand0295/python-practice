@@ -625,6 +625,7 @@ enter a number: 123
 
 
 # TODO: 27. WAP to create a dictionary with key as number and value as square of the number if even else cube of the number using while loop.
+lst[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
 
 # TODO: 28. WAP to print numbers from n to 1 using while loop.
 # TODO: 29. WAP to print sum of first n natural numbers using while loop.
