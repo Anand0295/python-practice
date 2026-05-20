@@ -495,6 +495,10 @@ while i < len(lst1):
     i += 1
 print(lst2)
 
+"""
+['elppa', 'even', 'ddo', 'hi', 'spider']
+"""
+
 # TODO: 22. WAP to traverse through a list and check whether the word starts with vowel or consonant, if vowel add as it is else reverse the word and add to a new list using while loop.
 # TODO: 23. WAP to traverse through a list and create a new list with tuple of word and index if word length is even else word and length of the word using while loop.
 # TODO: 24. WAP to create a list with word and reverse word pair inside a tuple using while loop.
