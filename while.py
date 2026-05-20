@@ -214,7 +214,7 @@ malayalam is palindrome
 n = input("enter a string: ")
 i = 0
 res = ""
-if i < len(n):
+while i < len(n):
     if n[i].isupper():
         res = res + n[i].lower()
     else:
