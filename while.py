@@ -610,6 +610,19 @@ while i < len(lst):
     i += 1
 print(d)
 
+# len(word) % 2 == 0 --> even length
+# even --> value = index
+# odd --> value = length of word
+
+# apple  --> len=5 --> odd  --> {'apple':5}
+# mango  --> len=5 --> odd  --> {'mango':5}
+# grapes --> len=6 --> even --> {'grapes':2}
+# orange --> len=6 --> even --> {'orange':3}
+
+"""
+{'apple': 5, 'mango': 5, 'grapes': 2, 'orange': 3}
+"""
+
 
 # TODO: 27. WAP to create a dictionary with key as number and value as square of the number if even else cube of the number using while loop.
 # TODO: 28. WAP to print numbers from n to 1 using while loop.
