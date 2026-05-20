@@ -59,6 +59,19 @@ while i > 0:
     print(i)
     i -= 1
 
+"""
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+"""
+
 # TODO: 5. WAP to print even numbers from 1 to 10 using while loop.
 
 # TODO: 6. WAP to print odd numbers from 1 to n using while loop.
