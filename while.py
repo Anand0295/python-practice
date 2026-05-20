@@ -213,6 +213,7 @@ malayalam is palindrome
 # TODO: 13. WAP to convert uppercase letters into lowercase and lowercase letters into uppercase without using string methods using while loop.
 n = input("enter a string: ")
 i = 0
+res = ""
 if i < len(n):
     if i.isupper():
         print()
