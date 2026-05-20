@@ -143,10 +143,10 @@ rev = 0
 while n > 0:
     rev = rev * 10 + n % 10
     n = n // 10
-    if rev == n:
-        print("it is a palindrome")
-    else:
-        print("not a palindrome")
+if rev == n:
+    print("it is a palindrome")
+else:
+    print("not a palindrome")
 
 """
 
