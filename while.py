@@ -245,7 +245,7 @@ n = 5
 i = 1
 fact = 1
 while i < n + 1:
-    print(fact)
+    fact *= n
     n -= 1
 
 """
