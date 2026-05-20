@@ -163,6 +163,7 @@ st = input("enter a string: ")
 i = 0
 while len(st) + 1 > i:
     print(st[i])
+    i += 1
 
 """
 
