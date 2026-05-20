@@ -235,3 +235,18 @@ while 2 < n + 1:
 # TODO: 48. WAP to create a list with length of each word using while loop.
 # TODO: 49. WAP to create a dictionary with word as key and reverse word as value using while loop.
 # TODO: 50. WAP to check whether a given number is automorphic number or not using while loop.
+
+n = int(input("enter a number: "))
+
+a = 0
+b = 1
+
+print(a, b, end=" ")
+
+i = 1
+while i <= n - 2:
+    c = a + b
+    print(c, end=" ")
+    a = b
+    b = c
+    i += 1
