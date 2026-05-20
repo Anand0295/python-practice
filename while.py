@@ -150,7 +150,7 @@ else:
     print("not a palindrome")
 
 # 1*10  =10       #10+2=12   12*10  =120    120+1=121
-
+# 12         #1          #0
 """
 enter a number: 121
 it is a palindrome
