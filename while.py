@@ -246,6 +246,7 @@ i = 1
 fact = 1
 while i < n + 1:
     fact *= n
+    print(fact)
     n -= 1
 
 """
