@@ -245,10 +245,12 @@ n = 5
 i = 1
 fact = 1
 while i < n + 1:
-    fact = fact * n
+    print(fact)
     n -= 1
-print(fact)
 
+"""
+
+"""
 # TODO: 42. WAP to check whether a given number is prime or not using while loop.
 # TODO: 43. WAP to print prime numbers from 1 to n using while loop.
 # TODO: 44. WAP to print multiplication tables from 1 to 5 using nested while loop.
