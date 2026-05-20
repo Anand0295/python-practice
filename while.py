@@ -211,6 +211,7 @@ enter a string: malayalam
 malayalam is palindrome
 """
 # TODO: 13. WAP to convert uppercase letters into lowercase and lowercase letters into uppercase without using string methods using while loop.
+n = input("enter a string: ")
 
 # TODO: 14. WAP to print fibonacci series using while loop.
 # n = int(input("enter a number: "))
