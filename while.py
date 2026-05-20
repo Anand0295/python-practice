@@ -139,7 +139,9 @@ enter a number: 256
 """
 # TODO: 9. WAP to check whether given number is palindrome or not using while loop.
 n = int(input("enter a number: "))
-
+rev = 0
+while n > 0:
+    rev = rev * 10 + n
 # TODO: 10. WAP to traverse through a string using while loop.
 
 # TODO: 11. WAP to reverse a string using while loop.
