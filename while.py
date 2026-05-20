@@ -545,6 +545,9 @@ while i < len(lst1):
     i += 1
 print(lst2)
 
+"""
+[('facebook', 0), ('insta', 5), ('whatsapp', 2), ('twitter', 7)]
+"""
 
 # TODO: 24. WAP to create a list with word and reverse word pair inside a tuple using while loop.
 # TODO: 25. WAP to create a dictionary with key as word and value as index of the word using while loop.
