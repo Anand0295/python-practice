@@ -46,7 +46,11 @@ while n < 6:
     n += 1
 
 """
-
+hello python
+hello python
+hello python
+hello python
+hello python
 """
 # TODO: 4. WAP to print numbers from 10 to 1 using while loop.
 # TODO: 5. WAP to print even numbers from 1 to 10 using while loop.
