@@ -152,6 +152,7 @@ fact = 1
 while i < n + 1:
     fact = fact * n
 
+
 # TODO: 16. WAP to check whether a given number is perfect square or not.
 # TODO: 17. WAP to check whether a given number is perfect number or not using while loop.
 # TODO: 18. WAP to print sum of digits present in a number using while loop.
