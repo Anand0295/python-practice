@@ -175,13 +175,13 @@ o
 """
 
 # TODO: 11. WAP to reverse a string using while loop.
-s = input("enter a string: ")
-i = 0
-rev = ""
-while i < len(s):
-    rev = s[i] + rev
-    i += 1
-print(rev)
+# s = input("enter a string: ")
+# i = 0
+# rev = ""
+# while i < len(s):
+#     rev = s[i] + rev
+#     i += 1
+# print(rev)
 
 """
 enter a string: hello
