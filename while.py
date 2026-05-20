@@ -86,7 +86,7 @@ hello python
 """
 
 
-# _: 5. WAP to print even numbers from 1 to 10 using while loop.
+#   5. WAP to print even numbers from 1 to 10 using while loop.
 # i = 1
 # while i < 11:
 #     if i % 2 == 0:
@@ -118,7 +118,7 @@ enter a number: 20
 """
 
 
-# _: 7. WAP to print nth table using while loop.
+#   7. WAP to print nth table using while loop.
 # n = int(input("enter a number: "))
 # i = 1
 # while i < n + 1:
@@ -149,7 +149,7 @@ enter a number: 15
 """
 
 
-# _: 8. WAP to reverse the given number without using type casting using while loop.
+#   8. WAP to reverse the given number without using type casting using while loop.
 # n = int(input("enter a number: "))
 # rev = 0
 # while n > 0:
@@ -171,7 +171,7 @@ enter a number: 256
 """
 
 
-# _: 9. WAP to check whether given number is palindrome or not using while loop.
+#   9. WAP to check whether given number is palindrome or not using while loop.
 # n = int(input("enter a number: "))
 # temp = n
 # rev = 0
@@ -197,7 +197,7 @@ not a palindrome
 """
 
 
-# _: 10. WAP to traverse through a string using while loop.
+#   10. WAP to traverse through a string using while loop.
 # st = input("enter a string: ")
 # i = 0
 # while len(st) > i:
@@ -217,7 +217,7 @@ o
 """
 
 
-# _: 11. WAP to reverse a string using while loop.
+#   11. WAP to reverse a string using while loop.
 # s = input("enter a string: ")
 # i = 0
 # rev = ""
@@ -237,7 +237,7 @@ olleh
 """
 
 
-# _: 12. WAP to check whether given string is palindrome or not using while loop.
+#   12. WAP to check whether given string is palindrome or not using while loop.
 # s = input("enter a string: ")
 # i = 0
 # rev = ""
@@ -264,7 +264,7 @@ malayalam is palindrome
 """
 
 
-# _: 13. WAP to convert uppercase letters into lowercase and lowercase letters into uppercase without using string methods using while loop.
+#   13. WAP to convert uppercase letters into lowercase and lowercase letters into uppercase without using string methods using while loop.
 
 # By using string methods
 # n = input("enter a string: ")
@@ -310,7 +310,7 @@ hElLO
 """
 
 
-# _: 14. WAP to print fibonacci series using while loop.
+#   14. WAP to print fibonacci series using while loop.
 # n = int(input("enter a number: "))
 # a = 0
 # b = 1
@@ -332,7 +332,7 @@ hElLO
 0 1 1 2 3 5 8 13 21 34
 """
 
-# _: 15. WAP to print factorial of a given number using while loop.
+#   15. WAP to print factorial of a given number using while loop.
 # n = 5
 # fact = 1
 
@@ -352,7 +352,7 @@ hElLO
 120
 """
 
-# _: 16. WAP to check whether a given number is perfect square or not.
+#   16. WAP to check whether a given number is perfect square or not.
 # n = int(input("enter a number: "))
 # temp = n ** 0.5
 
@@ -373,7 +373,7 @@ enter a number: 20
 """
 
 
-# _: 17. WAP to check whether a given number is perfect number or not using while loop.
+#   17. WAP to check whether a given number is perfect number or not using while loop.
 # n = int(input("enter a number: "))
 # i = 1
 # sum = 0
@@ -401,7 +401,7 @@ enter a number: 10
 """
 
 
-# _: 18. WAP to print sum of digits present in a number using while loop.
+#   18. WAP to print sum of digits present in a number using while loop.
 # n = int(input("enter a number: "))
 # sum = 0
 
@@ -422,7 +422,7 @@ enter a number: 1234
 """
 
 
-# _: 19. WAP to check whether a given number is harshad number or not using while loop.
+#   19. WAP to check whether a given number is harshad number or not using while loop.
 # n = int(input("enter a number: "))
 # num = n
 # sum = 0
@@ -449,7 +449,7 @@ enter a number: 19
 """
 
 
-# _: 20. WAP to check whether a given number is strong number or not using while loop.
+#   20. WAP to check whether a given number is strong number or not using while loop.
 # n = int(input("enter a number: "))
 # num = n
 # sum = 0
@@ -483,7 +483,7 @@ enter a number: 123
 123 is not a strong number
 """
 
-# _: 21. WAP to traverse through a list and check whether the word length is even or odd, if even add as it is else reverse the word and add to a new list using while loop.
+#   21. WAP to traverse through a list and check whether the word length is even or odd, if even add as it is else reverse the word and add to a new list using while loop.
 # lst1 = ["apple", "even", "odd", "hi", "spider"]
 # i = 0
 # lst2 = []
@@ -508,7 +508,7 @@ enter a number: 123
 ['elppa', 'even', 'ddo', 'hi', 'spider']
 """
 
-# _: 22. WAP to traverse through a list and check whether the word starts with vowel or consonant, if vowel add as it is else reverse the word and add to a new list using while loop.
+#   22. WAP to traverse through a list and check whether the word starts with vowel or consonant, if vowel add as it is else reverse the word and add to a new list using while loop.
 # lst1 = ["apple", "even", "odd", "hi", "spider"]
 # i = 0
 # lst2 = []
@@ -533,7 +533,7 @@ enter a number: 123
 ['apple', 'even', 'odd', 'ih', 'redips']
 """
 
-# _: 23. WAP to traverse through a list and create a new list with tuple of word and index if word length is even else word and length of the word using while loop.
+#   23. WAP to traverse through a list and create a new list with tuple of word and index if word length is even else word and length of the word using while loop.
 # lst1 = ["facebook", "insta", "whatsapp", "twitter"]
 # i = 0
 # lst2 = []
@@ -558,7 +558,7 @@ enter a number: 123
 [('facebook', 0), ('insta', 5), ('whatsapp', 2), ('twitter', 7)]
 """
 
-# _: 24. WAP to create a list with word and reverse word pair inside a tuple using while loop.
+#   24. WAP to create a list with word and reverse word pair inside a tuple using while loop.
 # lst1 = ["facebook", "insta", "whatsapp", "twitter"]
 # i = 0
 # lst2 = []
@@ -571,7 +571,7 @@ enter a number: 123
 [('facebook', 'koobecaf'), ('insta', 'atsni'), ('whatsapp', 'ppastahw'), ('twitter', 'rettiwt')]
 """
 
-# _: 25. WAP to create a dictionary with key as word and value as index of the word using while loop.
+#   25. WAP to create a dictionary with key as word and value as index of the word using while loop.
 
 # lst = ["apple", "mango", "grapes", "orange"]
 
@@ -598,7 +598,7 @@ enter a number: 123
 {'apple': 0, 'mango': 1, 'grapes': 2, 'orange': 3}
 """
 
-# _: 26. WAP to create a dictionary with key as word and value as index if word length is even else length of the word using while loop.
+#   26. WAP to create a dictionary with key as word and value as index if word length is even else length of the word using while loop.
 # lst = ["apple", "mango", "grapes", "orange"]
 # i = 0
 # d = {}
@@ -624,7 +624,7 @@ enter a number: 123
 """
 
 
-# _: 27. WAP to create a dictionary with key as number and value as square of the number if even else cube of the number using while loop.
+#   27. WAP to create a dictionary with key as number and value as square of the number if even else cube of the number using while loop.
 # lst = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
 # i = 0
 # d = {}
@@ -640,7 +640,7 @@ enter a number: 123
 {1: 1, 2: 4, 3: 27, 4: 16, 5: 125, 6: 36, 7: 343, 8: 64, 9: 729, 0: 0}
 """
 
-# _: 28. WAP to print numbers from n to 1 using while loop.
+#   28. WAP to print numbers from n to 1 using while loop.
 # n = int(input("enter a number: "))
 # while n > 0:
 #     print(n, end=" ")
@@ -651,7 +651,7 @@ enter a number: 25
 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 
 """
 
-# _: 29. WAP to print sum of first n natural numbers using while loop.
+#   29. WAP to print sum of first n natural numbers using while loop.
 
 # n = int(input("enter a number: "))
 
@@ -680,7 +680,7 @@ enter a number: 5
 15
 """
 
-# _: 30. WAP to print multiplication table in reverse order using while loop.
+#   30. WAP to print multiplication table in reverse order using while loop.
 
 # n = int(input("enter a number: "))
 
@@ -712,7 +712,7 @@ enter a number: 5
 5 * 1 = 5
 """
 
-# _: 31. WAP to count vowels and consonants in a string using while loop.
+#   31. WAP to count vowels and consonants in a string using while loop.
 
 # s = input("enter a string: ")
 
@@ -750,7 +750,7 @@ vowels = 2
 consonants = 3
 """
 
-# _: 32. WAP to print numbers from 1 to 50 divisible by 5 using while loop.
+#   32. WAP to print numbers from 1 to 50 divisible by 5 using while loop.
 # n = 50
 # i = 1
 # while i <= n:
@@ -762,7 +762,7 @@ consonants = 3
 5 10 15 20 25 30 35 40 45 50
 """
 
-# _: 33. WAP to print numbers from 50 to 1 using while loop.
+#   33. WAP to print numbers from 50 to 1 using while loop.
 # n = 50
 # while n > 0:
 #     print(n, end=" ")
@@ -771,7 +771,7 @@ consonants = 3
 """
 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
 """
-# _: 34. WAP to print square of numbers from 1 to n using while loop.
+#   34. WAP to print square of numbers from 1 to n using while loop.
 # n = int(input("enter a number: "))
 # i = 1
 # while i < n + 1:
@@ -796,7 +796,7 @@ square of 13 is 169
 square of 14 is 196
 square of 15 is 225
 """
-# _: 35. WAP to print cube of numbers from 1 to n using while loop.
+#   35. WAP to print cube of numbers from 1 to n using while loop.
 # n = int(input("enter a number: "))
 # i = 1
 # while i < n + 1:
@@ -816,7 +816,7 @@ cube of 8 is 512
 cube of 9 is 729
 """
 
-# _: 36. WAP to count number of digits in a given number using while loop.
+#   36. WAP to count number of digits in a given number using while loop.
 
 # n = int(input("enter a number: "))
 
@@ -842,7 +842,7 @@ enter a number: 12345
 5
 """
 
-# _: 37. WAP to print sum of even digits in a given number using while loop.
+#   37. WAP to print sum of even digits in a given number using while loop.
 
 # n = int(input("enter a number: "))
 
@@ -871,7 +871,7 @@ enter a number: 123456
 12
 """
 
-# _: 38. WAP to print product of digits in a given number using while loop.
+#   38. WAP to print product of digits in a given number using while loop.
 
 # n = int(input("enter a number: "))
 
@@ -895,7 +895,7 @@ enter a number: 1234
 24
 """
 
-# _: 39. WAP to check whether a given number is spy number or not using while loop.
+#   39. WAP to check whether a given number is spy number or not using while loop.
 
 # Spy Number
 # sum of digits == product of digits
@@ -933,7 +933,7 @@ enter a number: 124
 not a spy number
 """
 
-# _: 40. WAP to check whether a given number is neon number or not using while loop.
+#   40. WAP to check whether a given number is neon number or not using while loop.
 
 # Neon Number
 # sum of digits of square == original number
@@ -966,7 +966,7 @@ enter a number: 8
 not a neon number
 """
 
-# _: 41. WAP to print all factors of a given number using while loop.
+#   41. WAP to print all factors of a given number using while loop.
 
 # factor --> number completely divides another number
 
@@ -993,7 +993,7 @@ enter a number: 12
 1 2 3 4 6 12
 """
 
-# _: 42. WAP to check whether a given number is prime or not using while loop.
+#   42. WAP to check whether a given number is prime or not using while loop.
 
 # Prime Number
 # has only 2 factors --> 1 and itself
@@ -1027,7 +1027,7 @@ enter a number: 8
 not a prime number
 """
 
-# _: 43. WAP to print prime numbers from 1 to n using while loop.
+#   43. WAP to print prime numbers from 1 to n using while loop.
 
 # n = int(input("enter a number: "))
 
@@ -1055,7 +1055,7 @@ enter a number: 20
 2 3 5 7 11 13 17 19
 """
 
-# _: 44. WAP to print multiplication tables from 1 to 5 using nested while loop.
+#   44. WAP to print multiplication tables from 1 to 5 using nested while loop.
 
 # outer loop --> tables
 # inner loop --> multiplication
@@ -1088,7 +1088,7 @@ enter a number: 20
 5 * 10 = 50
 """
 
-# _: 45. WAP to count uppercase and lowercase letters in a string using while loop.
+#   45. WAP to count uppercase and lowercase letters in a string using while loop.
 
 # HeLLo
 # uppercase --> H L L
@@ -1122,7 +1122,7 @@ uppercase = 3
 lowercase = 2
 """
 
-# _: 46. WAP to remove spaces from a string using while loop.
+#   46. WAP to remove spaces from a string using while loop.
 
 # s = input("enter a string: ")
 
@@ -1146,7 +1146,7 @@ enter a string: hello world
 helloworld
 """
 
-# _: 47. WAP to print characters present at even index positions in a string using while loop.
+#   47. WAP to print characters present at even index positions in a string using while loop.
 
 # python
 # index --> 0 1 2 3 4 5
@@ -1171,7 +1171,7 @@ enter a string: python
 p t o
 """
 
-# _: 48. WAP to create a list with length of each word using while loop.
+#   48. WAP to create a list with length of each word using while loop.
 
 # lst = ["apple", "hi", "python"]
 
@@ -1198,7 +1198,7 @@ p t o
 [5, 2, 6]
 """
 
-# _: 49. WAP to create a dictionary with word as key and reverse word as value using while loop.
+#   49. WAP to create a dictionary with word as key and reverse word as value using while loop.
 
 # apple --> elppa
 # hi --> ih
@@ -1222,7 +1222,7 @@ p t o
 {'apple': 'elppa', 'hi': 'ih', 'python': 'nohtyp'}
 """
 
-# _: 50. WAP to check whether a given number is automorphic number or not using while loop.
+#   50. WAP to check whether a given number is automorphic number or not using while loop.
 
 # Automorphic Number
 # number ending digits == square ending digits
