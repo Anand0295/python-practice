@@ -12,6 +12,9 @@
 #     print(n)
 #     n += 1
 
+# 1 → 2 → 3 → 4 → 5
+# n += 1 → n = n + 1
+
 """
 1
 2
@@ -19,6 +22,7 @@
 4
 5
 """
+
 
 # 2. WAP to print 1 to 10 numbers using while loop.
 # n = 1
@@ -26,6 +30,8 @@
 #     print(n)
 #     n += 1
 
+# 1 → 2 → 3 → ... → 10
+
 """
 1
 2
@@ -38,6 +44,7 @@
 9
 10
 """
+
 
 # TODO: 3. WAP to print hello python 5 times using while loop.
 # n = 1
@@ -45,6 +52,8 @@
 #     print("hello python")
 #     n += 1
 
+# 1 → 2 → 3 → 4 → 5
+
 """
 hello python
 hello python
@@ -53,11 +62,15 @@ hello python
 hello python
 """
 
+
 # TODO: 4. WAP to print numbers from 10 to 1 using while loop.
 # i = 10
 # while i > 0:
 #     print(i)
 #     i -= 1
+
+# 10 → 9 → 8 → ... → 1
+# i -= 1 → i = i - 1
 
 """
 10
@@ -71,6 +84,7 @@ hello python
 2
 1
 """
+
 
 # TODO: 5. WAP to print even numbers from 1 to 10 using while loop.
 # i = 1
@@ -79,9 +93,13 @@ hello python
 #         print(i, end=" ")
 #     i += 1
 
+# %2 == 0 → even
+# 2 4 6 8 10
+
 """
-2 4 6 8 10 
+2 4 6 8 10
 """
+
 
 # TODO: 6. WAP to print odd numbers from 1 to n using while loop.
 # n = int(input("enter a number: "))
@@ -91,10 +109,14 @@ hello python
 #         print(i, end=" ")
 #     i += 1
 
+# %2 != 0 → odd
+# 1 3 5 7 ...
+
 """
 enter a number: 20
 1 3 5 7 9 11 13 15 17 19
 """
+
 
 # TODO: 7. WAP to print nth table using while loop.
 # n = int(input("enter a number: "))
@@ -102,6 +124,10 @@ enter a number: 20
 # while i < n + 1:
 #     print(f"{n} * {i} = {i * n}")
 #     i += 1
+
+# 15*1=15
+# 15*2=30
+# 15*3=45
 
 """
 enter a number: 15
@@ -122,21 +148,29 @@ enter a number: 15
 15 * 15 = 225
 """
 
+
 # TODO: 8. WAP to reverse the given number without using type casting using while loop.
 # n = int(input("enter a number: "))
 # rev = 0
 # while n > 0:
 #     rev = rev * 10 + n % 10
 #     n = n // 10
-#     print(rev)
+# print(rev)
 
-# rev*10 --> to tenth place n%10 --> to return the last position value
-# n // 10 --> deletes last position value
+# 0*10+6 = 6
+# 6*10+5 = 65
+# 65*10+2 = 652
+
+# 256//10 = 25
+# 25//10 = 2
+# 2//10 = 0
 
 """
 enter a number: 256
 652
 """
+
+
 # TODO: 9. WAP to check whether given number is palindrome or not using while loop.
 # n = int(input("enter a number: "))
 # temp = n
@@ -149,8 +183,11 @@ enter a number: 256
 # else:
 #     print("not a palindrome")
 
-# 1*10  =10       #10+2=12   12*10  =120    120+1=121
-# 12         #1          #0
+# 1*10 = 10
+# 10+2 = 12
+# 12*10 = 120
+# 120+1 = 121
+
 """
 enter a number: 121
 it is a palindrome
@@ -158,12 +195,17 @@ it is a palindrome
 enter a number: 153
 not a palindrome
 """
+
+
 # TODO: 10. WAP to traverse through a string using while loop.
 # st = input("enter a string: ")
 # i = 0
 # while len(st) > i:
 #     print(st[i])
 #     i += 1
+
+# h → e → l → l → o
+# st[0] st[1] st[2] ...
 
 """
 enter a string: hello
@@ -174,6 +216,7 @@ l
 o
 """
 
+
 # TODO: 11. WAP to reverse a string using while loop.
 # s = input("enter a string: ")
 # i = 0
@@ -183,10 +226,16 @@ o
 #     i += 1
 # print(rev)
 
+# h+"" = h
+# e+h = eh
+# l+eh = leh
+# o+lleh = olleh
+
 """
 enter a string: hello
 olleh
 """
+
 
 # TODO: 12. WAP to check whether given string is palindrome or not using while loop.
 # s = input("enter a string: ")
@@ -200,6 +249,9 @@ olleh
 # else:
 #     print(f"{s} is not palindrome")
 
+# mom == mom
+# malayalam == malayalam
+
 """
 enter a string: mom
 mom is palindrome
@@ -210,7 +262,10 @@ hello is not palindrome
 enter a string: malayalam
 malayalam is palindrome
 """
+
+
 # TODO: 13. WAP to convert uppercase letters into lowercase and lowercase letters into uppercase without using string methods using while loop.
+
 # By using string methods
 # n = input("enter a string: ")
 # i = 0
@@ -223,11 +278,15 @@ malayalam is palindrome
 #     i += 1
 # print(res)
 
+# H → h
+# e → E
+# L → l
+
 """
 enter a string: HeLlo
 hElLO
-
 """
+
 
 # Without using string methods
 # s = input("enter a string: ")
@@ -241,14 +300,16 @@ hElLO
 #     i += 1
 # print(res)
 
-# 65 <= value <= 90
-# +32 → 97-122. UPPER
-# -32 → 65-90. LOWER
+# 65-90 → A-Z
+# +32 → a-z
+# -32 → A-Z
 
 """
 enter a string: HeLlo
 hElLO
 """
+
+
 # TODO: 14. WAP to print fibonacci series using while loop.
 # n = int(input("enter a number: "))
 # a = 0
@@ -262,17 +323,30 @@ hElLO
 #     b = c
 #     i += 1
 
+# 0+1 = 1
+# 1+1 = 2
+# 1+2 = 3
+# 2+3 = 5
+
 """
 0 1 1 2 3 5 8 13 21 34
 """
+
 # TODO: 15. WAP to print factorial of a given number using while loop.
 # n = 5
-# i = 1
 # fact = 1
-# while i < n + 1:
+
+# while n > 0:
 #     fact = fact * n
 #     n -= 1
+
 # print(fact)
+
+# 1*5 = 5
+# 5*4 = 20
+# 20*3 = 60
+# 60*2 = 120
+# 120*1 = 120
 
 """
 120
