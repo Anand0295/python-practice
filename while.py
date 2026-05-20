@@ -187,6 +187,11 @@ square of 14 is 196
 square of 15 is 225
 """
 # TODO: 35. WAP to print cube of numbers from 1 to n using while loop.
+n = int(input("enter a number: "))
+i = 1
+while i < n + 1:
+    print(f"cube of {i} is {i**3}")
+    i += 1
 
 # TODO: 36. WAP to count number of digits in a given number using while loop.
 # TODO: 37. WAP to print sum of even digits in a given number using while loop.
