@@ -7,6 +7,8 @@
 #           |----------------------|
 
 # TODO: 1. WAP to print 1 to 5 numbers using while loop.
+n = 1
+
 # TODO: 2. WAP to print 1 to 10 numbers using while loop.
 # TODO: 3. WAP to print hello python 5 times using while loop.
 # TODO: 4. WAP to print numbers from 10 to 1 using while loop.
@@ -65,4 +67,3 @@
 # TODO: 48. WAP to create a list with length of each word using while loop.
 # TODO: 49. WAP to create a dictionary with word as key and reverse word as value using while loop.
 # TODO: 50. WAP to check whether a given number is automorphic number or not using while loop.
-
