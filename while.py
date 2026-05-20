@@ -647,9 +647,11 @@ while n > 0:
     n -= 1
 
 """
-
+enter a number: 25
+25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 
 """
 # TODO: 29. WAP to print sum of first n natural numbers using while loop.
+
 # TODO: 30. WAP to print multiplication table in reverse order using while loop.
 
 # TODO: 31. WAP to count vowels and consonants in a string using while loop.
