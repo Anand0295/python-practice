@@ -130,17 +130,17 @@ enter a number: 15
 # TODO: 12. WAP to check whether given string is palindrome or not using while loop.
 # TODO: 13. WAP to convert uppercase letters into lowercase and lowercase letters into uppercase without using string methods using while loop.
 # TODO: 14. WAP to print fibonacci series using while loop.
-n = int(input("enter a number: "))
-a = 0
-b = 1
-print(a, b, end=" ")
-i = 1
-while i <= n - 2:
-    c = a + b
-    print(c, end=" ")
-    a = b
-    b = c
-    i += 1
+# n = int(input("enter a number: "))
+# a = 0
+# b = 1
+# print(a, b, end=" ")
+# i = 1
+# while i <= n - 2:
+#     c = a + b
+#     print(c, end=" ")
+#     a = b
+#     b = c
+#     i += 1
 
 """
 0 1 1 2 3 5 8 13 21 34
