@@ -6,7 +6,7 @@
 #  └────────|  (e.g., i += 1)      |
 #           |----------------------|
 
-# TODO: 1. WAP to print 1 to 5 numbers using while loop.
+# 1. WAP to print 1 to 5 numbers using while loop.
 # n = 1
 # while n < 6:
 #     print(n)
@@ -20,7 +20,7 @@
 5
 """
 
-# TODO: 2. WAP to print 1 to 10 numbers using while loop.
+# 2. WAP to print 1 to 10 numbers using while loop.
 # n = 1
 # while n <= 10:
 #     print(n)
@@ -40,6 +40,14 @@
 """
 
 # TODO: 3. WAP to print hello python 5 times using while loop.
+n = 1
+while n < 6:
+    print("hello python")
+    n += 1
+
+"""
+
+"""
 # TODO: 4. WAP to print numbers from 10 to 1 using while loop.
 # TODO: 5. WAP to print even numbers from 1 to 10 using while loop.
 
