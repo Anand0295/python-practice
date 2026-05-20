@@ -97,11 +97,11 @@ enter a number: 20
 """
 
 # TODO: 7. WAP to print nth table using while loop.
-n = int(input("enter a number: "))
-i = 1
-while i < n + 1:
-    print(f"{n} * {i} = {i * n}")
-    i += 1
+# n = int(input("enter a number: "))
+# i = 1
+# while i < n + 1:
+#     print(f"{n} * {i} = {i * n}")
+#     i += 1
 
 """
 enter a number: 15
