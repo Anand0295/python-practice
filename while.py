@@ -215,7 +215,7 @@ n = input("enter a string: ")
 i = 0
 res = ""
 if i < len(n):
-    if i.isupper():
+    if s[i].isupper():
         print()
 # TODO: 14. WAP to print fibonacci series using while loop.
 # n = int(input("enter a number: "))
