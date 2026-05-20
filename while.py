@@ -484,6 +484,7 @@ enter a number: 123
 """
 
 # TODO: 21. WAP to traverse through a list and check whether the word length is even or odd, if even add as it is else reverse the word and add to a new list using while loop.
+lst = []
 # TODO: 22. WAP to traverse through a list and check whether the word starts with vowel or consonant, if vowel add as it is else reverse the word and add to a new list using while loop.
 # TODO: 23. WAP to traverse through a list and create a new list with tuple of word and index if word length is even else word and length of the word using while loop.
 # TODO: 24. WAP to create a list with word and reverse word pair inside a tuple using while loop.
