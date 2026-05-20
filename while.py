@@ -130,7 +130,7 @@ while n > 0:
         rev * 10 + n % 10
     )  # rev*10 --> to tenth place n%10 --> to return the last position value
     n = n // 10
-print(rev)
+    print(rev)
 
 """
 enter a number: 256
