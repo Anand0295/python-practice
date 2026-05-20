@@ -101,7 +101,7 @@ hello python
 """
 
 
-# TODO: 6. WAP to print odd numbers from 1 to n using while loop.
+#  : 6. WAP to print odd numbers from 1 to n using while loop.
 # n = int(input("enter a number: "))
 # i = 1
 # while i < n + 1:
