@@ -495,6 +495,12 @@ while i < len(lst1):
     i += 1
 print(lst2)
 
+# apple  --> odd  --> elppa
+# even   --> even --> even
+# odd    --> odd  --> ddo
+# hi     --> even --> hi
+# spider --> even --> spider
+
 """
 ['elppa', 'even', 'ddo', 'hi', 'spider']
 """
