@@ -509,18 +509,18 @@ enter a number: 123
 """
 
 # TODO: 22. WAP to traverse through a list and check whether the word starts with vowel or consonant, if vowel add as it is else reverse the word and add to a new list using while loop.
-lst1 = ["apple", "even", "odd", "hi", "spider"]
-i = 0
-lst2 = []
-while i < len(lst1):
-    # word[0] --> first letter in "aeiouAEIOU" --> vowel checking
+# lst1 = ["apple", "even", "odd", "hi", "spider"]
+# i = 0
+# lst2 = []
+# while i < len(lst1):
+#     # word[0] --> first letter in "aeiouAEIOU" --> vowel checking
 
-    if lst1[i][0] in "aeiouAEIOU":
-        lst2.append(lst1[i])
-    else:
-        lst2.append(lst1[i][::-1])
-    i += 1
-print(lst2)
+#     if lst1[i][0] in "aeiouAEIOU":
+#         lst2.append(lst1[i])
+#     else:
+#         lst2.append(lst1[i][::-1])
+#     i += 1
+# print(lst2)
 
 # apple  --> starts with vowel     --> apple
 # even   --> starts with vowel     --> even
