@@ -97,7 +97,10 @@ enter a number: 20
 """
 
 # TODO: 7. WAP to print nth table using while loop.
-
+n = int(input("enter a number: "))
+i = 1
+while i < n + 1:
+    print(f"{i} * {n} ")
 # TODO: 8. WAP to reverse the given number without using type casting using while loop.
 # TODO: 9. WAP to check whether given number is palindrome or not using while loop.
 # TODO: 10. WAP to traverse through a string using while loop.
