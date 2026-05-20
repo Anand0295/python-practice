@@ -241,13 +241,7 @@ cube of 9 is 729
 # TODO: 40. WAP to check whether a given number is neon number or not using while loop.
 
 # TODO: 41. WAP to print all factors of a given number using while loop.
-n = 5
-i = 1
-fact = 1
-while i < n + 1:
-    fact *= n
-    print(fact)
-    n -= 1
+
 
 """
 
