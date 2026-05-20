@@ -222,6 +222,12 @@ while i < len(n):
     i += 1
 print(res)
 
+"""
+enter a string: HeLlo
+hElLO
+
+"""
+
 
 # TODO: 14. WAP to print fibonacci series using while loop.
 # n = int(input("enter a number: "))
