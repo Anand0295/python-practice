@@ -216,7 +216,12 @@ i = 0
 res = ""
 if i < len(n):
     if n[i].isupper():
-        print()
+        res = res + n[i].lower()
+        i += 1
+    else:
+        re = res + n[i].upper()
+        i += 1
+print()
 # TODO: 14. WAP to print fibonacci series using while loop.
 # n = int(input("enter a number: "))
 # a = 0
