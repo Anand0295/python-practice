@@ -153,6 +153,14 @@ enter a number: 15
 # TODO: 31. WAP to count vowels and consonants in a string using while loop.
 # TODO: 32. WAP to print numbers from 1 to 50 divisible by 5 using while loop.
 # TODO: 33. WAP to print numbers from 50 to 1 using while loop.
+n = 50
+while n > 0:
+    print(n, end=" ")
+    n -= 1
+
+"""
+
+"""
 # TODO: 34. WAP to print square of numbers from 1 to n using while loop.
 # TODO: 35. WAP to print cube of numbers from 1 to n using while loop.
 
