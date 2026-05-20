@@ -211,16 +211,17 @@ enter a string: malayalam
 malayalam is palindrome
 """
 # TODO: 13. WAP to convert uppercase letters into lowercase and lowercase letters into uppercase without using string methods using while loop.
-n = input("enter a string: ")
-i = 0
-res = ""
-while i < len(n):
-    if n[i].isupper():
-        res = res + n[i].lower()
-    else:
-        res = res + n[i].upper()
-    i += 1
-print(res)
+# By using string methods
+# n = input("enter a string: ")
+# i = 0
+# res = ""
+# while i < len(n):
+#     if n[i].isupper():
+#         res = res + n[i].lower()
+#     else:
+#         res = res + n[i].upper()
+#     i += 1
+# print(res)
 
 """
 enter a string: HeLlo
