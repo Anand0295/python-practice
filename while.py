@@ -146,20 +146,13 @@ enter a number: 15
 0 1 1 2 3 5 8 13 21 34
 """
 # TODO: 15. WAP to print factorial of a given number using while loop.
-# n=5
-# i=1
-# fact=1
-# while i <=n:
-#     fact=fact*i
-#     i+=1
-# print(fact)
-
-# n=5
-# fact=1
-# while n>0:
-#     fact=fact*n
-#     n-=1
-# print(fact)
+n = 4
+i = 1
+fact = 1
+while i < n + 1:
+    fact = fact * n
+    n -= 1
+print(fact)
 
 """
 120
