@@ -492,6 +492,7 @@ while i < len(lst1):
         lst2.append(i)
     else:
         lst2.append(lst1[i][::-1])
+    i += 1
 
 
 # TODO: 22. WAP to traverse through a list and check whether the word starts with vowel or consonant, if vowel add as it is else reverse the word and add to a new list using while loop.
