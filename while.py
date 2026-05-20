@@ -84,12 +84,12 @@ hello python
 """
 
 # TODO: 6. WAP to print odd numbers from 1 to n using while loop.
-n = int(input("enter a number: "))
-i = 1
-while i < n + 1:
-    if i % 2 != 0:
-        print(i, end=" ")
-    i += 1
+# n = int(input("enter a number: "))
+# i = 1
+# while i < n + 1:
+#     if i % 2 != 0:
+#         print(i, end=" ")
+#     i += 1
 
 """
 enter a number: 20
