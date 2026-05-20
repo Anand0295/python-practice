@@ -147,6 +147,10 @@ while n > 0:
         print("it is a palindrome")
     else:
         print("not a palindrome")
+
+"""
+
+"""
 # TODO: 10. WAP to traverse through a string using while loop.
 
 # TODO: 11. WAP to reverse a string using while loop.
