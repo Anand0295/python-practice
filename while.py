@@ -534,16 +534,16 @@ enter a number: 123
 """
 
 # TODO: 23. WAP to traverse through a list and create a new list with tuple of word and index if word length is even else word and length of the word using while loop.
-lst1 = ["facebook", "insta", "whatsapp", "twitter"]
-i = 0
-lst2 = []
-while i < len(lst1):
-    if len(lst1[i]) % 2 == 0:
-        lst2.append((lst1[i], i))
-    else:
-        lst2.append((lst1[i], len(lst1[i])))
-    i += 1
-print(lst2)
+# lst1 = ["facebook", "insta", "whatsapp", "twitter"]
+# i = 0
+# lst2 = []
+# while i < len(lst1):
+#     if len(lst1[i]) % 2 == 0:
+#         lst2.append((lst1[i], i))
+#     else:
+#         lst2.append((lst1[i], len(lst1[i])))
+#     i += 1
+# print(lst2)
 
 # len(word) % 2 == 0 --> even length
 # even  --> (word, index)
