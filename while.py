@@ -562,7 +562,7 @@ enter a number: 123
 lst1 = ["facebook", "insta", "whatsapp", "twitter"]
 i = 0
 lst2 = []
-while i < lst1:
+while i < len(lst1):
     lst2.append((lst1[i], lst1[i][::-1]))
     i += 1
 print(lst2)
