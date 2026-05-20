@@ -146,7 +146,7 @@ enter a number: 15
 0 1 1 2 3 5 8 13 21 34
 """
 # TODO: 15. WAP to print factorial of a given number using while loop.
-n = 4
+n = 5
 i = 1
 fact = 1
 while i < n + 1:
@@ -157,7 +157,6 @@ print(fact)
 """
 120
 """
-
 
 # TODO: 16. WAP to check whether a given number is perfect square or not.
 # TODO: 17. WAP to check whether a given number is perfect number or not using while loop.
