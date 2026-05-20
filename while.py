@@ -179,7 +179,7 @@ s = input("enter a string: ")
 i = 0
 rev = ""
 while i < len(s):
-    rev = rev + s[i]
+    rev = s[i] + rev
     i += 1
 print(rev)
 
