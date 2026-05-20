@@ -22,7 +22,7 @@
 
 # TODO: 2. WAP to print 1 to 10 numbers using while loop.
 n = 1
-while n <= 10:
+while n < 11:
     print(n)
     n += 1
 
