@@ -165,7 +165,12 @@ while n > 0:
 n = int(input("enter a number: "))
 i = 1
 while i < n + 1:
-    print
+    print(f"square of {i} is {i**2}")
+    i += 1
+
+"""
+
+"""
 # TODO: 35. WAP to print cube of numbers from 1 to n using while loop.
 
 # TODO: 36. WAP to count number of digits in a given number using while loop.
