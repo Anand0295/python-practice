@@ -567,6 +567,9 @@ while i < len(lst1):
     i += 1
 print(lst2)
 
+"""
+[('facebook', 'koobecaf'), ('insta', 'atsni'), ('whatsapp', 'ppastahw'), ('twitter', 'rettiwt')]
+"""
 
 # TODO: 25. WAP to create a dictionary with key as word and value as index of the word using while loop.
 
