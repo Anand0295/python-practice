@@ -625,16 +625,16 @@ enter a number: 123
 
 
 # TODO: 27. WAP to create a dictionary with key as number and value as square of the number if even else cube of the number using while loop.
-lst = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
-i = 0
-d = {}
-while i < len(lst):
-    if lst[i] % 2 == 0:
-        d[lst[i]] = lst[i] ** 2
-    else:
-        d[lst[i]] = lst[i] ** 3
-    i += 1
-print(d)
+# lst = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+# i = 0
+# d = {}
+# while i < len(lst):
+#     if lst[i] % 2 == 0:
+#         d[lst[i]] = lst[i] ** 2
+#     else:
+#         d[lst[i]] = lst[i] ** 3
+#     i += 1
+# print(d)
 
 """
 {1: 1, 2: 4, 3: 27, 4: 16, 5: 125, 6: 36, 7: 343, 8: 64, 9: 729, 0: 0}
