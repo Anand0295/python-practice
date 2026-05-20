@@ -139,11 +139,12 @@ enter a number: 256
 """
 # TODO: 9. WAP to check whether given number is palindrome or not using while loop.
 n = int(input("enter a number: "))
+temp = n
 rev = 0
 while n > 0:
     rev = rev * 10 + n % 10
     n = n // 10
-if rev == n:
+if rev == temp:
     print("it is a palindrome")
 else:
     print("not a palindrome")
