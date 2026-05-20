@@ -599,16 +599,16 @@ enter a number: 123
 """
 
 # TODO: 26. WAP to create a dictionary with key as word and value as index if word length is even else length of the word using while loop.
-lst = ["apple", "mango", "grapes", "orange"]
-i = 0
-d = {}
-while i < len(lst):
-    if len(lst[i]) % 2 == 0:
-        d[lst[i]] = i
-    else:
-        d[lst[i]] = len(lst[i])
-    i += 1
-print(d)
+# lst = ["apple", "mango", "grapes", "orange"]
+# i = 0
+# d = {}
+# while i < len(lst):
+#     if len(lst[i]) % 2 == 0:
+#         d[lst[i]] = i
+#     else:
+#         d[lst[i]] = len(lst[i])
+#     i += 1
+# print(d)
 
 # len(word) % 2 == 0 --> even length
 # even --> value = index
