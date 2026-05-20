@@ -7,10 +7,10 @@
 #           |----------------------|
 
 # TODO: 1. WAP to print 1 to 5 numbers using while loop.
-n = 1
-while n < 6:
-    print(n)
-    n += 1
+# n = 1
+# while n < 6:
+#     print(n)
+#     n += 1
 
 """
 1
