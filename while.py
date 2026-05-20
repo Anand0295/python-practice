@@ -46,7 +46,7 @@
 """
 
 
-# TODO: 3. WAP to print hello python 5 times using while loop.
+# 3. WAP to print hello python 5 times using while loop.
 # n = 1
 # while n < 6:
 #     print("hello python")
@@ -63,7 +63,7 @@ hello python
 """
 
 
-# TODO: 4. WAP to print numbers from 10 to 1 using while loop.
+# 4. WAP to print numbers from 10 to 1 using while loop.
 # i = 10
 # while i > 0:
 #     print(i)
