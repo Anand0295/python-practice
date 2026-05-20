@@ -641,7 +641,9 @@ print(d)
 """
 
 # TODO: 28. WAP to print numbers from n to 1 using while loop.
-n
+n = int(input("enter a number: "))
+while n > 0:
+    print(n, end="")
 # TODO: 29. WAP to print sum of first n natural numbers using while loop.
 # TODO: 30. WAP to print multiplication table in reverse order using while loop.
 
