@@ -161,7 +161,7 @@ not a palindrome
 # TODO: 10. WAP to traverse through a string using while loop.
 st = input("enter a string: ")
 i = 0
-while len(st) + 1 > i:
+while len(st) > i:
     print(st[i])
     i += 1
 
