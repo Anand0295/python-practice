@@ -517,6 +517,8 @@ while i < len(lst1):
         lst2.append(lst1[i])
     else:
         lst2.append(lst1[i][::-1])
+    i += 1
+print(lst2)
 
 # TODO: 23. WAP to traverse through a list and create a new list with tuple of word and index if word length is even else word and length of the word using while loop.
 # TODO: 24. WAP to create a list with word and reverse word pair inside a tuple using while loop.
