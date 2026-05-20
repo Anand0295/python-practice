@@ -559,13 +559,13 @@ enter a number: 123
 """
 
 # TODO: 24. WAP to create a list with word and reverse word pair inside a tuple using while loop.
-lst1 = ["facebook", "insta", "whatsapp", "twitter"]
-i = 0
-lst2 = []
-while i < len(lst1):
-    lst2.append((lst1[i], lst1[i][::-1]))
-    i += 1
-print(lst2)
+# lst1 = ["facebook", "insta", "whatsapp", "twitter"]
+# i = 0
+# lst2 = []
+# while i < len(lst1):
+#     lst2.append((lst1[i], lst1[i][::-1]))
+#     i += 1
+# print(lst2)
 
 """
 [('facebook', 'koobecaf'), ('insta', 'atsni'), ('whatsapp', 'ppastahw'), ('twitter', 'rettiwt')]
