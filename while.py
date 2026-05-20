@@ -680,6 +680,37 @@ enter a number: 5
 15
 """
 
+# TODO: 30. WAP to print multiplication table in reverse order using while loop.
+
+# n = int(input("enter a number: "))
+
+# i --> starts from 10
+# reverse table --> 10 to 1
+
+# 5 * 10 = 50
+# 5 * 9 = 45
+# 5 * 8 = 40
+
+# i = 10
+
+# while i >= 1:
+#     print(f"{n} * {i} = {n*i}")
+#     i -= 1
+
+"""
+enter a number: 5
+
+5 * 10 = 50
+5 * 9 = 45
+5 * 8 = 40
+5 * 7 = 35
+5 * 6 = 30
+5 * 5 = 25
+5 * 4 = 20
+5 * 3 = 15
+5 * 2 = 10
+5 * 1 = 5
+"""
 
 # TODO: 32. WAP to print numbers from 1 to 50 divisible by 5 using while loop.
 # n = 50
