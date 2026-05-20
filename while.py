@@ -118,7 +118,7 @@ enter a number: 20
 """
 
 
-# TODO: 7. WAP to print nth table using while loop.
+# _: 7. WAP to print nth table using while loop.
 # n = int(input("enter a number: "))
 # i = 1
 # while i < n + 1:
