@@ -659,7 +659,13 @@ enter a number: 25
 # TODO: 32. WAP to print numbers from 1 to 50 divisible by 5 using while loop.
 n = 50
 i = 1
+while i <= n:
+    if i % 5 == 0:
+        print(i, end=" ")
+    i += 1
+"""
 
+"""
 # TODO: 33. WAP to print numbers from 50 to 1 using while loop.
 # n = 50
 # while n > 0:
