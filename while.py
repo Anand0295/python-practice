@@ -169,7 +169,22 @@ while i < n + 1:
     i += 1
 
 """
-
+enter a number: 15
+square of 1 is 1
+square of 2 is 4
+square of 3 is 9
+square of 4 is 16
+square of 5 is 25
+square of 6 is 36
+square of 7 is 49
+square of 8 is 64
+square of 9 is 81
+square of 10 is 100
+square of 11 is 121
+square of 12 is 144
+square of 13 is 169
+square of 14 is 196
+square of 15 is 225
 """
 # TODO: 35. WAP to print cube of numbers from 1 to n using while loop.
 
