@@ -712,6 +712,44 @@ enter a number: 5
 5 * 1 = 5
 """
 
+# TODO: 31. WAP to count vowels and consonants in a string using while loop.
+
+# s = input("enter a string: ")
+
+# vowel --> aeiou
+# consonant --> remaining alphabets
+
+# hello
+# e,o --> vowels = 2
+# h,l,l --> consonants = 3
+
+# i --> traverses string
+# v --> vowel count
+# c --> consonant count
+
+# i = 0
+# v = 0
+# c = 0
+
+# while i < len(s):
+
+#     if s[i] in "aeiouAEIOU":
+#         v += 1
+
+#     else:
+#         c += 1
+
+#     i += 1
+
+# print(f"vowels = {v}")
+# print(f"consonants = {c}")
+
+"""
+enter a string: hello
+vowels = 2
+consonants = 3
+"""
+
 # TODO: 32. WAP to print numbers from 1 to 50 divisible by 5 using while loop.
 # n = 50
 # i = 1
