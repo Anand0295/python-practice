@@ -149,11 +149,13 @@ if rev == temp:
 else:
     print("not a palindrome")
 
+
 """
 enter a number: 121
 it is a palindrome
 
-
+enter a number: 153
+not a palindrome
 """
 # TODO: 10. WAP to traverse through a string using while loop.
 
