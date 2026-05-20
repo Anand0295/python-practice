@@ -100,7 +100,7 @@ enter a number: 20
 n = int(input("enter a number: "))
 i = 1
 while i < n + 1:
-    print(f"{i} * {n} = {i * n}")
+    print(f"{n} * {i} = {i * n}")
     i += 1
 
 """
