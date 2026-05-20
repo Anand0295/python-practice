@@ -236,8 +236,14 @@ res = ""
 while i < len(s):
     if ord("A") <= ord(s[i]) <= ord("Z"):
         res = res + chr(ord(s[i]) + 32)
+    else:
+        res = res + chr(ord(s[i]) - 32)
+    i += 1
+print(res)
 
+"""
 
+"""
 # TODO: 14. WAP to print fibonacci series using while loop.
 # n = int(input("enter a number: "))
 # a = 0
