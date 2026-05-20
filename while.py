@@ -486,7 +486,6 @@ enter a number: 123
 # TODO: 21. WAP to traverse through a list and check whether the word length is even or odd, if even add as it is else reverse the word and add to a new list using while loop.
 lst1 = ["apple", "even", "odd", "hi", "spider"]
 i = 0
-res = 0
 lst2 = []
 while i < len(lst1):
     if len(lst1[i]) % 2 == 0:
