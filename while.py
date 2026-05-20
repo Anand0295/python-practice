@@ -513,7 +513,7 @@ enter a number: 123
 # i = 0
 # lst2 = []
 # while i < len(lst1):
-#     # word[0] --> first letter in "aeiouAEIOU" --> vowel checking
+# word[0] --> first letter in "aeiouAEIOU" --> vowel checking
 
 #     if lst1[i][0] in "aeiouAEIOU":
 #         lst2.append(lst1[i])
