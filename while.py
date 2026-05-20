@@ -229,6 +229,14 @@ hElLO
 
 """
 
+# Without using string methods
+s = input("enter a string: ")
+i = 0
+res = ""
+while i < len(s):
+    if ord("A") <= ord(s[i]) <= ord("Z"):
+        res = res + chr(ord(s[i]) + 32)
+
 
 # TODO: 14. WAP to print fibonacci series using while loop.
 # n = int(input("enter a number: "))
