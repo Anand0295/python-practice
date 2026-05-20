@@ -572,13 +572,31 @@ enter a number: 123
 """
 
 # TODO: 25. WAP to create a dictionary with key as word and value as index of the word using while loop.
-s = input("enter a word: ")
+
+lst = ["apple", "mango", "grapes", "orange"]
+
 d = {}
 i = 0
-while i < len(s):
-    d[s] = i
+
+while i < len(lst):
+    # dictionary[key] = value
+    # key   --> word
+    # value --> index
+
+    d[lst[i]] = i
+
     i += 1
+
 print(d)
+
+# apple  --> index 0
+# mango  --> index 1
+# grapes --> index 2
+# orange --> index 3
+
+"""
+{'apple': 0, 'mango': 1, 'grapes': 2, 'orange': 3}
+"""
 # TODO: 26. WAP to create a dictionary with key as word and value as index if word length is even else length of the word using while loop.
 # TODO: 27. WAP to create a dictionary with key as number and value as square of the number if even else cube of the number using while loop.
 # TODO: 28. WAP to print numbers from n to 1 using while loop.
