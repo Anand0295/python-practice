@@ -204,6 +204,9 @@ else:
 enter a string: mom
 mom is palindrome
 
+enter a string: hello
+hello is not palindrome
+
 
 """
 # TODO: 13. WAP to convert uppercase letters into lowercase and lowercase letters into uppercase without using string methods using while loop.
