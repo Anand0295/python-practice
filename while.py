@@ -484,19 +484,19 @@ enter a number: 123
 """
 
 # TODO: 21. WAP to traverse through a list and check whether the word length is even or odd, if even add as it is else reverse the word and add to a new list using while loop.
-lst1 = ["apple", "even", "odd", "hi", "spider"]
-i = 0
-lst2 = []
-while i < len(lst1):
-    # len(word) % 2 == 0 --> even length
-    # len(word) % 2 != 0 --> odd length
+# lst1 = ["apple", "even", "odd", "hi", "spider"]
+# i = 0
+# lst2 = []
+# while i < len(lst1):
+# len(word) % 2 == 0 --> even length
+# len(word) % 2 != 0 --> odd length
 
-    if len(lst1[i]) % 2 == 0:
-        lst2.append(lst1[i])
-    else:
-        lst2.append(lst1[i][::-1])
-    i += 1
-print(lst2)
+#     if len(lst1[i]) % 2 == 0:
+#         lst2.append(lst1[i])
+#     else:
+#         lst2.append(lst1[i][::-1])
+#     i += 1
+# print(lst2)
 
 # apple  --> odd  --> elppa
 # even   --> even --> even
@@ -509,7 +509,15 @@ print(lst2)
 """
 
 # TODO: 22. WAP to traverse through a list and check whether the word starts with vowel or consonant, if vowel add as it is else reverse the word and add to a new list using while loop.
-lst1 = []
+lst1 = ["apple", "even", "odd", "hi", "spider"]
+i = 0
+lst2 = []
+while i < len(lst1):
+    if lst1[i] == "aeiouAEIOU":
+        lst2.append(lst1[i])
+    else:
+        lst2.append(lst1[i][::-1])
+
 # TODO: 23. WAP to traverse through a list and create a new list with tuple of word and index if word length is even else word and length of the word using while loop.
 # TODO: 24. WAP to create a list with word and reverse word pair inside a tuple using while loop.
 # TODO: 25. WAP to create a dictionary with key as word and value as index of the word using while loop.
