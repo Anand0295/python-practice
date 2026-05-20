@@ -159,7 +159,9 @@ print(fact)
 """
 
 # TODO: 16. WAP to check whether a given number is perfect square or not.
+
 # TODO: 17. WAP to check whether a given number is perfect number or not using while loop.
+
 # TODO: 18. WAP to print sum of digits present in a number using while loop.
 # TODO: 19. WAP to check whether a given number is harshad number or not using while loop.
 # TODO: 20. WAP to check whether a given number is strong number or not using while loop.
