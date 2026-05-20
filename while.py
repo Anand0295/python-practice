@@ -40,10 +40,10 @@
 """
 
 # TODO: 3. WAP to print hello python 5 times using while loop.
-n = 1
-while n < 6:
-    print("hello python")
-    n += 1
+# n = 1
+# while n < 6:
+#     print("hello python")
+#     n += 1
 
 """
 hello python
@@ -52,7 +52,9 @@ hello python
 hello python
 hello python
 """
+
 # TODO: 4. WAP to print numbers from 10 to 1 using while loop.
+
 # TODO: 5. WAP to print even numbers from 1 to 10 using while loop.
 
 # TODO: 6. WAP to print odd numbers from 1 to n using while loop.
