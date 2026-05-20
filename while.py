@@ -21,8 +21,8 @@
 """
 
 # TODO: 2. WAP to print 1 to 10 numbers using while loop.
-n = 0
-while n < 11:
+n = 1
+while n <= 10:
     print(n)
     n += 1
 
