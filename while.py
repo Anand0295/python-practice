@@ -54,6 +54,10 @@ hello python
 """
 
 # TODO: 4. WAP to print numbers from 10 to 1 using while loop.
+i = 10
+while i > 0:
+    print(i)
+    i -= 1
 
 # TODO: 5. WAP to print even numbers from 1 to 10 using while loop.
 
