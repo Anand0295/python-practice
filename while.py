@@ -193,6 +193,19 @@ while i < n + 1:
     print(f"cube of {i} is {i**3}")
     i += 1
 
+"""
+enter a number: 9
+cube of 1 is 1
+cube of 2 is 8
+cube of 3 is 27
+cube of 4 is 64
+cube of 5 is 125
+cube of 6 is 216
+cube of 7 is 343
+cube of 8 is 512
+cube of 9 is 729
+"""
+
 # TODO: 36. WAP to count number of digits in a given number using while loop.
 # TODO: 37. WAP to print sum of even digits in a given number using while loop.
 # TODO: 38. WAP to print product of digits in a given number using while loop.
