@@ -644,7 +644,7 @@ enter a number: 123
 n = int(input("enter a number: "))
 while n > 0:
     print(n, end="")
-    i -= 1
+    n -= 1
 
 """
 
