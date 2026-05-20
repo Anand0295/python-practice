@@ -129,7 +129,7 @@ while n > 0:
     rev = (
         rev * 10 + n % 10
     )  # rev*10 --> to tenth place n%10 --> to return the last position value
-    n = n // 10
+    n = n // 10  # n // 10 --> deletes last position value
     print(rev)
 
 """
