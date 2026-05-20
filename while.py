@@ -489,7 +489,7 @@ i = 0
 lst2 = []
 while i < len(lst1):
     if len(lst1[i]) % 2 == 0:
-        lst2.append(i)
+        lst2.append(lst1[i])
     else:
         lst2.append(lst1[i][::-1])
     i += 1
