@@ -534,7 +534,7 @@ print(lst2)
 """
 
 # TODO: 23. WAP to traverse through a list and create a new list with tuple of word and index if word length is even else word and length of the word using while loop.
-
+lst = ["facebook", "insta", "whatsapp", "twitter"]
 # TODO: 24. WAP to create a list with word and reverse word pair inside a tuple using while loop.
 # TODO: 25. WAP to create a dictionary with key as word and value as index of the word using while loop.
 
