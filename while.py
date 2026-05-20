@@ -563,7 +563,11 @@ lst1 = ["facebook", "insta", "whatsapp", "twitter"]
 i = 0
 lst2 = []
 while i < lst1:
-    lst2.append((lst1[i],))
+    lst2.append((lst1[i], lst1[i][::-1]))
+    i += 1
+print(lst2)
+
+
 # TODO: 25. WAP to create a dictionary with key as word and value as index of the word using while loop.
 
 # TODO: 26. WAP to create a dictionary with key as word and value as index if word length is even else length of the word using while loop.
