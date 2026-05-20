@@ -599,7 +599,12 @@ enter a number: 123
 """
 
 # TODO: 26. WAP to create a dictionary with key as word and value as index if word length is even else length of the word using while loop.
-
+lst = ["apple", "mango", "grapes", "orange"]
+i = 0
+d = {}
+while i < len(lst):
+    i
+    d[lst[i]] = i
 # TODO: 27. WAP to create a dictionary with key as number and value as square of the number if even else cube of the number using while loop.
 # TODO: 28. WAP to print numbers from n to 1 using while loop.
 # TODO: 29. WAP to print sum of first n natural numbers using while loop.
