@@ -240,4 +240,3 @@ cube of 9 is 729
 # TODO: 48. WAP to create a list with length of each word using while loop.
 # TODO: 49. WAP to create a dictionary with word as key and reverse word as value using while loop.
 # TODO: 50. WAP to check whether a given number is automorphic number or not using while loop.
-# TODO: 51. WAP to print fibonacci series up to n terms using while loop.
