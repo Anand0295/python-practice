@@ -657,12 +657,12 @@ enter a number: 25
 # TODO: 31. WAP to count vowels and consonants in a string using while loop.
 
 # TODO: 32. WAP to print numbers from 1 to 50 divisible by 5 using while loop.
-n = 50
-i = 1
-while i <= n:
-    if i % 5 == 0:
-        print(i, end=" ")
-    i += 1
+# n = 50
+# i = 1
+# while i <= n:
+#     if i % 5 == 0:
+#         print(i, end=" ")
+#     i += 1
 
 """
 5 10 15 20 25 30 35 40 45 50
