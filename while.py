@@ -664,7 +664,7 @@ while i <= n:
         print(i, end=" ")
     i += 1
 """
-
+5 10 15 20 25 30 35 40 45 50
 """
 # TODO: 33. WAP to print numbers from 50 to 1 using while loop.
 # n = 50
