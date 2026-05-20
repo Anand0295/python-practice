@@ -76,7 +76,7 @@ while i > 0:
 i = 1
 while i < 11:
     if i % 2 == 0:
-        print(i)
+        print(i, end=" ")
     i += 1
 
 # TODO: 6. WAP to print odd numbers from 1 to n using while loop.
