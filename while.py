@@ -221,7 +221,9 @@ if i < len(n):
     else:
         re = res + n[i].upper()
         i += 1
-print()
+print(res)
+
+
 # TODO: 14. WAP to print fibonacci series using while loop.
 # n = int(input("enter a number: "))
 # a = 0
