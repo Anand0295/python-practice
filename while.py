@@ -213,6 +213,11 @@ cube of 9 is 729
 # TODO: 40. WAP to check whether a given number is neon number or not using while loop.
 
 # TODO: 41. WAP to print all factors of a given number using while loop.
+n = int(input("enter a number: "))
+a = 0
+b = 1
+print(a, b, end=" ")
+
 # TODO: 42. WAP to check whether a given number is prime or not using while loop.
 # TODO: 43. WAP to print prime numbers from 1 to n using while loop.
 # TODO: 44. WAP to print multiplication tables from 1 to 5 using nested while loop.
