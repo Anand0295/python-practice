@@ -189,7 +189,16 @@ olleh
 """
 
 # TODO: 12. WAP to check whether given string is palindrome or not using while loop.
-
+s = input("enter a string: ")
+i = 0
+rev = ""
+while i < len(s):
+    rev = s[i] + rev
+    i += 1
+if rev == s:
+    print(f"{s} is palindrome")
+else:
+    print(f"{s} is not palindrome")
 # TODO: 13. WAP to convert uppercase letters into lowercase and lowercase letters into uppercase without using string methods using while loop.
 # TODO: 14. WAP to print fibonacci series using while loop.
 # n = int(input("enter a number: "))
