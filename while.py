@@ -54,10 +54,10 @@ hello python
 """
 
 # TODO: 4. WAP to print numbers from 10 to 1 using while loop.
-i = 10
-while i > 0:
-    print(i)
-    i -= 1
+# i = 10
+# while i > 0:
+#     print(i)
+#     i -= 1
 
 """
 10
