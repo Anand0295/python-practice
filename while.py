@@ -104,9 +104,26 @@ while i < n + 1:
     i += 1
 
 """
-
+enter a number: 15
+15 * 1 = 15
+15 * 2 = 30
+15 * 3 = 45
+15 * 4 = 60
+15 * 5 = 75
+15 * 6 = 90
+15 * 7 = 105
+15 * 8 = 120
+15 * 9 = 135
+15 * 10 = 150
+15 * 11 = 165
+15 * 12 = 180
+15 * 13 = 195
+15 * 14 = 210
+15 * 15 = 225
 """
+
 # TODO: 8. WAP to reverse the given number without using type casting using while loop.
+
 # TODO: 9. WAP to check whether given number is palindrome or not using while loop.
 # TODO: 10. WAP to traverse through a string using while loop.
 
