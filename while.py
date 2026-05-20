@@ -230,16 +230,16 @@ hElLO
 """
 
 # Without using string methods
-s = input("enter a string: ")
-i = 0
-res = ""
-while i < len(s):
-    if ord("A") <= ord(s[i]) <= ord("Z"):
-        res = res + chr(ord(s[i]) + 32)
-    else:
-        res = res + chr(ord(s[i]) - 32)
-    i += 1
-print(res)
+# s = input("enter a string: ")
+# i = 0
+# res = ""
+# while i < len(s):
+#     if ord("A") <= ord(s[i]) <= ord("Z"):
+#         res = res + chr(ord(s[i]) + 32)
+#     else:
+#         res = res + chr(ord(s[i]) - 32)
+#     i += 1
+# print(res)
 
 # 65 <= value <= 90
 # +32 → 97-122. UPPER
