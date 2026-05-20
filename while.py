@@ -559,6 +559,7 @@ enter a number: 123
 """
 
 # TODO: 24. WAP to create a list with word and reverse word pair inside a tuple using while loop.
+
 # TODO: 25. WAP to create a dictionary with key as word and value as index of the word using while loop.
 
 # TODO: 26. WAP to create a dictionary with key as word and value as index if word length is even else length of the word using while loop.
