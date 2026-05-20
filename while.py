@@ -213,16 +213,6 @@ cube of 9 is 729
 # TODO: 40. WAP to check whether a given number is neon number or not using while loop.
 
 # TODO: 41. WAP to print all factors of a given number using while loop.
-n = int(input("enter a number: "))
-a = 0
-b = 1
-print(a, b, end=" ")
-while 2 < n + 1:
-    c = a + b
-    print(c, end="")
-    a = b
-    b = c
-    i += 1
 
 
 # TODO: 42. WAP to check whether a given number is prime or not using while loop.
