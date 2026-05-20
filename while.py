@@ -123,6 +123,8 @@ enter a number: 15
 """
 
 # TODO: 8. WAP to reverse the given number without using type casting using while loop.
+n = int(input("enter a number: "))
+rev = 0
 
 # TODO: 9. WAP to check whether given number is palindrome or not using while loop.
 # TODO: 10. WAP to traverse through a string using while loop.
