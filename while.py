@@ -159,11 +159,11 @@ enter a number: 153
 not a palindrome
 """
 # TODO: 10. WAP to traverse through a string using while loop.
-st = input("enter a string: ")
-i = 0
-while len(st) > i:
-    print(st[i])
-    i += 1
+# st = input("enter a string: ")
+# i = 0
+# while len(st) > i:
+#     print(st[i])
+#     i += 1
 
 """
 enter a string: hello
