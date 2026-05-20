@@ -545,6 +545,15 @@ while i < len(lst1):
     i += 1
 print(lst2)
 
+# len(word) % 2 == 0 --> even length
+# even  --> (word, index)
+# odd   --> (word, length)
+
+# facebook --> len=8 --> even --> ('facebook',0)
+# insta --> len=5 --> odd --> ('insta',5)
+# whatsapp --> len=8 --> even --> ('whatsapp',2)
+# twitter --> len=7 --> odd --> ('twitter',7)
+
 """
 [('facebook', 0), ('insta', 5), ('whatsapp', 2), ('twitter', 7)]
 """
