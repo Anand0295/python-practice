@@ -644,6 +644,11 @@ print(d)
 n = int(input("enter a number: "))
 while n > 0:
     print(n, end="")
+    i -= 1
+
+"""
+
+"""
 # TODO: 29. WAP to print sum of first n natural numbers using while loop.
 # TODO: 30. WAP to print multiplication table in reverse order using while loop.
 
