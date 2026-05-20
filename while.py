@@ -151,6 +151,7 @@ i = 1
 fact = 1
 while i < n + 1:
     fact = fact * n
+    n -= 1
 
 
 # TODO: 16. WAP to check whether a given number is perfect square or not.
