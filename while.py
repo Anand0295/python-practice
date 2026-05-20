@@ -21,14 +21,24 @@
 """
 
 # TODO: 2. WAP to print 1 to 10 numbers using while loop.
-n = 1
-while n <= 10:
-    print(n)
-    n += 1
+# n = 1
+# while n <= 10:
+#     print(n)
+#     n += 1
 
 """
-
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
 """
+
 # TODO: 3. WAP to print hello python 5 times using while loop.
 # TODO: 4. WAP to print numbers from 10 to 1 using while loop.
 # TODO: 5. WAP to print even numbers from 1 to 10 using while loop.
