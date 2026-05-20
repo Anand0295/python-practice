@@ -643,7 +643,7 @@ enter a number: 123
 # TODO: 28. WAP to print numbers from n to 1 using while loop.
 n = int(input("enter a number: "))
 while n > 0:
-    print(n, end="")
+    print(n, end=" ")
     n -= 1
 
 """
