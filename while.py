@@ -279,12 +279,135 @@ hElLO
 """
 
 # TODO: 16. WAP to check whether a given number is perfect square or not.
+# n = int(input("enter a number: "))
+# temp = n ** 0.5
+
+# if temp == temp // 1:
+#     print(f"{n} is a perfect square")
+# else:
+#     print(f"{n} is not a perfect square")
+
+# 25 ** 0.5 = 5.0
+# 5.0 // 1 = 5.0
+
+"""
+enter a number: 25
+25 is a perfect square
+
+enter a number: 20
+20 is not a perfect square
+"""
+
 
 # TODO: 17. WAP to check whether a given number is perfect number or not using while loop.
+# n = int(input("enter a number: "))
+# i = 1
+# sum = 0
+
+# while i <= n // 2:
+#     if n % i == 0:
+#         sum += i
+#     i += 1
+
+# if sum == n:
+#     print(f"{n} is a perfect number")
+# else:
+#     print(f"{n} is not a perfect number")
+
+# 6 % 1 = 0  → sum = 0+1 = 1
+# 6 % 2 = 0  → sum = 1+2 = 3
+# 6 % 3 = 0  → sum = 3+3 = 6
+
+"""
+enter a number: 6
+6 is a perfect number
+
+enter a number: 10
+10 is not a perfect number
+"""
+
 
 # TODO: 18. WAP to print sum of digits present in a number using while loop.
+# n = int(input("enter a number: "))
+# sum = 0
+
+# while n > 0:
+#     sum += n % 10
+#     n //= 10
+
+# print(sum)
+
+# 0+4 = 4
+# 4+3 = 7
+# 7+2 = 9
+# 9+1 = 10
+
+"""
+enter a number: 1234
+10
+"""
+
+
 # TODO: 19. WAP to check whether a given number is harshad number or not using while loop.
+# n = int(input("enter a number: "))
+# num = n
+# sum = 0
+
+# while n > 0:
+#     sum += n % 10
+#     n //= 10
+
+# if num % sum == 0:
+#     print(f"{num} is a harshad number")
+# else:
+#     print(f"{num} is not a harshad number")
+
+# 18 % 10 = 8   → sum = 8
+# 1 % 10 = 1    → sum = 8+1 = 9
+# 18 % 9 = 0
+
+"""
+enter a number: 18
+18 is a harshad number
+
+enter a number: 19
+19 is not a harshad number
+"""
+
+
 # TODO: 20. WAP to check whether a given number is strong number or not using while loop.
+# n = int(input("enter a number: "))
+# num = n
+# sum = 0
+
+# while n > 0:
+#     digit = n % 10
+#     fact = 1
+
+#     while digit > 0:
+#         fact *= digit
+#         digit -= 1
+
+#     sum += fact
+#     n //= 10
+
+# if sum == num:
+#     print(f"{num} is a strong number")
+# else:
+#     print(f"{num} is not a strong number")
+
+# 5! = 5*4*3*2*1 = 120
+# 4! = 4*3*2*1 = 24
+# 1! = 1
+# 120+24+1 = 145
+
+"""
+enter a number: 145
+145 is a strong number
+
+enter a number: 123
+123 is not a strong number
+"""
 
 # TODO: 21. WAP to traverse through a list and check whether the word length is even or odd, if even add as it is else reverse the word and add to a new list using while loop.
 # TODO: 22. WAP to traverse through a list and check whether the word starts with vowel or consonant, if vowel add as it is else reverse the word and add to a new list using while loop.
