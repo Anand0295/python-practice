@@ -163,6 +163,9 @@ while n > 0:
 """
 # TODO: 34. WAP to print square of numbers from 1 to n using while loop.
 n = int(input("enter a number: "))
+i = 1
+while i < n + 1:
+    print
 # TODO: 35. WAP to print cube of numbers from 1 to n using while loop.
 
 # TODO: 36. WAP to count number of digits in a given number using while loop.
