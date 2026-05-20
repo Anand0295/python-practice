@@ -79,6 +79,10 @@ while i < 11:
         print(i, end=" ")
     i += 1
 
+"""
+2 4 6 8 10 
+"""
+
 # TODO: 6. WAP to print odd numbers from 1 to n using while loop.
 # TODO: 7. WAP to print nth table using while loop.
 # TODO: 8. WAP to reverse the given number without using type casting using while loop.
