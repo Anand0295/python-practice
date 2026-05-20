@@ -650,11 +650,36 @@ enter a number: 123
 enter a number: 25
 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 
 """
+
 # TODO: 29. WAP to print sum of first n natural numbers using while loop.
 
-# TODO: 30. WAP to print multiplication table in reverse order using while loop.
+# n = int(input("enter a number: "))
 
-# TODO: 31. WAP to count vowels and consonants in a string using while loop.
+# i --> starts from 1
+# sum --> stores total
+
+# 1+2+3+4+5 = 15
+
+# i=1 --> sum=0+1 = 1
+# i=2 --> sum=1+2 = 3
+# i=3 --> sum=3+3 = 6
+# i=4 --> sum=6+4 = 10
+# i=5 --> sum=10+5 = 15
+
+# i = 1
+# sum = 0
+
+# while i <= n:
+#     sum = sum + i
+#     i += 1
+
+# print(sum)
+
+"""
+enter a number: 5
+15
+"""
+
 
 # TODO: 32. WAP to print numbers from 1 to 50 divisible by 5 using while loop.
 # n = 50
