@@ -149,6 +149,7 @@ if rev == temp:
 else:
     print("not a palindrome")
 
+# 1*10  =10       #10+2=12   12*10  =120    120+1=121
 
 """
 enter a number: 121
