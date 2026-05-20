@@ -817,24 +817,434 @@ cube of 9 is 729
 """
 
 # TODO: 36. WAP to count number of digits in a given number using while loop.
+
+# n = int(input("enter a number: "))
+
+# 12345
+# 1234 --> 123 --> 12 --> 1 --> 0
+
+# count --> stores digit count
+
+# count=0+1=1
+# count=1+1=2
+# count=2+1=3
+
+# count = 0
+
+# while n > 0:
+#     count += 1
+#     n = n // 10
+
+# print(count)
+
+"""
+enter a number: 12345
+5
+"""
+
 # TODO: 37. WAP to print sum of even digits in a given number using while loop.
+
+# n = int(input("enter a number: "))
+
+# 123456
+# even digits --> 2 4 6
+# sum --> 12
+
+# n%10 --> last digit
+# n//10 --> removes last digit
+
+# sum = 0
+
+# while n > 0:
+
+#     digit = n % 10
+
+#     if digit % 2 == 0:
+#         sum += digit
+
+#     n = n // 10
+
+# print(sum)
+
+"""
+enter a number: 123456
+12
+"""
+
 # TODO: 38. WAP to print product of digits in a given number using while loop.
+
+# n = int(input("enter a number: "))
+
+# 1234
+# 1*2*3*4 = 24
+
+# product=1*4=4
+# product=4*3=12
+# product=12*2=24
+
+# product = 1
+
+# while n > 0:
+#     product *= n % 10
+#     n = n // 10
+
+# print(product)
+
+"""
+enter a number: 1234
+24
+"""
+
 # TODO: 39. WAP to check whether a given number is spy number or not using while loop.
+
+# Spy Number
+# sum of digits == product of digits
+
+# 123
+# sum = 1+2+3 = 6
+# product = 1*2*3 = 6
+
+# n = int(input("enter a number: "))
+# temp = n
+
+# sum = 0
+# product = 1
+
+# while n > 0:
+
+#     digit = n % 10
+
+#     sum += digit
+#     product *= digit
+
+#     n = n // 10
+
+# if sum == product:
+#     print("spy number")
+
+# else:
+#     print("not a spy number")
+
+"""
+enter a number: 123
+spy number
+
+enter a number: 124
+not a spy number
+"""
+
 # TODO: 40. WAP to check whether a given number is neon number or not using while loop.
+
+# Neon Number
+# sum of digits of square == original number
+
+# 9
+# 9*9 = 81
+# 8+1 = 9
+
+# n = int(input("enter a number: "))
+
+# square = n * n
+# sum = 0
+
+# while square > 0:
+
+#     sum += square % 10
+#     square = square // 10
+
+# if sum == n:
+#     print("neon number")
+
+# else:
+#     print("not a neon number")
+
+"""
+enter a number: 9
+neon number
+
+enter a number: 8
+not a neon number
+"""
 
 # TODO: 41. WAP to print all factors of a given number using while loop.
 
+# factor --> number completely divides another number
+
+# 12
+# 1 2 3 4 6 12
+
+# 12%1==0
+# 12%2==0
+# 12%3==0
+
+# n = int(input("enter a number: "))
+
+# i = 1
+
+# while i <= n:
+
+#     if n % i == 0:
+#         print(i, end=" ")
+
+#     i += 1
 
 """
-
+enter a number: 12
+1 2 3 4 6 12
 """
+
 # TODO: 42. WAP to check whether a given number is prime or not using while loop.
+
+# Prime Number
+# has only 2 factors --> 1 and itself
+
+# 7 --> 1,7
+# 5 --> 1,5
+
+# n = int(input("enter a number: "))
+
+# i = 1
+# count = 0
+
+# while i <= n:
+
+#     if n % i == 0:
+#         count += 1
+
+#     i += 1
+
+# if count == 2:
+#     print("prime number")
+
+# else:
+#     print("not a prime number")
+
+"""
+enter a number: 7
+prime number
+
+enter a number: 8
+not a prime number
+"""
+
 # TODO: 43. WAP to print prime numbers from 1 to n using while loop.
+
+# n = int(input("enter a number: "))
+
+# num = 1
+
+# while num <= n:
+
+#     i = 1
+#     count = 0
+
+#     while i <= num:
+
+#         if num % i == 0:
+#             count += 1
+
+#         i += 1
+
+#     if count == 2:
+#         print(num, end=" ")
+
+#     num += 1
+
+"""
+enter a number: 20
+2 3 5 7 11 13 17 19
+"""
+
 # TODO: 44. WAP to print multiplication tables from 1 to 5 using nested while loop.
+
+# outer loop --> tables
+# inner loop --> multiplication
+
+# 1*1=1
+# 1*2=2
+
+# 2*1=2
+# 2*2=4
+
+# table = 1
+
+# while table <= 5:
+
+#     i = 1
+
+#     while i <= 10:
+#         print(f"{table} * {i} = {table*i}")
+#         i += 1
+
+#     print()
+
+#     table += 1
+
+"""
+1 * 1 = 1
+1 * 2 = 2
+...
+
+5 * 10 = 50
+"""
+
 # TODO: 45. WAP to count uppercase and lowercase letters in a string using while loop.
 
+# HeLLo
+# uppercase --> H L L
+# lowercase --> e o
+
+# upper = 3
+# lower = 2
+
+# s = input("enter a string: ")
+
+# i = 0
+# upper = 0
+# lower = 0
+
+# while i < len(s):
+
+#     if "A" <= s[i] <= "Z":
+#         upper += 1
+
+#     elif "a" <= s[i] <= "z":
+#         lower += 1
+
+#     i += 1
+
+# print(f"uppercase = {upper}")
+# print(f"lowercase = {lower}")
+
+"""
+enter a string: HeLLo
+uppercase = 3
+lowercase = 2
+"""
+
 # TODO: 46. WAP to remove spaces from a string using while loop.
+
+# s = input("enter a string: ")
+
+# hello world
+# helloworld
+
+# i = 0
+# res = ""
+
+# while i < len(s):
+
+#     if s[i] != " ":
+#         res += s[i]
+
+#     i += 1
+
+# print(res)
+
+"""
+enter a string: hello world
+helloworld
+"""
+
 # TODO: 47. WAP to print characters present at even index positions in a string using while loop.
+
+# python
+# index --> 0 1 2 3 4 5
+# chars --> p y t h o n
+
+# even index --> 0 2 4
+# output --> p t o
+
+# s = input("enter a string: ")
+
+# i = 0
+
+# while i < len(s):
+
+#     if i % 2 == 0:
+#         print(s[i], end=" ")
+
+#     i += 1
+
+"""
+enter a string: python
+p t o
+"""
+
 # TODO: 48. WAP to create a list with length of each word using while loop.
+
+# lst = ["apple", "hi", "python"]
+
+# apple --> 5
+# hi --> 2
+# python --> 6
+
+# output --> [5,2,6]
+
+# lst = ["apple", "hi", "python"]
+
+# i = 0
+# res = []
+
+# while i < len(lst):
+
+#     res.append(len(lst[i]))
+
+#     i += 1
+
+# print(res)
+
+"""
+[5, 2, 6]
+"""
+
 # TODO: 49. WAP to create a dictionary with word as key and reverse word as value using while loop.
+
+# apple --> elppa
+# hi --> ih
+
+# {'apple':'elppa'}
+
+# lst = ["apple", "hi", "python"]
+
+# i = 0
+# d = {}
+
+# while i < len(lst):
+
+#     d[lst[i]] = lst[i][::-1]
+
+#     i += 1
+
+# print(d)
+
+"""
+{'apple': 'elppa', 'hi': 'ih', 'python': 'nohtyp'}
+"""
+
 # TODO: 50. WAP to check whether a given number is automorphic number or not using while loop.
+
+# Automorphic Number
+# number ending digits == square ending digits
+
+# 5 --> 25
+# 6 --> 36
+# 25 --> 625
+
+# n = int(input("enter a number: "))
+
+# square = n * n
+
+# if str(square).endswith(str(n)):
+#     print("automorphic number")
+
+# else:
+#     print("not automorphic number")
+
+"""
+enter a number: 25
+automorphic number
+
+enter a number: 12
+not automorphic number
+"""
