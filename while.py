@@ -73,11 +73,11 @@ hello python
 """
 
 # TODO: 5. WAP to print even numbers from 1 to 10 using while loop.
-i = 1
-while i < 11:
-    if i % 2 == 0:
-        print(i, end=" ")
-    i += 1
+# i = 1
+# while i < 11:
+#     if i % 2 == 0:
+#         print(i, end=" ")
+#     i += 1
 
 """
 2 4 6 8 10 
@@ -88,7 +88,7 @@ n = int(input("enter a number: "))
 i = 1
 while i < n + 1:
     if i % 2 != 0:
-        print(i)
+        print(i, end=" ")
     i += 1
 
 """
