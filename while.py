@@ -73,6 +73,11 @@ while i > 0:
 """
 
 # TODO: 5. WAP to print even numbers from 1 to 10 using while loop.
+i = 1
+while i < 11:
+    if i % 2 == 0:
+        print(i)
+    i += 1
 
 # TODO: 6. WAP to print odd numbers from 1 to n using while loop.
 # TODO: 7. WAP to print nth table using while loop.
