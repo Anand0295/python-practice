@@ -217,10 +217,9 @@ res = ""
 if i < len(n):
     if n[i].isupper():
         res = res + n[i].lower()
-        i += 1
     else:
         re = res + n[i].upper()
-        i += 1
+    i += 1
 print(res)
 
 
