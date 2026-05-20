@@ -227,12 +227,9 @@ cube of 9 is 729
 # TODO: 50. WAP to check whether a given number is automorphic number or not using while loop.
 # TODO: 51. WAP to print fibonacci series up to n terms using while loop.
 n = int(input("enter a number: "))
-
 a = 0
 b = 1
-
 print(a, b, end=" ")
-
 i = 1
 while i <= n - 2:
     c = a + b
