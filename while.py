@@ -242,8 +242,8 @@ while i < len(s):
 print(res)
 
 # 65 <= value <= 90
-# +32 → 97-122
-# -32 → 65-90
+# +32 → 97-122. UPPER
+# -32 → 65-90. LOWER
 
 """
 enter a string: HeLlo
