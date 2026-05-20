@@ -12,6 +12,13 @@ while n < 6:
     print(n)
     n += 1
 
+"""
+1
+2
+3
+4
+5
+"""
 # TODO: 2. WAP to print 1 to 10 numbers using while loop.
 # TODO: 3. WAP to print hello python 5 times using while loop.
 # TODO: 4. WAP to print numbers from 10 to 1 using while loop.
