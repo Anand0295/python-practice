@@ -84,7 +84,16 @@ while i < 11:
 """
 
 # TODO: 6. WAP to print odd numbers from 1 to n using while loop.
+n = int(input("enter a number: "))
+i = 1
+while i < n + 1:
+    if i % 2 != 0:
+        print(i)
+    i += 1
 
+"""
+
+"""
 # TODO: 7. WAP to print nth table using while loop.
 # TODO: 8. WAP to reverse the given number without using type casting using while loop.
 # TODO: 9. WAP to check whether given number is palindrome or not using while loop.
