@@ -520,19 +520,19 @@ it is not a strong number
 #      |--------------------------|
 
 # TODO: 19. WAP to check perfect number
-n = int(input("enter a number: "))
-temp = n
-i = 1
-sum = 0
-while i <= n // 2:
-    if n % i == 0:
-        sum += i
-    i += 1
+# n = int(input("enter a number: "))
+# temp = n
+# i = 1
+# sum = 0
+# while i <= n // 2:
+#     if n % i == 0:
+#         sum += i
+#     i += 1
 
-if temp == sum:
-    print("it is a perfect number")
-else:
-    print("it is not a perfect number")
+# if temp == sum:
+#     print("it is a perfect number")
+# else:
+#     print("it is not a perfect number")
 
 """
 enter a number: 6
@@ -572,6 +572,19 @@ it is not a perfect number
 #      |--------------------------|
 
 # TODO: 20. WAP to check spy number
+n = int(input("enter a number: "))
+sum = 0
+prod = 0
+while n > 0:
+    digit = n % 10
+    sum = sum + digit
+    prod = prod * digit
+    n = n // 10
+
+if sum == prod:
+    print("it is a spy number")
+else:
+    print("it is not a spy number")
 
 
 # =========================
