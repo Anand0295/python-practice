@@ -192,6 +192,25 @@ while n > 0:
 
 diff = even - odd
 print(diff)
+
+# n = 1234
+
+# digits:
+# 4 → even sum = 4
+# 3 → odd sum = 3
+# 2 → even sum = 6
+# 1 → odd sum = 4
+
+# even = 6
+# odd = 4
+
+# diff = 6 - 4 = 2
+
+"""
+enter a number: 1234
+2
+"""
+
 # TODO: 12. WAP to find digit frequency in a number
 
 
