@@ -40,18 +40,30 @@ enter a number: 256
 """
 
 # TODO: 2. WAP to count digits in a number
+# n = int(input("enter a number: "))
+# i = 0
+# count = 0
+# while i < n:
+#     count += 1
+#     n = n // 10
+#     i += 1
+# print(count)
+
+"""
+enter a number: 9999
+4
+"""
+
+# TODO: 3. WAP to find sum of digits in a number
 n = int(input("enter a number: "))
 i = 0
-count = 0
-while i < n + 1:
-    count += 1
+sum = 0
+while i < n:
+    sum = sum + n // 10
+    n = n // 10
     i += 1
-print(count)
+print(sum)
 
-"""
-
-"""
-# TODO: 3. WAP to find sum of digits in a number
 # TODO: 4. WAP to find product of digits in a number
 # TODO: 5. WAP to find maximum digit in a number
 # TODO: 6. WAP to find minimum digit in a number
