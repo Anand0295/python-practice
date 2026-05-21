@@ -72,14 +72,14 @@ enter a number: 1234
 """
 
 # TODO: 4. WAP to find product of digits in a number
-n = int(input("enter a number: "))
-prod = 1
-digit = 0
-while n > 0:
-    digit = n % 10
-    prod = prod * digit
-    n = n // 10
-print(prod)
+# n = int(input("enter a number: "))
+# prod = 1
+# digit = 0
+# while n > 0:
+#     digit = n % 10
+#     prod = prod * digit
+#     n = n // 10
+# print(prod)
 
 """
 enter a number: 123  
@@ -87,9 +87,40 @@ enter a number: 123
 """
 
 # TODO: 5. WAP to find maximum digit in a number
+# n = int(input("enter a number: "))
+
+# max = 0  # stores the largest digit found
+
+# while n > 0:
+#     digit = n % 10  # extract last digit
+#     if digit > max:
+#         max = digit
+#     n = n // 10  # remove last digit
+
+# print(max)
+
+"""
+enter a number: 1580
+8
+"""
 
 # TODO: 6. WAP to find minimum digit in a number
+# n = int(input("enter a number: "))
+# min = 9
+# while n > 0:
+#     digit = n % 10
+#     if digit < min:
+#         min = digit
+#     n = n // 10
+# print(min)
+
+"""
+enter a number: 12578
+1
+"""
+
 # TODO: 7. WAP to count even digits in a number
+
 # TODO: 8. WAP to count odd digits in a number
 # TODO: 9. WAP to find sum of even digits in a number
 # TODO: 10. WAP to find sum of odd digits in a number
