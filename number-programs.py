@@ -135,10 +135,63 @@ enter a number: 12345
 """
 
 # TODO: 8. WAP to count odd digits in a number
+# n = int(input("enter a number: "))
+# count = 0
+# while n > 0:
+#     digit = n % 10
+#     if digit % 2 != 0:
+#         count += 1
+#     n = n // 10
+# print(count)
 
+"""
+enter a number: 135726
+4
+"""
 # TODO: 9. WAP to find sum of even digits in a number
+# n = int(input("enter a number: "))
+# sum = 0
+# while n > 0:
+#     digit = n % 10
+#     if digit % 2 == 0:
+#         sum = sum + digit
+#     n = n // 10
+# print(sum)
+
+"""
+enter a number: 246135
+12
+"""
+
 # TODO: 10. WAP to find sum of odd digits in a number
+# n = int(input("enter a number: "))
+# sum = 0
+# while n > 0:
+#     digit = n % 10
+#     if digit % 2 != 0:
+#         sum = sum + digit
+#     n = n // 10
+# print(sum)
+
+"""
+enter a number: 123456
+9
+"""
+
 # TODO: 11. WAP to find difference between even and odd digit sum
+n = int(input("enter a number: "))
+odd = 0
+even = 0
+while n > 0:
+    digit = n % 10
+    if digit % 2 != 0:
+        odd = odd + digit
+    else:
+        even = even + digit
+    n = n // 10
+
+diff = even - odd
+print(diff)
 # TODO: 12. WAP to find digit frequency in a number
 
 
