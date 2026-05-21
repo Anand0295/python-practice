@@ -62,6 +62,10 @@ enter a number: 9999
 #     n = n // 10
 # print(sum)
 
+# 1234 → last digit = 4 → sum = 0 + 4 = 4 → n = 123
+# 123  → last digit = 3 → sum = 4 + 3 = 7 → n = 12
+# 12   → last digit = 2 → sum = 7 + 2 = 9 → n = 1
+# 1    → last digit = 1 → sum = 9 + 1 = 10 → n = 0
 """
 enter a number: 1234
 10
