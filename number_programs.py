@@ -1025,7 +1025,64 @@ phloem number
 #      |     |--------------|     |
 #      |--------------------------|
 
-# 30. WAP to check twin prime number
+# 30. WAP TO CHECK TWIN PRIME NUMBER (NO EXCEPTION HANDLING)
+
+# TWIN PRIME:
+# both numbers must be prime
+# difference must be 2
+
+# n1 = int(input("enter first number: "))
+# n2 = int(input("enter second number: "))
+
+# # PRIME CHECK FOR n1
+# if n1 <= 1:
+#     prime1 = False
+# else:
+#     i = 2
+#     while i * i <= n1:
+#         if n1 % i == 0:
+#             break
+#         i += 1
+#     else:
+#         prime1 = True
+#     if i * i <= n1 and n1 % i == 0:
+#         prime1 = False
+
+# PRIME CHECK FOR n2
+# if n2 <= 1:
+#     prime2 = False
+# else:
+#     i = 2
+#     while i * i <= n2:
+#         if n2 % i == 0:
+#             break
+#         i += 1
+#     else:
+#         prime2 = True
+#     if i * i <= n2 and n2 % i == 0:
+#         prime2 = False
+
+
+# TWIN PRIME CONDITION
+# if n1 > 1 and n2 > 1 and prime1 and prime2 and abs(n1 - n2) == 2:
+#     print("twin prime numbers")
+# else:
+#     print("not twin prime numbers")
+
+
+"""
+enter first number: 3
+enter second number: 5
+twin prime numbers
+
+enter first number: 5
+enter second number: 7
+twin prime numbers
+
+enter first number: 4
+enter second number: 6
+not twin prime numbers
+"""
 
 
 # =========================
