@@ -120,7 +120,10 @@ enter a number: 12578
 """
 
 # TODO: 7. WAP to count even digits in a number
-
+n=int(input('enter a number: '))
+count=0
+while n>0:
+    if
 # TODO: 8. WAP to count odd digits in a number
 # TODO: 9. WAP to find sum of even digits in a number
 # TODO: 10. WAP to find sum of odd digits in a number
