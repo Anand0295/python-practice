@@ -678,6 +678,26 @@ it is not a neon number
 #      |--------------------------|
 
 # 22. WAP to check automorphic number
+# n = int(input("enter a number: "))
+# sq = n * n
+# flag = True
+# while n > 0:
+#     if n % 10 != sq % 10:
+#         flag = False
+#     n //= 10
+#     sq //= 10
+# if flag:
+#     print("automorphic number")
+# else:
+#     print("not automorphic number")
+
+"""
+enter a number: 5
+automorphic number
+
+enter a number: 12
+not automorphic number
+"""
 
 
 # =========================
@@ -707,7 +727,24 @@ it is not a neon number
 #  if original_num % digit_sum == 0:
 
 # 23. WAP to check harshad number
+# n = int(input("enter a number: "))
+# temp = n
+# sum = 0
+# while n > 0:
+#     sum += n % 10
+#     n //= 10
+# if temp % sum == 0:
+#     print("harshad number")
+# else:
+#     print("not harshad number")
 
+"""
+enter a number: 18
+harshad number
+
+enter a number: 19
+not harshad number
+"""
 
 # =========================
 # BUZZ NUMBER
@@ -730,7 +767,19 @@ it is not a neon number
 #      |--------------------------|
 
 # 24. WAP to check buzz number
+# n = int(input("enter a number: "))
+# if n % 7 == 0 or n % 10 == 7:
+#     print("buzz number")
+# else:
+#     print("not buzz number")
 
+"""
+enter a number: 7
+buzz number
+
+enter a number: 16
+not buzz number
+"""
 
 # =========================
 # PRONIC NUMBER
@@ -758,7 +807,25 @@ it is not a neon number
 #      |--------------------------|
 
 # 25. WAP to check pronic number
+# n = int(input("enter a number: "))
+# i = 1
+# flag = False
+# while i * (i + 1) <= n:
+#     if i * (i + 1) == n:
+#         flag = True
+#     i += 1
+# if flag:
+#     print("pronic number")
+# else:
+#     print("not pronic number")
 
+"""
+enter a number: 6
+pronic number
+
+enter a number: 10
+not pronic number
+"""
 
 # =========================
 # PRIME NUMBER
@@ -813,7 +880,25 @@ it is not a neon number
 #      |--------------------------|
 
 # 28. WAP to check composite number
+# n = int(input("enter a number: "))
+# i = 1
+# count = 0
+# while i <= n:
+#     if n % i == 0:
+#         count += 1
+#     i += 1
+# if count > 2:
+#     print("composite number")
+# else:
+#     print("not composite number")
 
+"""
+enter a number: 6
+composite number
+
+enter a number: 7
+not composite number
+"""
 
 # =========================
 # XYLEM & PHLOEM NUMBER
@@ -848,7 +933,31 @@ it is not a neon number
 #      |--------------------------|
 
 # 29. WAP to check xylem number
+# n = int(input("enter a number: "))
+# temp = n
+# last = n % 10
+# first = 0
+# while temp > 0:
+#     first = temp % 10
+#     temp //= 10
+# outer = first + last
+# inner = 0
+# temp = n // 10
+# while temp > 9:
+#     inner += temp % 10
+#     temp //= 10
+# if outer == inner:
+#     print("xylem number")
+# else:
+#     print("phloem number")
 
+"""
+enter a number: 1234
+xylem number
+
+enter a number: 1213
+phloem number
+"""
 
 # =========================
 # TWIN PRIME
@@ -901,3 +1010,28 @@ it is not a neon number
 #      |--------------------------|
 
 # 31. WAP to check happy number
+# n = int(input("enter a number: "))
+#
+# def happy(n):
+#     while n != 1 and n != 4:
+#         temp = n
+#         s = 0
+#         while temp > 0:
+#             d = temp % 10
+#             s += d*d
+#             temp //= 10
+#         n = s
+#     return n == 1
+#
+# if happy(n):
+#     print("happy number")
+# else:
+#     print("not happy number")
+
+"""
+enter a number: 19
+happy number
+
+enter a number: 20
+not happy number
+"""
