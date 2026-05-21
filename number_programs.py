@@ -524,9 +524,8 @@ n = int(input("enter a number: "))
 temp = n
 i = 1
 sum = 0
-while n > 0:
-    digit = n % 10
-    if digit % i == 0:
+while i <= n // 2:
+    if n % i == 0:
         sum += i
     i += 1
 
@@ -534,6 +533,14 @@ if temp == sum:
     print("it is a perfect number")
 else:
     print("it is not a perfect number")
+
+"""
+enter a number: 6
+it is a perfect number
+
+enter a number: 8
+it is not a perfect number
+"""
 
 # =========================
 # SPY NUMBER
