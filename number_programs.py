@@ -464,24 +464,24 @@ enter a number: 1700
 #      |--------------------------|
 
 # TODO: 18. WAP to check strong number
-n = int(input("enter a number: "))
-temp = n
-total = 0
-while n > 0:
-    digit = n % 10
-    fact = i = 1
+# n = int(input("enter a number: "))
+# temp = n
+# total = 0
+# while n > 0:
+#     digit = n % 10
+#     fact = i = 1
 
-    while i <= digit:
-        fact = fact * i
-        i += 1
+#     while i <= digit:
+#         fact = fact * i
+#         i += 1
 
-    total = total + fact
-    n = n // 10
+#     total = total + fact
+#     n = n // 10
 
-if total == temp:
-    print("it is a strong number")
-else:
-    print("it is not a strong number")
+# if total == temp:
+#     print("it is a strong number")
+# else:
+#     print("it is not a strong number")
 
 """
 enter a number: 145
@@ -520,7 +520,20 @@ it is not a strong number
 #      |--------------------------|
 
 # TODO: 19. WAP to check perfect number
+n = int(input("enter a number: "))
+temp = n
+i = 1
+sum = 0
+while n > 0:
+    digit = n % 10
+    if digit % i == 0:
+        sum += i
+    i += 1
 
+if temp == sum:
+    print("it is a perfect number")
+else:
+    print("it is not a perfect number")
 
 # =========================
 # SPY NUMBER
