@@ -464,6 +464,8 @@ enter a number: 1700
 #      |--------------------------|
 
 # TODO: 18. WAP to check strong number
+n = int(input("enter a number: "))
+temp = n
 
 
 # =========================
