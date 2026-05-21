@@ -24,7 +24,7 @@
 #      | (number //= 10)          |
 #      |--------------------------|
 
-# TODO: 1. WAP to reverse a number
+# 1. WAP to reverse a number
 # n = int(input("enter a number: "))
 # i = 0
 # res = 0
@@ -39,7 +39,7 @@ enter a number: 256
 652
 """
 
-# TODO: 2. WAP to count digits in a number
+# 2. WAP to count digits in a number
 # n = int(input("enter a number: "))
 # count = 0
 # while n>0:
@@ -52,7 +52,7 @@ enter a number: 9999
 4
 """
 
-# TODO: 3. WAP to find sum of digits in a number
+# 3. WAP to find sum of digits in a number
 # n = int(input("enter a number: "))
 # sum = 0
 # digit = 0
@@ -71,7 +71,7 @@ enter a number: 1234
 10
 """
 
-# TODO: 4. WAP to find product of digits in a number
+# 4. WAP to find product of digits in a number
 # n = int(input("enter a number: "))
 # prod = 1
 # digit = 0
@@ -86,7 +86,7 @@ enter a number: 123
 6
 """
 
-# TODO: 5. WAP to find maximum digit in a number
+# 5. WAP to find maximum digit in a number
 # n = int(input("enter a number: "))
 
 # max = 0  # stores the largest digit found
@@ -104,7 +104,7 @@ enter a number: 1580
 8
 """
 
-# TODO: 6. WAP to find minimum digit in a number
+# 6. WAP to find minimum digit in a number
 # n = int(input("enter a number: "))
 # min = 9
 # while n > 0:
@@ -119,7 +119,7 @@ enter a number: 12578
 1
 """
 
-# TODO: 7. WAP to count even digits in a number
+# 7. WAP to count even digits in a number
 # n = int(input("enter a number: "))
 # count = 0
 # while n > 0:
@@ -134,7 +134,7 @@ enter a number: 12345
 2
 """
 
-# TODO: 8. WAP to count odd digits in a number
+# 8. WAP to count odd digits in a number
 # n = int(input("enter a number: "))
 # count = 0
 # while n > 0:
@@ -148,7 +148,7 @@ enter a number: 12345
 enter a number: 135726
 4
 """
-# TODO: 9. WAP to find sum of even digits in a number
+# 9. WAP to find sum of even digits in a number
 # n = int(input("enter a number: "))
 # sum = 0
 # while n > 0:
@@ -163,7 +163,7 @@ enter a number: 246135
 12
 """
 
-# TODO: 10. WAP to find sum of odd digits in a number
+# 10. WAP to find sum of odd digits in a number
 # n = int(input("enter a number: "))
 # sum = 0
 # while n > 0:
@@ -178,7 +178,7 @@ enter a number: 123456
 9
 """
 
-# TODO: 11. WAP to find difference between even and odd digit sum
+# 11. WAP to find difference between even and odd digit sum
 # n = int(input("enter a number: "))
 # odd = 0
 # even = 0
@@ -211,7 +211,7 @@ enter a number: 1234
 2
 """
 
-# TODO: 12. WAP to find digit frequency in a number
+# 12. WAP to find digit frequency in a number
 
 # n = int(input("enter a number: "))
 
@@ -260,7 +260,7 @@ enter a number: 122334
 #      | number //= 10            |
 #      |--------------------------|
 
-# TODO: 13. WAP to reverse a number
+# 13. WAP to reverse a number
 # n = int(input("enter a number: "))
 # rev = 0
 # while n > 0:
@@ -273,7 +273,7 @@ enter a number: 1234
 4321
 """
 
-# TODO: 14. WAP to check palindrome number
+# 14. WAP to check palindrome number
 # n = int(input("enter a number: "))
 # temp = n
 # rev = 0
@@ -315,7 +315,7 @@ it is not palindrome number
 #      | (It is a Palindrome)     |
 #      |--------------------------|
 
-# TODO: 15. WAP to check palindrome number
+# 15. WAP to check palindrome number
 # n = int(input("enter a number: "))
 # temp = n
 # rev = 0
@@ -361,7 +361,7 @@ it is not palindrome number
 #      | number //= 10            |
 #      |--------------------------|
 
-# TODO: 16. WAP to check Armstrong number
+# 16. WAP to check Armstrong number
 # n = int(input("enter a number: "))
 # s = n
 # temp = n
@@ -390,7 +390,7 @@ enter a number: 1234
 it is not armstrong number
 """
 
-# TODO: 17. WAP to print Armstrong numbers from 1 to n
+# 17. WAP to print Armstrong numbers from 1 to n
 # n = int(input("enter a number: "))
 
 # i = 1
@@ -463,7 +463,7 @@ enter a number: 1700
 #      | number //= 10            |
 #      |--------------------------|
 
-# TODO: 18. WAP to check strong number
+# 18. WAP to check strong number
 # n = int(input("enter a number: "))
 # temp = n
 # total = 0
@@ -519,7 +519,7 @@ it is not a strong number
 #      | i += 1                   |
 #      |--------------------------|
 
-# TODO: 19. WAP to check perfect number
+# 19. WAP to check perfect number
 # n = int(input("enter a number: "))
 # temp = n
 # i = 1
@@ -571,7 +571,7 @@ it is not a perfect number
 #      | number //= 10            |
 #      |--------------------------|
 
-# TODO: 20. WAP to check spy number
+# 20. WAP to check spy number
 n = int(input("enter a number: "))
 sum = 0
 prod = 1
@@ -621,7 +621,7 @@ it is not a spy number
 #      | square //= 10            |
 #      |--------------------------|
 
-# TODO: 21. WAP to check neon number
+# 21. WAP to check neon number
 
 
 # =========================
@@ -657,7 +657,7 @@ it is not a spy number
 #      | square //= 10            |
 #      |--------------------------|
 
-# TODO: 22. WAP to check automorphic number
+# 22. WAP to check automorphic number
 
 
 # =========================
@@ -686,7 +686,7 @@ it is not a spy number
 #      |--------------------------|
 #  if original_num % digit_sum == 0:
 
-# TODO: 23. WAP to check harshad number
+# 23. WAP to check harshad number
 
 
 # =========================
@@ -709,7 +709,7 @@ it is not a spy number
 #      | (It is a Buzz Number)    |
 #      |--------------------------|
 
-# TODO: 24. WAP to check buzz number
+# 24. WAP to check buzz number
 
 
 # =========================
@@ -737,7 +737,7 @@ it is not a spy number
 #      | i += 1                   |
 #      |--------------------------|
 
-# TODO: 25. WAP to check pronic number
+# 25. WAP to check pronic number
 
 
 # =========================
@@ -764,8 +764,8 @@ it is not a spy number
 #      | i += 1                   |
 #      |--------------------------|
 
-# TODO: 26. WAP to check prime number
-# TODO: 27. WAP to print prime numbers from 1 to n
+# 26. WAP to check prime number
+# 27. WAP to print prime numbers from 1 to n
 
 
 # =========================
@@ -792,7 +792,7 @@ it is not a spy number
 #      | i += 1                   |
 #      |--------------------------|
 
-# TODO: 28. WAP to check composite number
+# 28. WAP to check composite number
 
 
 # =========================
@@ -827,7 +827,7 @@ it is not a spy number
 #      | number //= 10            |
 #      |--------------------------|
 
-# TODO: 29. WAP to check xylem number
+# 29. WAP to check xylem number
 
 
 # =========================
@@ -852,7 +852,7 @@ it is not a spy number
 #      |     |--------------|     |
 #      |--------------------------|
 
-# TODO: 30. WAP to check twin prime number
+# 30. WAP to check twin prime number
 
 
 # =========================
@@ -880,4 +880,4 @@ it is not a spy number
 #      | number = sum_of_squares  |
 #      |--------------------------|
 
-# TODO: 31. WAP to check happy number
+# 31. WAP to check happy number
