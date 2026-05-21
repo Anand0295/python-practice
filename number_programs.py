@@ -622,7 +622,9 @@ it is not a spy number
 #      |--------------------------|
 
 # 21. WAP to check neon number
+n = int(input("enter a number: "))
 
+sq = n**2
 
 # =========================
 # AUTOMORPHIC NUMBER
