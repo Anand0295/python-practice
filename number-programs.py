@@ -261,9 +261,37 @@ enter a number: 122334
 #      |--------------------------|
 
 # TODO: 13. WAP to reverse a number
+# n = int(input("enter a number: "))
+# rev = 0
+# while n > 0:
+#     rev = rev * 10 + n % 10
+#     n = n // 10
+# print(rev)
+
+"""
+enter a number: 1234
+4321
+"""
 
 # TODO: 14. WAP to check palindrome number
+# n = int(input("enter a number: "))
+# temp = n
+# rev = 0
+# while n > 0:
+#     rev = rev * 10 + n % 10
+#     n = n // 10
+# if rev == temp:
+#     print("it is palindrome number")
+# else:
+#     print("it is not palindrome number")
 
+"""
+enter a number: 121
+it is palindrome number
+
+enter a number: 256
+it is not palindrome number
+"""
 
 # =========================
 # PALINDROME NUMBER
@@ -288,7 +316,24 @@ enter a number: 122334
 #      |--------------------------|
 
 # TODO: 15. WAP to check palindrome number
+# n = int(input("enter a number: "))
+# temp = n
+# rev = 0
+# while n > 0:
+#     rev = rev * 10 + n % 10
+#     n = n // 10
+# if rev == temp:
+#     print("it is palindrome number")
+# else:
+#     print("it is not palindrome number")
 
+"""
+enter a number: 121
+it is palindrome number
+
+enter a number: 256
+it is not palindrome number
+"""
 
 # =========================
 # ARMSTRONG NUMBER
@@ -317,6 +362,12 @@ enter a number: 122334
 #      |--------------------------|
 
 # TODO: 16. WAP to check Armstrong number
+n = int(input("enter a number: "))
+temp = n
+sum = 0
+while n > 0:
+    digit = n % 10
+    sum = sum + digit**2
 # TODO: 17. WAP to print Armstrong numbers from 1 to n
 
 
