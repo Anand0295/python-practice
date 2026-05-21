@@ -25,14 +25,14 @@
 #      |--------------------------|
 
 # TODO: 1. WAP to reverse a number
-n = int(input("enter a number: "))
-i = 0
-res = 0
-while i < n + 1:
-    res = res * 10 + n % 10
-    n = n // 10
-    i += 1
-print(res)
+# n = int(input("enter a number: "))
+# i = 0
+# res = 0
+# while i < n + 1:
+#     res = res * 10 + n % 10
+#     n = n // 10
+#     i += 1
+# print(res)
 
 """
 enter a number: 256
@@ -40,6 +40,17 @@ enter a number: 256
 """
 
 # TODO: 2. WAP to count digits in a number
+n = int(input("enter a number: "))
+i = 0
+count = 0
+while i < n + 1:
+    count += 1
+    i += 1
+print(count)
+
+"""
+
+"""
 # TODO: 3. WAP to find sum of digits in a number
 # TODO: 4. WAP to find product of digits in a number
 # TODO: 5. WAP to find maximum digit in a number
