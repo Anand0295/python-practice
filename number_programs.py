@@ -852,8 +852,52 @@ not pronic number
 #      |--------------------------|
 
 # 26. WAP to check prime number
-# 27. WAP to print prime numbers from 1 to n
+# n = int(input("enter a number: "))
+# if n <= 1:
+#     print("not a prime number")
+# else:
+#     i = 2
+#     while i * i <= n:
+#         # n divisible by i → not prime
+#         if n % i == 0:
+#             print("not a prime number")
+#             break
+#         i += 1
+#     else:
+#         print("prime number")
 
+
+"""
+enter a number: 7
+prime number
+
+enter a number: 8
+not a prime number
+
+enter a number: 1
+not a prime number
+"""
+
+# 27. WAP to print prime numbers from 1 to n
+# n = int(input("enter range: "))
+# num = 2   # start from first prime
+# while num <= n:
+#     i = 2
+#     while i * i <= num:
+#         if num % i == 0:
+#             break
+#         i += 1
+#     else:
+#         print(num, end=" ")
+#     num += 1
+
+"""
+enter range: 20
+2 3 5 7 11 13 17 19
+
+enter range: 10
+2 3 5 7
+"""
 
 # =========================
 # COMPOSITE NUMBER
