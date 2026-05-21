@@ -389,26 +389,53 @@ it is armstrong number
 enter a number: 1234
 it is not armstrong number
 """
+
 # TODO: 17. WAP to print Armstrong numbers from 1 to n
-n = int(input("enter a number: "))
-s = n
-temp = n
-sum = 0
-power = 0
+# n = int(input("enter a number: "))
 
-while s > 0:
-    power += 1
-    s = s // 10
+# i = 1
 
-while n > 0:
-    digit = n % 10
-    sum = sum + digit**power
-    n = n // 10
+# while i <= n:
+#     temp = i
+#     s = i
+#     power = 0
+#     total = 0
 
-if sum == temp:
-    print("it is armstrong number")
-else:
-    print("it is not armstrong number")
+#     # count digits
+#     while s > 0:
+#         power += 1
+#         s = s // 10
+
+#     # compute Armstrong sum
+#     s = i
+#     while s > 0:
+#         digit = s % 10
+#         total += digit**power
+#         s = s // 10
+
+#     # check condition
+#     if total == temp:
+#         print(temp)
+
+#     i += 1
+
+"""
+enter a number: 1700
+1
+2
+3
+4
+5
+6
+7
+8
+9
+153
+370
+371
+407
+1634
+"""
 
 # =========================
 # STRONG NUMBER
