@@ -483,6 +483,13 @@ if total == temp:
 else:
     print("it is not a strong number")
 
+"""
+enter a number: 145
+it is a strong number
+
+enter a number: 120
+it is not a strong number
+"""
 
 # =========================
 # PERFECT NUMBER
