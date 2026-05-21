@@ -179,19 +179,19 @@ enter a number: 123456
 """
 
 # TODO: 11. WAP to find difference between even and odd digit sum
-n = int(input("enter a number: "))
-odd = 0
-even = 0
-while n > 0:
-    digit = n % 10
-    if digit % 2 != 0:
-        odd = odd + digit
-    else:
-        even = even + digit
-    n = n // 10
+# n = int(input("enter a number: "))
+# odd = 0
+# even = 0
+# while n > 0:
+#     digit = n % 10
+#     if digit % 2 != 0:
+#         odd = odd + digit
+#     else:
+#         even = even + digit
+#     n = n // 10
 
-diff = even - odd
-print(diff)
+# diff = even - odd
+# print(diff)
 
 # n = 1234
 
@@ -213,6 +213,26 @@ enter a number: 1234
 
 # TODO: 12. WAP to find digit frequency in a number
 
+# n = int(input("enter a number: "))
+
+# freq = {}  # dictionary to store digit counts
+
+# while n > 0:
+#     digit = n % 10  # extract last digit
+
+#     if digit in freq:
+#         freq[digit] += 1
+#     else:
+#         freq[digit] = 1
+
+#     n = n // 10  # remove last digit
+
+# print(freq)
+
+"""
+enter a number: 122334
+{4: 1, 3: 2, 2: 2, 1: 1}
+"""
 
 # =========================
 # REVERSE NUMBER
@@ -241,6 +261,7 @@ enter a number: 1234
 #      |--------------------------|
 
 # TODO: 13. WAP to reverse a number
+
 # TODO: 14. WAP to check palindrome number
 
 
