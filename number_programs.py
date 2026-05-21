@@ -572,19 +572,19 @@ it is not a perfect number
 #      |--------------------------|
 
 # 20. WAP to check spy number
-n = int(input("enter a number: "))
-sum = 0
-prod = 1
-while n > 0:
-    digit = n % 10
-    sum = sum + digit
-    prod = prod * digit
-    n = n // 10
+# n = int(input("enter a number: "))
+# sum = 0
+# prod = 1
+# while n > 0:
+#     digit = n % 10
+#     sum = sum + digit
+#     prod = prod * digit
+#     n = n // 10
 
-if sum == prod:
-    print("it is a spy number")
-else:
-    print("it is not a spy number")
+# if sum == prod:
+#     print("it is a spy number")
+# else:
+#     print("it is not a spy number")
 
 """
 enter a number: 123
@@ -622,9 +622,27 @@ it is not a spy number
 #      |--------------------------|
 
 # 21. WAP to check neon number
-n = int(input("enter a number: "))
+# n = int(input("enter a number: "))
 
-sq = n**2
+# sq = n**2
+# sum = 0
+# while sq > 0:
+#     digit = sq % 10
+#     sum += digit
+#     sq = sq // 10
+
+# if sum == n:
+#     print("it is a neon number")
+# else:
+#     print("it is not a neon number")
+
+"""
+enter a number: 9
+it is a neon number
+
+enter a number: 90
+it is not a neon number
+"""
 
 # =========================
 # AUTOMORPHIC NUMBER
