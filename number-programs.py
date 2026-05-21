@@ -362,14 +362,53 @@ it is not palindrome number
 #      |--------------------------|
 
 # TODO: 16. WAP to check Armstrong number
+# n = int(input("enter a number: "))
+# s = n
+# temp = n
+# sum = 0
+# power = 0
+
+# while s > 0:
+#     power += 1
+#     s = s // 10
+
+# while n > 0:
+#     digit = n % 10
+#     sum = sum + digit**power
+#     n = n // 10
+
+# if sum == temp:
+#     print("it is armstrong number")
+# else:
+#     print("it is not armstrong number")
+
+"""
+enter a number: 153
+it is armstrong number
+
+enter a number: 1234
+it is not armstrong number
+"""
+# TODO: 17. WAP to print Armstrong numbers from 1 to n
 n = int(input("enter a number: "))
+s = n
 temp = n
 sum = 0
+power = 0
+
+while s > 0:
+    power += 1
+    s = s // 10
+
 while n > 0:
     digit = n % 10
-    sum = sum + digit**2
-# TODO: 17. WAP to print Armstrong numbers from 1 to n
+    sum = sum + digit**power
+    n = n // 10
 
+if sum == temp:
+    print("it is armstrong number")
+else:
+    print("it is not armstrong number")
 
 # =========================
 # STRONG NUMBER
