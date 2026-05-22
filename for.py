@@ -74,7 +74,9 @@ for i in n:
 enter your dictionary: {'a':1,'b':2}
 a b
 """
+
 # 6. WAP to print all values in dictionary
+
 # 7. WAP to print key-value pairs in dictionary
 # 8. WAP to count vowels in string
 # 9. WAP to count consonants in string
