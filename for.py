@@ -55,7 +55,9 @@ enter a tuple: (1,2,3,4,5,6,7,8)
 '''
 
 # 4. WAP to print all values in a set
-
+n=eval(input('enter a set: '))
+for i in n:
+    print(i,end=' ')
 # 5. WAP to print all keys in dictionary
 # 6. WAP to print all values in dictionary
 # 7. WAP to print key-value pairs in dictionary
@@ -348,3 +350,7 @@ enter a tuple: (1,2,3,4,5,6,7,8)
 # 173. WAP to merge dictionaries using loops
 # 174. WAP to compare two matrices
 # 175. WAP to perform matrix multiplication
+
+
+
+
