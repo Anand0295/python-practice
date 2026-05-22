@@ -66,9 +66,9 @@ enter your set: {1,2,3,4,5}
 """
 
 # 5. WAP to print all keys in dictionary
-n = eval(input("enter your dictionary: "))
-for i in n:
-    print(i, end=" ")
+# n = eval(input("enter your dictionary: "))
+# for i in n:
+#     print(i, end=" ")
 
 """
 enter your dictionary: {'a':1,'b':2}
@@ -76,8 +76,17 @@ a b
 """
 
 # 6. WAP to print all values in dictionary
+# n = eval(input("enter your dictionary: "))
+# for i in n.values():
+#     print(i, end=" ")
+
+"""
+enter your dictionary: {'a':1,'b':2}
+1 2
+"""
 
 # 7. WAP to print key-value pairs in dictionary
+
 # 8. WAP to count vowels in string
 # 9. WAP to count consonants in string
 # 10. WAP to count uppercase letters in string
