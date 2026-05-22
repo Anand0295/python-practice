@@ -2963,22 +2963,468 @@ unsupported operand type(s) for *: 'dict' and 'int'
 # =========================
 
 # 156. WAP to perform normal assignment copy
+
+# SYNTAX:
+# copy = original
+
+# both variables point to same object
+
+# lst = [1,2,3]
+
+# lst1 = [1, 2, 3]
+
+# lst2 = lst1
+
+# print(lst1)
+# print(lst2)
+
+"""
+[1, 2, 3]
+[1, 2, 3]
+"""
+
+
 # 157. WAP to check changes reflected in normal copy
+
+# SYNTAX:
+# copied_variable = original_variable
+
+# changes reflect in both
+
+# append in one affects other
+
+# lst1 = [1, 2, 3]
+
+# lst2 = lst1
+
+# lst2.append(4)
+
+# print(lst1)
+# print(lst2)
+
+"""
+[1, 2, 3, 4]
+[1, 2, 3, 4]
+"""
+
+
 # 158. WAP to perform shallow copy using copy()
+
+# SYNTAX:
+# list.copy()
+
+# creates separate outer object
+
+# lst1.copy()
+
+# lst1 = [1, 2, 3]
+
+# lst2 = lst1.copy()
+
+# print(lst1)
+# print(lst2)
+
+"""
+[1, 2, 3]
+[1, 2, 3]
+"""
+
+
 # 159. WAP to check shallow copy with nested list
+
+# SYNTAX:
+# shallow_copy = list.copy()
+
+# inner objects shared
+
+# nested list changes reflect
+
+# lst1 = [[1, 2], [3, 4]]
+
+# lst2 = lst1.copy()
+
+# lst2[0].append(100)
+
+# print(lst1)
+# print(lst2)
+
+"""
+[[1, 2, 100], [3, 4]]
+[[1, 2, 100], [3, 4]]
+"""
+
+
 # 160. WAP to perform deep copy using deepcopy()
+
+# SYNTAX:
+# copy.deepcopy(object)
+
+# copies completely
+
+# nested objects independent
+
+# import copy
+
+# lst1 = [[1, 2], [3, 4]]
+
+# lst2 = copy.deepcopy(lst1)
+
+# print(lst1)
+# print(lst2)
+
+"""
+[[1, 2], [3, 4]]
+[[1, 2], [3, 4]]
+"""
+
+
 # 161. WAP to check deep copy with nested list
+
+# SYNTAX:
+# copy.deepcopy(object)
+
+# changes do not reflect
+
+# independent nested objects
+
+# import copy
+
+# lst1 = [[1, 2], [3, 4]]
+
+# lst2 = copy.deepcopy(lst1)
+
+# lst2[0].append(100)
+
+# print(lst1)
+# print(lst2)
+
+"""
+[[1, 2], [3, 4]]
+[[1, 2, 100], [3, 4]]
+"""
+
+
 # 162. WAP to compare memory addresses using id()
+
+# SYNTAX:
+# id(variable)
+
+# checks memory address
+
+# same or different object
+
+# lst1 = [1, 2]
+
+# lst2 = lst1
+
+# lst3 = lst1.copy()
+
+# print(id(lst1))
+# print(id(lst2))
+# print(id(lst3))
+
+"""
+140245678900
+140245678900
+140245679500
+"""
+
+
 # 163. WAP to copy list using slicing
+
+# SYNTAX:
+# list[:]
+
+# slicing copy
+
+# full list copy
+
+# lst1 = [1, 2, 3]
+
+# lst2 = lst1[:]
+
+# print(lst2)
+
+"""
+[1, 2, 3]
+"""
+
+
 # 164. WAP to copy tuple
+
+# SYNTAX:
+# tuple(tuple_name)
+
+# immutable copy
+
+# tuple remains same
+
+# t1 = (1, 2, 3)
+
+# t2 = tuple(t1)
+
+# print(t2)
+
+"""
+(1, 2, 3)
+"""
+
+
 # 165. WAP to copy set using copy()
+
+# SYNTAX:
+# set.copy()
+
+# set copy creation
+
+# s1.copy()
+
+# s1 = {1, 2, 3}
+
+# s2 = s1.copy()
+
+# print(s2)
+
+"""
+{1, 2, 3}
+"""
+
+
 # 166. WAP to copy dictionary using copy()
+
+# SYNTAX:
+# dictionary.copy()
+
+# shallow dictionary copy
+
+# d1.copy()
+
+# d1 = {"a": 1, "b": 2}
+
+# d2 = d1.copy()
+
+# print(d2)
+
+"""
+{'a': 1, 'b': 2}
+"""
+
+
 # 167. WAP to modify copied dictionary
+
+# SYNTAX:
+# copied_dictionary[key]=value
+
+# copied dictionary independent
+
+# d2["c"]=3
+
+# d1 = {"a": 1}
+
+# d2 = d1.copy()
+
+# d2["b"] = 2
+
+# print(d1)
+# print(d2)
+
+"""
+{'a': 1}
+{'a': 1, 'b': 2}
+"""
+
+
 # 168. WAP to copy nested dictionary
+
+# SYNTAX:
+# copy.deepcopy(dictionary)
+
+# complete nested copy
+
+# nested dictionaries independent
+
+# import copy
+
+# d1 = {"a": {"x": 1}}
+
+# d2 = copy.deepcopy(d1)
+
+# print(d2)
+
+"""
+{'a': {'x': 1}}
+"""
+
+
 # 169. WAP to compare shallow copy and deep copy
+
+# SYNTAX:
+# copy.copy()
+# copy.deepcopy()
+
+# shallow shares inner objects
+# deep creates new inner objects
+
+# import copy
+
+# lst1 = [[1, 2]]
+
+# shallow = copy.copy(lst1)
+# deep = copy.deepcopy(lst1)
+
+# shallow[0].append(10)
+
+# print(lst1)
+# print(shallow)
+# print(deep)
+
+"""
+[[1, 2, 10]]
+[[1, 2, 10]]
+[[1, 2]]
+"""
+
+
 # 170. WAP to check mutable object behavior in copies
+
+# SYNTAX:
+# mutable objects reflect changes
+
+# list behavior
+
+# append modifies object
+
+# lst1 = [1, 2]
+
+# lst2 = lst1
+
+# lst2.append(3)
+
+# print(lst1)
+
+"""
+[1, 2, 3]
+"""
+
+
 # 171. WAP to check immutable object behavior in copies
+
+# SYNTAX:
+# immutable changes create new object
+
+# string reassignment
+
+# new object creation
+
+# s1 = "hello"
+
+# s2 = s1
+
+# s2 = s2 + " world"
+
+# print(s1)
+# print(s2)
+
+"""
+hello
+hello world
+"""
+
+
 # 172. WAP to create independent nested list using deep copy
+
+# SYNTAX:
+# copy.deepcopy(list)
+
+# nested lists independent
+
+# no shared references
+
+# import copy
+
+# lst1 = [[1], [2]]
+
+# lst2 = copy.deepcopy(lst1)
+
+# lst2[0].append(100)
+
+# print(lst1)
+# print(lst2)
+
+"""
+[[1], [2]]
+[[1, 100], [2]]
+"""
+
+
 # 173. WAP to check copied list after append()
+
+# SYNTAX:
+# copied_list.append(value)
+
+# append in copied list
+
+# original unchanged
+
+# lst1 = [1, 2]
+
+# lst2 = lst1.copy()
+
+# lst2.append(3)
+
+# print(lst1)
+# print(lst2)
+
+"""
+[1, 2]
+[1, 2, 3]
+"""
+
+
 # 174. WAP to check copied list after remove()
+
+# SYNTAX:
+# copied_list.remove(value)
+
+# remove in copied list
+
+# original unchanged
+
+# lst1 = [1, 2, 3]
+
+# lst2 = lst1.copy()
+
+# lst2.remove(2)
+
+# print(lst1)
+# print(lst2)
+
+"""
+[1, 2, 3]
+[1, 3]
+"""
+
+
 # 175. WAP to copy list manually using loop
+
+# SYNTAX:
+# for item in list:
+#     new_list.append(item)
+
+# manual copying
+
+# append each item
+
+# lst1 = [1, 2, 3]
+
+# lst2 = []
+
+# for i in lst1:
+
+#     lst2.append(i)
+
+# print(lst2)
+
+"""
+[1, 2, 3]
+"""
