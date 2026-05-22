@@ -2375,20 +2375,301 @@ True
 # =========================
 
 # 126. WAP to concatenate two strings
+
+# SYNTAX:
+# string1 + string2
+
+# string joining
+
+# hello + world
+
+# s1 = "hello "
+# s2 = "world"
+
+# print(s1 + s2)
+
+"""
+hello world
+"""
+
+
 # 127. WAP to concatenate two lists
+
+# SYNTAX:
+# list1 + list2
+
+# combines lists
+
+# [1,2] + [3,4]
+
+# l1 = [1, 2]
+# l2 = [3, 4]
+
+# print(l1 + l2)
+
+"""
+[1, 2, 3, 4]
+"""
+
+
 # 128. WAP to concatenate two tuples
+
+# SYNTAX:
+# tuple1 + tuple2
+
+# combines tuples
+
+# (1,2) + (3,4)
+
+# t1 = (1, 2)
+# t2 = (3, 4)
+
+# print(t1 + t2)
+
+"""
+(1, 2, 3, 4)
+"""
+
+
 # 129. WAP to concatenate string with number using type casting
+
+# SYNTAX:
+# string + str(number)
+
+# number --> string
+
+# age = 20
+
+# s = "Age is "
+# n = 20
+
+# print(s + str(n))
+
+"""
+Age is 20
+"""
+
+
 # 130. WAP to concatenate list with tuple
+
+# SYNTAX:
+# list + list(tuple)
+
+# tuple converted into list
+
+# [1,2] + (3,4)
+
+# l = [1, 2]
+# t = (3, 4)
+
+# print(l + list(t))
+
+"""
+[1, 2, 3, 4]
+"""
+
+
 # 131. WAP to concatenate tuple with list
+
+# SYNTAX:
+# tuple + tuple(list)
+
+# list converted into tuple
+
+# (1,2) + [3,4]
+
+# t = (1, 2)
+# l = [3, 4]
+
+# print(t + tuple(l))
+
+"""
+(1, 2, 3, 4)
+"""
+
+
 # 132. WAP to concatenate set with set
+
+# SYNTAX:
+# set1.union(set2)
+
+# combines unique values
+
+# {1,2} + {2,3}
+
+# s1 = {1, 2}
+# s2 = {2, 3}
+
+# print(s1.union(s2))
+
+"""
+{1, 2, 3}
+"""
+
+
 # 133. WAP to concatenate dictionary with dictionary
+
+# SYNTAX:
+# d1.update(d2)
+
+# combines dictionaries
+
+# {"a":1} + {"b":2}
+
+# d1 = {"a": 1}
+# d2 = {"b": 2}
+
+# d1.update(d2)
+
+# print(d1)
+
+"""
+{'a': 1, 'b': 2}
+"""
+
+
 # 134. WAP to concatenate nested lists
+
+# SYNTAX:
+# nested_list1 + nested_list2
+
+# nested list joining
+
+# [[1,2]] + [[3,4]]
+
+# l1 = [[1, 2]]
+# l2 = [[3, 4]]
+
+# print(l1 + l2)
+
+"""
+[[1, 2], [3, 4]]
+"""
+
+
 # 135. WAP to concatenate list of strings into single string
+
+# SYNTAX:
+# "separator".join(list)
+
+# list --> string
+
+# ["python","java"]
+
+# lst = ["python", "java", "c"]
+
+# print(" ".join(lst))
+
+"""
+python java c
+"""
+
+
 # 136. WAP to concatenate multiple tuples
+
+# SYNTAX:
+# tuple1 + tuple2 + tuple3
+
+# multiple tuple joining
+
+# (1,2)+(3,4)+(5,6)
+
+# t1 = (1, 2)
+# t2 = (3, 4)
+# t3 = (5, 6)
+
+# print(t1 + t2 + t3)
+
+"""
+(1, 2, 3, 4, 5, 6)
+"""
+
+
 # 137. WAP to concatenate username and domain
+
+# SYNTAX:
+# username + domain
+
+# email creation
+
+# abc + @gmail.com
+
+# username = "abc"
+# domain = "@gmail.com"
+
+# print(username + domain)
+
+"""
+abc@gmail.com
+"""
+
+
 # 138. WAP to concatenate first name and last name
+
+# SYNTAX:
+# first_name + last_name
+
+# full name joining
+
+# john + doe
+
+# first = "John"
+# last = "Doe"
+
+# print(first + " " + last)
+
+"""
+John Doe
+"""
+
+
 # 139. WAP to concatenate two dictionaries using update()
+
+# SYNTAX:
+# dictionary.update(other_dictionary)
+
+# merge dictionaries
+
+# {"x":1}+{"y":2}
+
+# d1 = {"x": 1}
+# d2 = {"y": 2}
+
+# d1.update(d2)
+
+# print(d1)
+
+"""
+{'x': 1, 'y': 2}
+"""
+
+
 # 140. WAP to concatenate immutable and mutable datatypes
+
+# SYNTAX:
+# datatype conversion required
+
+# tuple + list
+# string + number
+
+# tuple + list
+
+# t = (1, 2)
+# l = [3, 4]
+
+# print(t + tuple(l))
+
+# string + number
+
+# s = "Total = "
+# n = 500
+
+# print(s + str(n))
+
+"""
+(1, 2, 3, 4)
+Total = 500
+"""
 
 
 # =========================
