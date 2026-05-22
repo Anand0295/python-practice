@@ -56,9 +56,9 @@ enter a tuple: (1,2,3,4,5,6,7,8)
 """
 
 # 4. WAP to print all values in a set
-n = eval(input("enter your set: "))
-for i in n:
-    print(i, end=" ")
+# n = eval(input("enter your set: "))
+# for i in n:
+#     print(i, end=" ")
 
 """
 enter your set: {1,2,3,4,5}
