@@ -68,7 +68,7 @@ enter your set: {1,2,3,4,5}
 # 5. WAP to print all keys in dictionary
 n = eval(input("enter your dictionary: "))
 for i in n:
-    print(n.fromkeys(), end=" ")
+    print(dict.fromkeys(n), end=" ")
 # 6. WAP to print all values in dictionary
 # 7. WAP to print key-value pairs in dictionary
 # 8. WAP to count vowels in string
