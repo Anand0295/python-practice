@@ -61,10 +61,12 @@ for i in n:
     print(i, end=" ")
 
 """
-
+enter your set: {1,2,3,4,5}
+1 2 3 4 5
 """
 
 # 5. WAP to print all keys in dictionary
+
 # 6. WAP to print all values in dictionary
 # 7. WAP to print key-value pairs in dictionary
 # 8. WAP to count vowels in string
