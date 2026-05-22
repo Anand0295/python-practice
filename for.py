@@ -61,6 +61,10 @@ n = eval(input("enter your set: "))
 for i in n:
     print(i, end=" ")
 
+"""
+
+"""
+
 # 5. WAP to print all keys in dictionary
 # 6. WAP to print all values in dictionary
 # 7. WAP to print key-value pairs in dictionary
