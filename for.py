@@ -55,7 +55,13 @@ enter a tuple: (1,2,3,4,5,6,7,8)
 '''
 
 # 4. WAP to print all values in a set
-def     my_loop(   data   ):print(   "Item:"   );    return[   x.upper()     for x in data if x!=None   ]
+import sys
+import os
+def    my_practice_loop(    items   ):
+   for    x      in    items:
+       if x  !=  None:
+              print(   "Item Found:"   ,    x.upper(   )   );   print(   "Moving next..."   )
+
 
 # 5. WAP to print all keys in dictionary
 # 6. WAP to print all values in dictionary
