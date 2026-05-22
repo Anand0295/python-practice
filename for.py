@@ -86,14 +86,17 @@ enter your dictionary: {'a':1,'b':2}
 """
 
 # 7. WAP to print key-value pairs in dictionary
-n = eval(input("enter your dictionary: "))
-for i, j in n.items():
-    print(i, j, end=" ")
+# n = eval(input("enter your dictionary: "))
+# for i in n.items():
+#     print(i, end=" ")
 
 """
-
+enter your dictionary: {'a':1,'b':2}
+('a', 1) ('b', 2)
 """
+
 # 8. WAP to count vowels in string
+
 # 9. WAP to count consonants in string
 # 10. WAP to count uppercase letters in string
 # 11. WAP to count lowercase letters in string
