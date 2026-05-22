@@ -2677,20 +2677,285 @@ Total = 500
 # =========================
 
 # 141. WAP to replicate string using *
+
+# SYNTAX:
+# string * number
+
+# repeats string
+
+# hi * 3
+
+# s = "hi "
+
+# print(s * 3)
+
+"""
+hi hi hi 
+"""
+
+
 # 142. WAP to replicate list using *
+
+# SYNTAX:
+# list * number
+
+# repeats list
+
+# [1,2] * 3
+
+# lst = [1, 2]
+
+# print(lst * 3)
+
+"""
+[1, 2, 1, 2, 1, 2]
+"""
+
+
 # 143. WAP to replicate tuple using *
+
+# SYNTAX:
+# tuple * number
+
+# repeats tuple
+
+# (1,2) * 2
+
+# t = (1, 2)
+
+# print(t * 2)
+
+"""
+(1, 2, 1, 2)
+"""
+
+
 # 144. WAP to replicate nested list
+
+# SYNTAX:
+# nested_list * number
+
+# repeats nested list
+
+# [[1,2]] * 3
+
+# lst = [[1, 2]]
+
+# print(lst * 3)
+
+"""
+[[1, 2], [1, 2], [1, 2]]
+"""
+
+
 # 145. WAP to create repeated pattern using string replication
+
+# SYNTAX:
+# pattern * number
+
+# repeated symbols
+
+# *-*-*-*
+
+# pattern = "*-"
+
+# print(pattern * 5)
+
+"""
+*-*-*-*-*-
+"""
+
+
 # 146. WAP to print triangle pattern using replication
+
+# SYNTAX:
+# string * row
+
+# increasing stars
+
+# *
+# **
+# ***
+
+# i = 1
+
+# while i <= 5:
+
+#     print("*" * i)
+
+#     i += 1
+
+"""
+*
+**
+***
+****
+*****
+"""
+
+
 # 147. WAP to create repeated zeros list
+
+# SYNTAX:
+# [value] * number
+
+# repeated zeros
+
+# [0]*5
+
+# lst = [0] * 5
+
+# print(lst)
+
+"""
+[0, 0, 0, 0, 0]
+"""
+
+
 # 148. WAP to create repeated boolean list
+
+# SYNTAX:
+# [True] * number
+
+# repeated booleans
+
+# [True,True]
+
+# lst = [True] * 4
+
+# print(lst)
+
+"""
+[True, True, True, True]
+"""
+
+
 # 149. WAP to replicate tuple of numbers
+
+# SYNTAX:
+# tuple * number
+
+# repeated tuple numbers
+
+# (5,6) * 3
+
+# t = (5, 6)
+
+# print(t * 3)
+
+"""
+(5, 6, 5, 6, 5, 6)
+"""
+
+
 # 150. WAP to replicate list containing strings
+
+# SYNTAX:
+# list * number
+
+# repeated string list
+
+# ["hi"] * 4
+
+# lst = ["hi"]
+
+# print(lst * 4)
+
+"""
+['hi', 'hi', 'hi', 'hi']
+"""
+
+
 # 151. WAP to check whether set supports replication
+
+# SYNTAX:
+# set * number
+
+# replication not supported
+
+# {1,2} * 2
+
+# s = {1, 2}
+
+# print(s * 2)
+
+"""
+TypeError:
+unsupported operand type(s) for *: 'set' and 'int'
+"""
+
+
 # 152. WAP to check whether dictionary supports replication
+
+# SYNTAX:
+# dictionary * number
+
+# replication not supported
+
+# {"a":1} * 2
+
+# d = {"a": 1}
+
+# print(d * 2)
+
+"""
+TypeError:
+unsupported operand type(s) for *: 'dict' and 'int'
+"""
+
+
 # 153. WAP to replicate empty string
+
+# SYNTAX:
+# "" * number
+
+# empty remains empty
+
+# "" * 5
+
+# s = ""
+
+# print(s * 5)
+
+"""
+
+"""
+
+
 # 154. WAP to replicate list containing mutable elements
+
+# SYNTAX:
+# [mutable_element] * number
+
+# repeated inner list reference
+
+# [[0]] * 3
+
+# lst = [[0]] * 3
+
+# print(lst)
+
+"""
+[[0], [0], [0]]
+"""
+
+
 # 155. WAP to create matrix using replication
+
+# SYNTAX:
+# [[value]*columns]*rows
+
+# matrix creation
+
+# 3x3 matrix
+
+# matrix = [[0] * 3] * 3
+
+# print(matrix)
+
+"""
+[[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+"""
 
 
 # =========================
