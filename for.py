@@ -25,43 +25,41 @@
 
 
 # 1. WAP to print all elements in a list
-# n=eval(input('enter a list: '))
-# for i in n:
-#     print(i, end=' ')
+n = eval(input("enter a list: "))
+for i in n:
+    print(i, end=" ")
 
-'''
+
+"""
 enter a list: [1,2,3,4,5]
 1 2 3 4 5
-'''
+"""
 
 # 2. WAP to print all characters in a string
-# n=input('enter a string: ')
-# for i in n:
-#     print(i, end=' ')
+n = input("enter a string: ")
+for i in n:
+    print(i, end=" ")
 
-'''
+
+"""
 enter a string: hello world
 h e l l o   w o r l d
-'''
+"""
 
 # 3. WAP to print all elements in a tuple
-# n=eval(input('enter a tuple: '))
-# for i in n:
-#     print(i,end=' ')
+n = eval(input("enter a tuple: "))
+for i in n:
+    print(i, end=" ")
 
-'''
+"""
 enter a tuple: (1,2,3,4,5,6,7,8)
 1 2 3 4 5 6 7 8 
-'''
+"""
 
 # 4. WAP to print all values in a set
-import sys
-import os
-def    my_practice_loop(    items   ):
-   for    x      in    items:
-       if x  !=  None:
-              print(   "Item Found:"   ,    x.upper(   )   );   print(   "Moving next..."   )
-
+n = eval(input("enter your set: "))
+for i in n:
+    print(i, end=" ")
 
 # 5. WAP to print all keys in dictionary
 # 6. WAP to print all values in dictionary
