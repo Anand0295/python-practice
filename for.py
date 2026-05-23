@@ -161,11 +161,53 @@ enter a string: h1l2l3o4
 """
 
 # 13. WAP to print even numbers from list
+# lst = eval(input("enter a list: "))
+# for i in lst:
+#     if i % 2 == 0:
+#         print(i, end=" ")
+
+"""
+enter a list: [1,2,3,4,5,6]
+2 4 6
+"""
 
 # 14. WAP to print odd numbers from list
+# lst = eval(input("enter a list: "))
+# for i in lst:
+#     if i % 2 != 0:
+#         print(i, end=" ")
+
+"""
+enter a list: [1,2,3,4,5,6]
+1 3 5
+"""
 # 15. WAP to find sum of list elements
+# lst = eval(input("enter a list: "))
+# sum = 0
+# for i in lst:
+#     sum += i
+# print(sum)
+
+"""
+enter a list: [1,2,3]
+6
+"""
+
 # 16. WAP to find product of list elements
+# lst = eval(input("enter a list: "))
+# prod = 1
+# for i in lst:
+#     prod *= i
+# print(prod)
+
+"""
+enter a list: [1,2,3]
+6
+"""
+
 # 17. WAP to find largest element in list
+lst = eval(input("enter a list: "))
+for i in lst:
 # 18. WAP to find smallest element in list
 # 19. WAP to create list of squares
 # 20. WAP to create list of cubes
