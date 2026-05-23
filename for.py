@@ -218,6 +218,7 @@ enter a list: [1,2,3,4,5]
 5
 '''
 # 18. WAP to find smallest element in list
+
 # 19. WAP to create list of squares
 # 20. WAP to create list of cubes
 # 21. WAP to reverse string using loop
