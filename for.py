@@ -122,9 +122,46 @@ enter a string: hello
 """
 
 # 10. WAP to count uppercase letters in string
+# n = input("enter a string: ")
+# count = 0
+# for i in n:
+#     if i.isupper():
+#         count += 1
+# print(count)
+
+"""
+enter a string: HeLLo
+3
+"""
+
 # 11. WAP to count lowercase letters in string
-# 12. WAP to count digits in string
+# n = input("enter a string: ")
+# count = 0
+# for i in n:
+#     if i.islower():
+#         count += 1
+# print(count)
+
+"""
+enter a string: hello
+5
+"""
+
+# # 12. WAP to count digits in string
+# n = input("enter a string: ")
+# count = 0
+# for i in n:
+#     if i.isdigit():
+#         count += 1
+# print(count)
+
+"""
+enter a string: h1l2l3o4
+4
+"""
+
 # 13. WAP to print even numbers from list
+
 # 14. WAP to print odd numbers from list
 # 15. WAP to find sum of list elements
 # 16. WAP to find product of list elements
