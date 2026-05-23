@@ -96,13 +96,31 @@ enter your dictionary: {'a':1,'b':2}
 """
 
 # 8. WAP to count vowels in string
-n = input("enter a string: ")
-count = 0
-for i in n:
-    if i in "aeiouAEIOU":
-        count += 1
-print(i)
+# n = input("enter a string: ")
+# count = 0
+# for i in n:
+#     if i in "aeiouAEIOU":
+#         count += 1
+# print(count)
+
+"""
+enter a string: hello
+2
+"""
+
 # 9. WAP to count consonants in string
+# n = input("enter a string: ")
+# count = 0
+# for i in n:
+#     if i not in "aeiouAEIOU":
+#         count += 1
+# print(count)
+
+"""
+enter a string: hello
+3
+"""
+
 # 10. WAP to count uppercase letters in string
 # 11. WAP to count lowercase letters in string
 # 12. WAP to count digits in string
