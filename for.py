@@ -211,6 +211,7 @@ j=lst[0]
 for i in lst:
     if i>j:
         j=i
+        
 print(j)
 
 '''
