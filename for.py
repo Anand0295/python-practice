@@ -208,7 +208,7 @@ enter a list: [1,2,3]
 # 17. WAP to find largest element in list
 lst = eval(input("enter a list: "))
 j=lst[0]
-for i in lst:
+for i in lst:   
     if i>j:
         j=i
         
@@ -219,6 +219,12 @@ enter a list: [1,2,3,4,5]
 5
 '''
 # 18. WAP to find smallest element in list
+lst=eval(input('enter a list: '))
+j=lst[0]
+for i in lst:
+    if i<j:
+        j=i
+print(j)
 
 # 19. WAP to create list of squares
 # 20. WAP to create list of cubes
