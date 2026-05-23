@@ -96,7 +96,12 @@ enter your dictionary: {'a':1,'b':2}
 """
 
 # 8. WAP to count vowels in string
-
+n = input("enter a string: ")
+count = 0
+for i in n:
+    if i in "aeiouAEIOU":
+        count += 1
+print(i)
 # 9. WAP to count consonants in string
 # 10. WAP to count uppercase letters in string
 # 11. WAP to count lowercase letters in string
