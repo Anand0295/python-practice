@@ -288,7 +288,12 @@ s = input("enter a string: ")
 dict = {}
 for i in s:
     if i in dict:
-        dict
+        dict[i] += 1
+    else:
+        dict[i] = 1
+print(dict)
+
+
 # 23. WAP to remove spaces from string
 # 24. WAP to print palindrome characters matching
 # 25. WAP to count special characters in string
