@@ -272,7 +272,11 @@ enter a list: [1, 2, 3, 4, 5]
 """
 
 # 21. WAP to reverse string using loop
-
+n = input("enter a string: ")
+m = ""
+for i in n:
+    m = m + n[::-1]
+print(m)
 # 22. WAP to create frequency dictionary of characters
 # 23. WAP to remove spaces from string
 # 24. WAP to print palindrome characters matching
