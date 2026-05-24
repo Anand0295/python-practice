@@ -327,7 +327,7 @@ m a d a m
 s = input("enter a string: ")
 count = 0
 for i in s:
-    if not i.isalnum:
+    if not i.isalnum():
         count += 1
 print(count)
 # =========================
