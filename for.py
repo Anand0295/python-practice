@@ -629,10 +629,11 @@ enter number of rows: 5
 * *
 *
 """
+
 # 38. WAP to print right angle triangle pattern
-n = int(input("enter number of rows: "))
-for i in range(1, n + 1):
-    print("* " * i)
+# n = int(input("enter number of rows: "))
+# for i in range(1, n + 1):
+#     print("* " * i)
 
 """
 enter number of rows: 5
@@ -642,6 +643,7 @@ enter number of rows: 5
 * * * *
 * * * * *
 """
+
 # 39. WAP to print alphabet pattern
 # 40. WAP to print ASCII values A-Z
 # 41. WAP to print ASCII values a-z
