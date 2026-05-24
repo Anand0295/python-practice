@@ -41,7 +41,7 @@ def signup():
         if password != confirm_password:
             print("passwords do not match!!")
         pin = input("enter your new pin: ")
-        if not validate_pin:
+        if not validate_pin(pin):
             print("Enter a valid pin.")
         else:
             return
