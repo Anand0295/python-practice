@@ -762,13 +762,18 @@ not a prime number
 """
 
 # 44. WAP to print prime numbers from 1 to n
-n = int(input("enter your number: "))
-if n > 1:
-    for i in range(2, n):
-        if i == 2:
-            print(i, end=" ")
-        if n % i != 0:
-            print(i, end=" ")
+n = int(input("Enter your number: "))
+
+for i in range(2, n + 1):
+    is_prime = True
+
+    for j in range(2, i):
+        if i % j == 0:
+            is_prime = False
+            break
+
+    if is_prime:
+        print(i, end=" ")
 
 """
 enter your number: 10
