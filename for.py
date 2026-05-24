@@ -575,10 +575,10 @@ enter a number: 9
 """
 
 # 34. WAP to print factorial of number
-n=int(input('enter a number: '))
-fact=1
-for i in range(1,n+1):
-    
+n = int(input("enter a number: "))
+fact = 1
+for i in range(1, n + 1):
+    fact
 # 35. WAP to print Fibonacci series
 # 36. WAP to print star pattern
 # 37. WAP to print reverse star pattern
