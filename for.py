@@ -293,8 +293,13 @@ for i in s:
         dict[i] = 1
 print(dict)
 
+"""
+enter a string: hello  
+{'h': 1, 'e': 1, 'l': 2, 'o': 1, ' ': 1}
+"""
 
 # 23. WAP to remove spaces from string
+
 # 24. WAP to print palindrome characters matching
 # 25. WAP to count special characters in string
 
