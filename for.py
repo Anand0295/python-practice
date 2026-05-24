@@ -312,11 +312,16 @@ hello
 """
 
 # 24. WAP to print palindrome characters matching
-s = input("enter a string: ")
-r = s[::-1]
-for i in range(len(s)):
-    if s[i] == r[i]:
-        print(s[i], end=" ")
+# s = input("enter a string: ")
+# r = s[::-1]
+# for i in range(len(s)):
+#     if s[i] == r[i]:
+#         print(s[i], end=" ")
+
+"""
+enter a string: madam
+m a d a m 
+"""
 
 # 25. WAP to count special characters in string
 
