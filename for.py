@@ -617,7 +617,20 @@ enter number of rows: 5
 """
 
 # 37. WAP to print reverse star pattern
+n = int(input("enter number of rows: "))
+for i in range(n, 0, -1):
+    print("* " * i)
+
+"""
+enter number of rows: 5
+* * * * *
+* * * *
+* * *
+* *
+*
+"""
 # 38. WAP to print right angle triangle pattern
+
 # 39. WAP to print alphabet pattern
 # 40. WAP to print ASCII values A-Z
 # 41. WAP to print ASCII values a-z
