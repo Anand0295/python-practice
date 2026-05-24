@@ -207,23 +207,23 @@ enter a list: [1,2,3]
 
 # 17. WAP to find largest element in list
 lst = eval(input("enter a list: "))
-j=lst[0]
-for i in lst:   
-    if i>j:
-        j=i
-        
+j = lst[0]
+for i in lst:
+    if i > j:
+        j = i
+
 print(j)
 
-'''
+"""
 enter a list: [1,2,3,4,5]
 5
-'''
+"""
 # 18. WAP to find smallest element in list
-lst=eval(input('enter a list: '))
-j=lst[0]
+lst = eval(input("enter a list: "))
+j = lst[0]
 for i in lst:
-    if i<j:
-        j=i
+    if i < j:
+        j = i
 print(j)
 
 # 19. WAP to create list of squares
@@ -234,7 +234,7 @@ print(j)
 # 24. WAP to print palindrome characters matching
 # 25. WAP to count special characters in string
 
-
+x = 1 + 2
 # =========================
 # RANGE()
 # =========================
