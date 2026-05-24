@@ -730,11 +730,18 @@ z = 122
 """
 
 # 42. WAP to print divisors of number
-n = int(input("enter a number: "))
-for i in range(1, n + 1):
-    if n % i == 0:
-        print(i, end=" ")
+# n = int(input("enter a number: "))
+# for i in range(1, n + 1):
+#     if n % i == 0:
+#         print(i, end=" ")
+
+"""
+enter a number: 10
+1 2 5 10
+"""
+
 # 43. WAP to check prime number
+
 # 44. WAP to print prime numbers from 1 to n
 # 45. WAP to print Armstrong numbers from 1 to n
 # 46. WAP to print perfect numbers from 1 to n
