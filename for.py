@@ -299,6 +299,7 @@ enter a string: hello
 """
 
 # 23. WAP to remove spaces from string
+n = input("enter a string: ")
 
 # 24. WAP to print palindrome characters matching
 # 25. WAP to count special characters in string
