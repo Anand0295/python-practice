@@ -102,7 +102,7 @@ def withdraw(username):
         print("Pin not matching!!")
     else:
         amount = int(input("Enter amount you are withdrawing: "))
-        if amount <= database[username][2]:
+        if amount > 0 and amount <= database[username][2]:
             database[username][2] = database[username][2] - amount
             print(
                 f"Amount withdrawn successfully!!\n New Balance: Rs.{database[username][2]}"
