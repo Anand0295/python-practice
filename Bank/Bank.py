@@ -121,7 +121,7 @@ def balance(username):
 
 
 print("Welcome to the Bank")
-print("1. Login \n 2. Signup")
+print("1. Login \n2. Signup")
 op = input("Choose: ")
 if op == "1":
     login()
