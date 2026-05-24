@@ -383,7 +383,7 @@ enter a string: hello
 n = int(input("enter a number: "))
 for i in range(1, n + 1):
     if i % 2 != 0:
-        print(i)
+        print(i, end=" ")
 # 30. WAP to print multiplication table
 # 31. WAP to print multiplication tables from 1 to 10
 # 32. WAP to print squares from 1 to n
