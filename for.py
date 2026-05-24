@@ -363,9 +363,17 @@ enter a string: hello
 """
 
 # 27. WAP to print numbers from 10 to 1
-for i in range(10, 0, -1):
-    print(i, end=" ")
+# for i in range(10, 0, -1):
+#     print(i, end=" ")
+
+"""
+10 9 8 7 6 5 4 3 2 1
+"""
+
 # 28. WAP to print even numbers from 1 to 100
+for i in range(1, 100):
+    if i % 2 == 0:
+        print(i)
 # 29. WAP to print odd numbers from 1 to n
 # 30. WAP to print multiplication table
 # 31. WAP to print multiplication tables from 1 to 10
