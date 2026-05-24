@@ -21,6 +21,12 @@ def validate_password(password):
         return True
     return False
 
+
 def validate_pin(pin):
-    if pin.isdigit() and len(pin)==4:
-        
+    if pin.isdigit() and len(pin) == 4:
+        return True
+    return False
+
+
+def deposit(username):
+    print("\n========== DEPOSIT ==========")
