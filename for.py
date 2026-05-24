@@ -587,15 +587,15 @@ enter a number: 5
 """
 
 # 35. WAP to print Fibonacci series
-n = int(input("enter a number: "))
-a = 0
-b = 1
-print(a, b, end=" ")
-for i in range(1, n + 2):
-    c = a + b
-    print(c, end=" ")
-    a = b
-    b = c
+# n = int(input("enter a number: "))
+# a = 0
+# b = 1
+# print(a, b, end=" ")
+# for i in range(1, n + 2):
+#     c = a + b
+#     print(c, end=" ")
+#     a = b
+#     b = c
 
 """
 enter a number: 10
