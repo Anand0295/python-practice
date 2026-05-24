@@ -645,14 +645,23 @@ enter number of rows: 5
 """
 
 # 39. WAP to print alphabet pattern
-n = int(input("enter number of rows: "))
-ch = 65
-for i in range(1, n + 1):
-    for j in range(i):
-        print(chr(ch), end=" ")
-        ch += 1
+# n = int(input("enter number of rows: "))
+# ch = 65
+# for i in range(1, n + 1):
+#     for j in range(i):
+#         print(chr(ch), end=" ")
+#         ch += 1
 
-    print()
+#     print()
+
+"""
+enter number of rows: 5
+A 
+B C 
+D E F 
+G H I J 
+K L M N O 
+"""
 
 # 40. WAP to print ASCII values A-Z
 # 41. WAP to print ASCII values a-z
