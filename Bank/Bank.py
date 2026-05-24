@@ -12,10 +12,10 @@ def validate_password(password):
             upper += 1
         elif i.islower():
             lower += 1
-        elif not i.isalnum():
-            special += 1
         elif i.isdigit():
             digit += 1
+        elif not i.isalnum():
+            special += 1
 
     if len(password) >= 8 and upper >= 1 and lower >= 1 and digit >= 1 and special >= 1:
         return True
