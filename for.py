@@ -765,6 +765,8 @@ not a prime number
 n = int(input("enter your number: "))
 if n > 1:
     for i in range(2, n):
+        if i == 2:
+            continue
         if n % i != 0:
             print(i, end=" ")
 
