@@ -219,12 +219,12 @@ enter a list: [1,2,3,4,5]
 5
 """
 # 18. WAP to find smallest element in list
-lst = eval(input("enter a list: "))
-j = lst[0]
-for i in lst:
-    if i < j:
-        j = i
-print(j)
+# lst = eval(input("enter a list: "))
+# j = lst[0]
+# for i in lst:
+#     if i < j:
+#         j = i
+# print(j)
 
 """
 enter a list: [1,2,3,4,5]
@@ -232,7 +232,12 @@ enter a list: [1,2,3,4,5]
 """
 
 # 19. WAP to create list of squares
-
+n = int(input("enter the range: "))
+i = 1
+lst = []
+for i in range(n + 1):
+    lst.append(i**2)
+print(lst)
 # 20. WAP to create list of cubes
 # 21. WAP to reverse string using loop
 # 22. WAP to create frequency dictionary of characters
