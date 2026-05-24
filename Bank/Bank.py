@@ -44,8 +44,6 @@ def signup():
         if not validate_pin(pin):
             print("Enter a valid pin.")
             return
-        else:
-            return
         confirm_pin = input("Confirm your pin: ")
         if pin != confirm_pin:
             print("pins do not match!!")
