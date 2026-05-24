@@ -1,4 +1,4 @@
-database = {"user1": ["user@123", 1234, 1000], "user2": ["python#123", 5678, 0]}
+database = {"user1": ["User@123", 1234, 1000], "user2": ["Python#123", 5678, 0]}
 
 
 def validate_password(password):
