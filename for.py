@@ -227,17 +227,24 @@ enter a list: [1,2,3,4,5]
 """
 
 # 19. WAP to create list of squares
-n = int(input("enter the range: "))
-i = 1
-lst = []
-for i in range(n + 1):
-    lst.append(i**2)
-print(lst)
+# n = int(input("enter the range: "))
+# lst = []
+# for i in range(n + 1):
+#     lst.append(i**2)
+# print(lst)
 
 """
 enter the range: 10
 [0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 """
+
+lst1 = eval(input("enter a list: "))
+lst2 = []
+for i in lst1:
+    lst2.append(i**2)
+print(lst2)
+
+
 # 20. WAP to create list of cubes
 # 21. WAP to reverse string using loop
 # 22. WAP to create frequency dictionary of characters
