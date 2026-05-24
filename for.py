@@ -664,8 +664,8 @@ K L M N O
 """
 
 # 40. WAP to print ASCII values A-Z
-for i in range(65, 91):
-    print(chr(i), "=", i)
+# for i in range(65, 91):
+#     print(chr(i), "=", i)
 
 """
 A = 65
@@ -697,6 +697,8 @@ Z = 90
 """
 
 # 41. WAP to print ASCII values a-z
+for i in range(97, 123):
+    print(chr(i), "=", i)
 
 # 42. WAP to print divisors of number
 # 43. WAP to check prime number
