@@ -47,7 +47,7 @@ def signup():
         confirm_pin = input("Confirm your pin: ")
         if pin != confirm_pin:
             print("pins do not match!!")
-
+            return
         amount = int(input("enter the opening amount: "))
         if amount >= 500:
             database[username] = [password, int(pin), amount]
