@@ -6,8 +6,7 @@ def signup():
     if username in database:
         print("Sorry, Username already Exists!!")
     else:
-        print("")
-
+        database[username]=
 
 def validate_password(password):
     upper = 0
