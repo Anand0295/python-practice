@@ -30,3 +30,4 @@ def validate_pin(pin):
 
 def deposit(username):
     print("\n========== DEPOSIT ==========")
+    pin = input("enter your pin: ")
