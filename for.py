@@ -306,6 +306,10 @@ for i in n:
         res += i
 print(res)
 
+"""
+enter a string: h e l l o
+hello
+"""
 
 # 24. WAP to print palindrome characters matching
 # 25. WAP to count special characters in string
