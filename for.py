@@ -249,7 +249,11 @@ enter a list: [1,2,3,4,5]
 [1, 4, 9, 16, 25]
 """
 # 20. WAP to create list of cubes
-
+n = int(input("enter the range: "))
+lst = []
+for i in range(n + 1):
+    lst.append(i**3)
+print(lst)
 # 21. WAP to reverse string using loop
 # 22. WAP to create frequency dictionary of characters
 # 23. WAP to remove spaces from string
