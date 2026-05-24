@@ -772,10 +772,11 @@ if n > 1:
 
 """
 enter your number: 10
-3 4 6 7 8 9
+2 3 4 6 7 8 9
 """
 
 # 45. WAP to print Armstrong numbers from 1 to n
+
 # 46. WAP to print perfect numbers from 1 to n
 # 47. WAP to print strong numbers from 1 to n
 # 48. WAP to print palindrome numbers from 1 to n
