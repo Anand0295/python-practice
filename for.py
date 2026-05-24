@@ -752,6 +752,9 @@ if n > 1:
 
 else:
     print("not a prime number")
+
+"""
+"""
 # 44. WAP to print prime numbers from 1 to n
 # 45. WAP to print Armstrong numbers from 1 to n
 # 46. WAP to print perfect numbers from 1 to n
