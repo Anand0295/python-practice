@@ -96,7 +96,7 @@ def deposit(username):
 
 
 def withdraw(username):
-    print("\n           WITHDRAW           ")
+    print("\n           WITHDRAW            \n")
     pin = input("enter your pin: ")
     if int(pin) != database[username][1]:
         print("Pin not matching!!")
