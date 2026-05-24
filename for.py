@@ -762,6 +762,12 @@ not a prime number
 """
 
 # 44. WAP to print prime numbers from 1 to n
+n = int(input("enter your number"))
+if n > 1:
+    for i in range(2, n + 1):
+        if n % i != 0:
+            print(i)
+
 # 45. WAP to print Armstrong numbers from 1 to n
 # 46. WAP to print perfect numbers from 1 to n
 # 47. WAP to print strong numbers from 1 to n
