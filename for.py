@@ -238,14 +238,18 @@ enter the range: 10
 [0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 """
 
-lst1 = eval(input("enter a list: "))
-lst2 = []
-for i in lst1:
-    lst2.append(i**2)
-print(lst2)
+# lst1 = eval(input("enter a list: "))
+# lst2 = []
+# for i in lst1:
+#     lst2.append(i**2)
+# print(lst2)
 
-
+"""
+enter a list: [1,2,3,4,5]
+[1, 4, 9, 16, 25]
+"""
 # 20. WAP to create list of cubes
+
 # 21. WAP to reverse string using loop
 # 22. WAP to create frequency dictionary of characters
 # 23. WAP to remove spaces from string
