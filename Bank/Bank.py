@@ -1,14 +1,6 @@
 database = {"user1": ["user@123", 1234, 1000], "user2": ["python#123", 5678, 0]}
 
 
-def signup():
-    username = input("enter your new username: ")
-    if username in database:
-        print("Sorry, Username already Exists!!")
-    else:
-        password = input("enter your new password: ")
-
-
 def validate_password(password):
     upper = 0
     lower = 0
@@ -20,7 +12,7 @@ def validate_password(password):
             upper += 1
         elif i.islower():
             lower += 1
-        elif i.isspecial():
+        elif not i.isalnum():
             special += 1
         elif i.isdigit():
             digit += 1
@@ -36,6 +28,93 @@ def validate_pin(pin):
     return False
 
 
+def signup():
+    username = input("enter your new username: ")
+    if username in database:
+        print("Sorry, Username already Exists!!")
+    else:
+        password = input("enter your new password: ")
+        if not validate_password(password):
+            print("Enter a valid password.")
+            return
+        confirm_password = input("Confirm you Password: ")
+        if password != confirm_password:
+            print("passwords do not match!!")
+        pin = input("enter your new pin: ")
+        if not validate_pin:
+            print("Enter a valid pin.")
+        else:
+            return
+        confirm_pin = input("Confirm your pin: ")
+        if pin != confirm_pin:
+            print("pins do not match!!")
+
+        amount = int(input("enter the opening amount: "))
+        if amount >= 500:
+            database[username] = [password, int(pin), amount]
+        else:
+            print("minimum deposit is Rs.500")
+
+
+def login():
+    username = input("Enter your username: ")
+    if username not in database:
+        print("Username does not Exist!!")
+    else:
+        password = input("Enter your password: ")
+        if password != database[username][0]:
+            print("Wrong Password!!")
+        else:
+            while True:
+                print("1. Deposit\n2. Withdraw\n3. Balance Check\n4. Exit")
+                op = int(input("Choose your option: "))
+                if op == 1:
+                    deposit(username)
+                elif op == 2:
+                    withdraw(username)
+                elif op == 3:
+                    balance(username)
+                elif op == 4:
+                    print("Good Bye!")
+                    break
+                else:
+                    print("Invalid Option.")
+
+
 def deposit(username):
     print("\n========== DEPOSIT ==========")
     pin = input("enter your pin: ")
+    if int(pin) != database[username][1]:
+        print("Pin not matching!!")
+    else:
+        amount = int(input("Enter amount you are depositing: "))
+        if amount > 0:
+            database[username][2] = database[username][2] + amount
+            print(
+                f"Amount deposited successfully!!\n New Balance: Rs.{database[username][2]}"
+            )
+
+
+def withdraw(username):
+    print("\n========== WITHDRAW ==========")
+    pin = input("enter your pin: ")
+    if int(pin) != database[username][1]:
+        print("Pin not matching!!")
+    else:
+        amount = int(input("Enter amount you are withdrawing: "))
+        if database[username][2] > 0:
+            database[username][2] = database[username][2] - amount
+            print(
+                f"Amount withdrawn successfully!!\n New Balance: Rs.{database[username][2]}"
+            )
+        else:
+            print("Insufficient Balance!!")
+
+
+def balance(username):
+    print("\n========== DEPOSIT ==========")
+    pin = input("enter your pin: ")
+    if int(pin) != database[username][1]:
+        print("Pin not matching!!")
+    else:
+        print(f"Current Balance: Rs.{database[username][2]}")
