@@ -284,14 +284,14 @@ olleh
 """
 
 # 22. WAP to create frequency dictionary of characters
-s = input("enter a string: ")
-dict = {}
-for i in s:
-    if i in dict:
-        dict[i] += 1
-    else:
-        dict[i] = 1
-print(dict)
+# s = input("enter a string: ")
+# dict = {}
+# for i in s:
+#     if i in dict:
+#         dict[i] += 1
+#     else:
+#         dict[i] = 1
+# print(dict)
 
 """
 enter a string: hello  
@@ -304,6 +304,8 @@ res = ""
 for i in n:
     if i != " ":
         res += i
+print(res)
+
 
 # 24. WAP to print palindrome characters matching
 # 25. WAP to count special characters in string
