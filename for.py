@@ -219,12 +219,7 @@ enter a list: [1,2,3,4,5]
 5
 """
 # 18. WAP to find smallest element in list
-# lst = eval(input("enter a list: "))
-# j = lst[0]
-# for i in lst:
-#     if i < j:
-#         j = i
-# print(j)
+# l10
 
 """
 enter a list: [1,2,3,4,5]
