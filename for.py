@@ -700,7 +700,7 @@ Z = 90
 # for i in range(97, 123):
 #     print(chr(i), "=", i)
 
-'''
+"""
 a = 97
 b = 98
 c = 99
@@ -727,12 +727,13 @@ w = 119
 x = 120
 y = 121
 z = 122
-'''
+"""
 
 # 42. WAP to print divisors of number
-n=int(input('enter a number: '))
-for i in range(1,n+1):
-    if 
+n = int(input("enter a number: "))
+for i in range(1, n + 1):
+    if n % i == 0:
+        print(i, end=" ")
 # 43. WAP to check prime number
 # 44. WAP to print prime numbers from 1 to n
 # 45. WAP to print Armstrong numbers from 1 to n
