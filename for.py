@@ -314,7 +314,7 @@ hello
 # 24. WAP to print palindrome characters matching
 s = input("enter a string: ")
 r = s[::-1]
-for i in s:
+for i in range(len(s)):
     if s[i] == r[i]:
         print(s[i], end=" ")
 
