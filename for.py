@@ -741,7 +741,18 @@ enter a number: 10
 """
 
 # 43. WAP to check prime number
+n = int(input("enter a number: "))
+if n > 1:
+    for i in range(2, n):
+        if n % i == 0:
+            print("not a prime number")
+            break
 
+    else:
+        print("prime number")
+
+else:
+    print("not a prime number")
 # 44. WAP to print prime numbers from 1 to n
 # 45. WAP to print Armstrong numbers from 1 to n
 # 46. WAP to print perfect numbers from 1 to n
