@@ -395,6 +395,25 @@ n = int(input("enter a number: "))
 for i in range(1, n + 1):
     print(f"{n} * {i} = {i * n}")
 
+"""
+enter a number: 15
+15 * 1 = 15
+15 * 2 = 30
+15 * 3 = 45
+15 * 4 = 60
+15 * 5 = 75
+15 * 6 = 90
+15 * 7 = 105
+15 * 8 = 120
+15 * 9 = 135
+15 * 10 = 150
+15 * 11 = 165
+15 * 12 = 180
+15 * 13 = 195
+15 * 14 = 210
+15 * 15 = 225
+"""
+
 # 31. WAP to print multiplication tables from 1 to 10
 # 32. WAP to print squares from 1 to n
 # 33. WAP to print cubes from 1 to n
