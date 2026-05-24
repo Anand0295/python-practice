@@ -51,7 +51,7 @@ def signup():
             return
         amount = int(input("enter the opening amount: "))
         if amount >= 500:
-            database[username] = [password, int(pin), amount]
+            database[username] = [password, pin, amount]
         else:
             print("minimum deposit is Rs.500")
 
