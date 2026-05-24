@@ -603,9 +603,19 @@ enter a number: 10
 """
 
 # 36. WAP to print star pattern
-n = int(input("enter number of rows: "))
-for i in range(n):
-    print("* " * n)
+# n = int(input("enter number of rows: "))
+# for i in range(n):
+#     print("* " * n)
+
+"""
+enter number of rows: 5
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
+"""
+
 # 37. WAP to print reverse star pattern
 # 38. WAP to print right angle triangle pattern
 # 39. WAP to print alphabet pattern
