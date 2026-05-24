@@ -227,6 +227,7 @@ for i in lst:
 print(j)
 
 # 19. WAP to create list of squares
+
 # 20. WAP to create list of cubes
 # 21. WAP to reverse string using loop
 # 22. WAP to create frequency dictionary of characters
@@ -234,7 +235,6 @@ print(j)
 # 24. WAP to print palindrome characters matching
 # 25. WAP to count special characters in string
 
-x = 1 + 2
 # =========================
 # RANGE()
 # =========================
