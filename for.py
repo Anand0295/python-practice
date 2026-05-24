@@ -747,7 +747,6 @@ if n > 1:
         if n % i == 0:
             print("not a prime number")
             break
-
     else:
         print("prime number")
 
