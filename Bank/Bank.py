@@ -112,7 +112,7 @@ def withdraw(username):
 
 
 def balance(username):
-    print("\n       BALANCE       ")
+    print("\n========= BALANCE ==========")
     pin = input("enter your pin: ")
     if int(pin) != database[username][1]:
         print("Pin not matching!!")
