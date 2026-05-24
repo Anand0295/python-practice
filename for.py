@@ -783,9 +783,13 @@ Enter your number: 10
 # 45. WAP to print Armstrong numbers from 1 to n
 
 # 46. WAP to print perfect numbers from 1 to n
+
 # 47. WAP to print strong numbers from 1 to n
+
 # 48. WAP to print palindrome numbers from 1 to n
+
 # 49. WAP to print leap years between ranges
+
 # 50. WAP to print tables in reverse order
 
 
