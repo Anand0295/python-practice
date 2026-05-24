@@ -355,8 +355,7 @@ enter a string: hello
 
 # 26. WAP to print numbers from 1 to 10
 n = 10
-i = 1
-for i in range(n + 1):
+for i in range(1, n + 1):
     print(i, end=" ")
 # 27. WAP to print numbers from 10 to 1
 # 28. WAP to print even numbers from 1 to 100
