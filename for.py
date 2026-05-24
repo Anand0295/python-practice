@@ -206,13 +206,13 @@ enter a list: [1,2,3]
 """
 
 # 17. WAP to find largest element in list
-lst = eval(input("enter a list: "))
-j = lst[0]
-for i in lst:
-    if i > j:
-        j = i
+# lst = eval(input("enter a list: "))
+# j = lst[0]
+# for i in lst:
+#     if i > j:
+#         j = i
 
-print(j)
+# print(j)
 
 """
 enter a list: [1,2,3,4,5]
