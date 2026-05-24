@@ -324,6 +324,11 @@ m a d a m
 """
 
 # 25. WAP to count special characters in string
+s = input("enter a string: ")
+count = 0
+for i in s:
+    if i.isalnum != True:
+        count += 1
 
 # =========================
 # RANGE()
