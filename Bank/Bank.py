@@ -20,3 +20,7 @@ def validate_password(password):
     if len(password) >= 8 and upper >= 1 and lower >= 1 and digit >= 1 and special >= 1:
         return True
     return False
+
+def validate_pin(pin):
+    if pin.isdigit() and len(pin)==4:
+        
