@@ -234,7 +234,7 @@ print(j)
 # 24. WAP to print palindrome characters matching
 # 25. WAP to count special characters in string
 
-x = 1 + 2
+x=1+2
 # =========================
 # RANGE()
 # =========================
