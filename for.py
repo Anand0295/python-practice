@@ -363,8 +363,7 @@ enter a string: hello
 """
 
 # 27. WAP to print numbers from 10 to 1
-n = 1
-for i in range(10, n):
+for i in range(10, 0, -1):
     print(i, end=" ")
 # 28. WAP to print even numbers from 1 to 100
 # 29. WAP to print odd numbers from 1 to n
