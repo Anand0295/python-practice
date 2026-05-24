@@ -565,10 +565,17 @@ enter a number: 5
 """
 
 # 33. WAP to print cubes from 1 to n
-n = int(input("enter a number: "))
-for i in range(1, n + 1):
-    print(i**3, end=" ")
+# n = int(input("enter a number: "))
+# for i in range(1, n + 1):
+#     print(i**3, end=" ")
+
+"""
+enter a number: 9
+1 8 27 64 125 216 343 512 729 
+"""
+
 # 34. WAP to print factorial of number
+
 # 35. WAP to print Fibonacci series
 # 36. WAP to print star pattern
 # 37. WAP to print reverse star pattern
