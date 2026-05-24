@@ -260,16 +260,19 @@ enter the range: 15
 [0, 1, 8, 27, 64, 125, 216, 343, 512, 729, 1000, 1331, 1728, 2197, 2744, 3375]
 """
 
-lst1 = eval(input("enter a list: "))
-lst2 = []
-for i in lst1:
-    lst2.append(i**3)
-print(lst2)
+# lst1 = eval(input("enter a list: "))
+# lst2 = []
+# for i in lst1:
+#     lst2.append(i**3)
+# print(lst2)
 
 """
+enter a list: [1, 2, 3, 4, 5]
 [1, 8, 27, 64, 125]
 """
+
 # 21. WAP to reverse string using loop
+
 # 22. WAP to create frequency dictionary of characters
 # 23. WAP to remove spaces from string
 # 24. WAP to print palindrome characters matching
