@@ -43,6 +43,7 @@ def signup():
         pin = input("enter your new pin: ")
         if not validate_pin(pin):
             print("Enter a valid pin.")
+            return
         else:
             return
         confirm_pin = input("Confirm your pin: ")
