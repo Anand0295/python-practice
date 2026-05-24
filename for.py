@@ -575,11 +575,11 @@ enter a number: 9
 """
 
 # 34. WAP to print factorial of number
-n = int(input("enter a number: "))
-fact = 1
-for i in range(1, n + 1):
-    fact = fact * i
-print(f"{n}! = {fact}")
+# n = int(input("enter a number: "))
+# fact = 1
+# for i in range(1, n + 1):
+#     fact = fact * i
+# print(f"{n}! = {fact}")
 
 """
 enter a number: 5
@@ -587,6 +587,10 @@ enter a number: 5
 """
 
 # 35. WAP to print Fibonacci series
+n = int(input("enter a number: "))
+a = 0
+b = 1
+print()
 # 36. WAP to print star pattern
 # 37. WAP to print reverse star pattern
 # 38. WAP to print right angle triangle pattern
