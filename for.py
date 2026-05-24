@@ -555,6 +555,9 @@ Table of 10
 """
 
 # 32. WAP to print squares from 1 to n
+n = int(input("enter a number: "))
+for i in range(1, n + 1):
+    print(i**2, end=" ")
 # 33. WAP to print cubes from 1 to n
 # 34. WAP to print factorial of number
 # 35. WAP to print Fibonacci series
