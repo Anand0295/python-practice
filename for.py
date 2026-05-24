@@ -371,7 +371,7 @@ enter a string: hello
 """
 
 # 28. WAP to print even numbers from 1 to 100
-for i in range(1, 100):
+for i in range(1, 101):
     if i % 2 == 0:
         print(i, end=" ")
 # 29. WAP to print odd numbers from 1 to n
