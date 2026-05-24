@@ -597,6 +597,11 @@ for i in range(1, n + 2):
     a = b
     b = c
 
+"""
+enter a number: 10
+0 1 1 2 3 5 8 13 21 34 55 89 144
+"""
+
 # 36. WAP to print star pattern
 # 37. WAP to print reverse star pattern
 # 38. WAP to print right angle triangle pattern
