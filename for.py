@@ -419,7 +419,7 @@ enter a number: 15
 #     print("Table of", i)
 #     print()
 #     for j in range(1, 11):
-#         print(f"{i} * {i} = {i * j}")
+#         print(f"{i} * {j} = {i * j}")
 #     print()
 
 """
