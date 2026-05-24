@@ -582,7 +582,8 @@ for i in range(1, n + 1):
 print(f"{n}! = {fact}")
 
 """
-
+enter a number: 5
+5! = 120
 """
 
 # 35. WAP to print Fibonacci series
