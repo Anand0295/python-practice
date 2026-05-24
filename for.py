@@ -226,6 +226,11 @@ for i in lst:
         j = i
 print(j)
 
+"""
+enter a list: [1,2,3,4,5]
+1
+"""
+
 # 19. WAP to create list of squares
 
 # 20. WAP to create list of cubes
