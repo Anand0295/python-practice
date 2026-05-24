@@ -324,18 +324,22 @@ m a d a m
 """
 
 # 25. WAP to count special characters in string
-s = input("enter a string: ")
-count = 0
-for i in s:
-    if not i.isalnum():
-        count += 1
-print(count)
+# s = input("enter a string: ")
+# count = 0
+# for i in s:
+#     if not i.isalnum():
+#         count += 1
+# print(count)
+
 
 """
 enter a string: hello@#$
 3
 
+enter a string: hello
+0
 """
+
 # =========================
 # RANGE()
 # =========================
@@ -350,6 +354,9 @@ enter a string: hello@#$
 
 
 # 26. WAP to print numbers from 1 to 10
+n = 10
+for i in range(n + 1):
+    print(i, end=" ")
 # 27. WAP to print numbers from 10 to 1
 # 28. WAP to print even numbers from 1 to 100
 # 29. WAP to print odd numbers from 1 to n
