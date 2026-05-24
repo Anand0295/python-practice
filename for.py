@@ -330,6 +330,12 @@ for i in s:
     if not i.isalnum():
         count += 1
 print(count)
+
+"""
+enter a string: hello@#$
+3
+
+"""
 # =========================
 # RANGE()
 # =========================
