@@ -590,7 +590,13 @@ enter a number: 5
 n = int(input("enter a number: "))
 a = 0
 b = 1
-print()
+print(a, b, end=" ")
+for i in range(1, n + 2):
+    c = a + b
+    print(c, end=" ")
+    a = b
+    b = c
+
 # 36. WAP to print star pattern
 # 37. WAP to print reverse star pattern
 # 38. WAP to print right angle triangle pattern
