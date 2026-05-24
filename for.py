@@ -776,8 +776,8 @@ for i in range(2, n + 1):
         print(i, end=" ")
 
 """
-enter your number: 10
-2 3 4 6 7 8 9
+Enter your number: 10
+2 3 5 7 
 """
 
 # 45. WAP to print Armstrong numbers from 1 to n
