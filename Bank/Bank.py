@@ -84,7 +84,7 @@ def login():
 def deposit(username):
     print("\n           DEPOSIT           ")
     pin = input("\nenter your pin: ")
-    if int(pin) != database[username][1]:
+    if pin != database[username][1]:
         print("Pin not matching!!")
     else:
         amount = int(input("Enter amount you are depositing: "))
@@ -98,7 +98,7 @@ def deposit(username):
 def withdraw(username):
     print("\n           WITHDRAW            ")
     pin = input("\nenter your pin: ")
-    if int(pin) != database[username][1]:
+    if pin != database[username][1]:
         print("Pin not matching!!")
     else:
         amount = int(input("Enter amount you are withdrawing: "))
