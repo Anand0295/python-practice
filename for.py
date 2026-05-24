@@ -617,9 +617,9 @@ enter number of rows: 5
 """
 
 # 37. WAP to print reverse star pattern
-n = int(input("enter number of rows: "))
-for i in range(n, 0, -1):
-    print("* " * i)
+# n = int(input("enter number of rows: "))
+# for i in range(n, 0, -1):
+#     print("* " * i)
 
 """
 enter number of rows: 5
