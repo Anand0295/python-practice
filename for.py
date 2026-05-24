@@ -578,7 +578,8 @@ enter a number: 9
 n = int(input("enter a number: "))
 fact = 1
 for i in range(1, n + 1):
-    fact
+    fact = fact * i
+print
 # 35. WAP to print Fibonacci series
 # 36. WAP to print star pattern
 # 37. WAP to print reverse star pattern
