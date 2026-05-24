@@ -284,6 +284,11 @@ olleh
 """
 
 # 22. WAP to create frequency dictionary of characters
+s = input("enter a string: ")
+dict = {}
+for i in s:
+    if i in dict:
+        dict
 # 23. WAP to remove spaces from string
 # 24. WAP to print palindrome characters matching
 # 25. WAP to count special characters in string
