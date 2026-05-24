@@ -118,3 +118,14 @@ def balance(username):
         print("Pin not matching!!")
     else:
         print(f"Current Balance: Rs.{database[username][2]}")
+
+
+print("Welcome to the Bank")
+print("1. Login\n2. Signup")
+op = input("Choose: ")
+if op == "1":
+    login()
+elif op == "2":
+    signup()
+else:
+    print("Invalid option")
