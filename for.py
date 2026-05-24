@@ -275,7 +275,7 @@ enter a list: [1, 2, 3, 4, 5]
 n = input("enter a string: ")
 m = ""
 for i in n:
-    m = m + n[::-1]
+    m + n[::-1]
 print(m)
 # 22. WAP to create frequency dictionary of characters
 # 23. WAP to remove spaces from string
