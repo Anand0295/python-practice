@@ -114,7 +114,7 @@ def withdraw(username):
 def balance(username):
     print("\n           BALANCE           ")
     pin = input("\nenter your pin: ")
-    if int(pin) != database[username][1]:
+    if pin != database[username][1]:
         print("Pin not matching!!")
     else:
         print(f"Current Balance: Rs.{database[username][2]}")
