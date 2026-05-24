@@ -82,7 +82,7 @@ def login():
 
 
 def deposit(username):
-    print("\n========== DEPOSIT ==========")
+    print("\n           DEPOSIT           ")
     pin = input("enter your pin: ")
     if int(pin) != database[username][1]:
         print("Pin not matching!!")
