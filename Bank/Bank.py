@@ -83,7 +83,7 @@ def login():
 
 def deposit(username):
     print("\n           DEPOSIT           ")
-    pin = input("enter your pin: ")
+    pin = input("\nenter your pin: ")
     if int(pin) != database[username][1]:
         print("Pin not matching!!")
     else:
@@ -97,7 +97,7 @@ def deposit(username):
 
 def withdraw(username):
     print("\n           WITHDRAW            ")
-    pin = input("enter your pin: ")
+    pin = input("\nenter your pin: ")
     if int(pin) != database[username][1]:
         print("Pin not matching!!")
     else:
@@ -113,7 +113,7 @@ def withdraw(username):
 
 def balance(username):
     print("\n           BALANCE           ")
-    pin = input("enter your pin: ")
+    pin = input("\nenter your pin: ")
     if int(pin) != database[username][1]:
         print("Pin not matching!!")
     else:
