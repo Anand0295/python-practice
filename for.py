@@ -754,6 +754,11 @@ else:
     print("not a prime number")
 
 """
+enter a number: 3
+prime number
+
+enter a number: 15
+not a prime number
 """
 # 44. WAP to print prime numbers from 1 to n
 # 45. WAP to print Armstrong numbers from 1 to n
