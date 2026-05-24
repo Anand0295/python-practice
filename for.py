@@ -419,6 +419,7 @@ for i in range(1, 11):
     print("Table of", i)
     for j in range(1, 11):
         print(f"{i} * {i} = {i * j}")
+    print()
 # 32. WAP to print squares from 1 to n
 # 33. WAP to print cubes from 1 to n
 # 34. WAP to print factorial of number
