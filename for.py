@@ -697,10 +697,42 @@ Z = 90
 """
 
 # 41. WAP to print ASCII values a-z
-for i in range(97, 123):
-    print(chr(i), "=", i)
+# for i in range(97, 123):
+#     print(chr(i), "=", i)
+
+'''
+a = 97
+b = 98
+c = 99
+d = 100
+e = 101
+f = 102
+g = 103
+h = 104
+i = 105
+j = 106
+k = 107
+l = 108
+m = 109
+n = 110
+o = 111
+p = 112
+q = 113
+r = 114
+s = 115
+t = 116
+u = 117
+v = 118
+w = 119
+x = 120
+y = 121
+z = 122
+'''
 
 # 42. WAP to print divisors of number
+n=int(input('enter a number: '))
+for i in range(1,n+1):
+    if 
 # 43. WAP to check prime number
 # 44. WAP to print prime numbers from 1 to n
 # 45. WAP to print Armstrong numbers from 1 to n
