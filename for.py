@@ -1405,7 +1405,12 @@ for i, j in zip_longest(lst1, lst2):
     res[i] = j
 print(res)
 
+"""
+{1: 1, 2: 2, 3: 3, None: 4}
+"""
+
 # 87. WAP to merge strings of unequal length
+
 # 88. WAP to create dictionary from unequal lists
 # 89. WAP to replace missing values with 0
 # 90. WAP to replace missing values with '*'
