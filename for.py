@@ -1176,13 +1176,18 @@ C 67
 """
 
 # 71. WAP to print smaller value among pairs
-lst1 = [10, 20, 30, 40]
-lst2 = [20, 30, 40, 50, 60]
-for a, b in zip(lst1, lst2):
-    if a < b:
-        print(a, end=" ")
-    else:
-        print(b, end=" ")
+# lst1 = [10, 20, 30, 40]
+# lst2 = [20, 30, 40, 50, 60]
+# for a, b in zip(lst1, lst2):
+#     if a < b:
+#         print(a, end=" ")
+#     else:
+#         print(b, end=" ")
+
+"""
+10 20 30 40 
+"""
+
 # 72. WAP to concatenate strings from two lists
 # 73. WAP to compare elements of two lists
 # 74. WAP to count matching elements
