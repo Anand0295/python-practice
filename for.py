@@ -1410,7 +1410,9 @@ print(res)
 """
 
 # 87. WAP to merge strings of unequal length
-
+s1 = "hello"
+lst2 = [1, 2, 3, 4]
+res = {}
 # 88. WAP to create dictionary from unequal lists
 # 89. WAP to replace missing values with 0
 # 90. WAP to replace missing values with '*'
