@@ -1167,9 +1167,9 @@ lst1 = [10, 20, 30, 40]
 lst2 = [20, 30, 40, 50, 60]
 for a, b in zip(lst1, lst2):
     if a > b:
-        print(a, end="")
+        print(a, end=" ")
     else:
-        print(b, end="")
+        print(b, end=" ")
 # 71. WAP to print smaller value among pairs
 # 72. WAP to concatenate strings from two lists
 # 73. WAP to compare elements of two lists
