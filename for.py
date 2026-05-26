@@ -1414,7 +1414,7 @@ s1 = "hello"
 s2 = "qspiders"
 res = []
 for i, j in zip_longest(s1, s2):
-    res.append(i, j)
+    res.extend(i, j)
 print(res)
 # 88. WAP to create dictionary from unequal lists
 # 89. WAP to replace missing values with 0
