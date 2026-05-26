@@ -1395,7 +1395,6 @@ n x different
 # └────────|  Continues Till End  |
 #          |----------------------|
 
-from itertools import zip_longest
 
 # # 86. WAP to combine unequal lists
 # lst1 = [1, 2, 3]
@@ -1410,18 +1409,19 @@ from itertools import zip_longest
 """
 
 # 87. WAP to merge strings of unequal length
-s1 = "hello"
-s2 = "qspiders"
-res = {}
-for i, j in zip_longest(s1, s2):
-    res[i] = j
-print(res)
+# s1 = "hello"
+# s2 = "qspiders"
+# res = {}
+# for i, j in zip_longest(s1, s2):
+#     res[i] = j
+# print(res)
 
 """
 {'h': 'q', 'e': 's', 'l': 'i', 'o': 'd', None: 's'}
 """
 
 # 88. WAP to create dictionary from unequal lists
+
 # 89. WAP to replace missing values with 0
 # 90. WAP to replace missing values with '*'
 # 91. WAP to print longest paired sequence
