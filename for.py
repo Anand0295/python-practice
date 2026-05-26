@@ -1216,6 +1216,17 @@ C 67
 """
 
 # 74. WAP to count matching elements
+# lst1 = [1, 2, 3, 4]
+# lst2 = [1, 5, 3, 8]
+# count = 0
+# for a, b in zip(lst1, lst2):
+#     if a == b:
+#         count += 1
+# print(count)
+
+"""
+2
+"""
 # 75. WAP to merge tuple elements
 # 76. WAP to print student name with grade
 # 77. WAP to create list of tuples
