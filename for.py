@@ -1139,13 +1139,19 @@ C 67
 """
 
 # 68. WAP to combine names and marks
-names = ["anand", "neeraj", "john", "abdul", "ramya"]
-marks = [85, 80, 76, 35, 59, 15]
-d = {}
-for a, b in zip(names, marks):
-    d[a] = b
-print(d)
+# names = ["anand", "neeraj", "john", "abdul", "ramya"]
+# marks = [85, 80, 76, 35, 59, 15]
+# d = {}
+# for a, b in zip(names, marks):
+#     d[a] = b
+# print(d)
+
+"""
+{'anand': 85, 'neeraj': 80, 'john': 76, 'abdul': 35, 'ramya': 59}
+"""
+
 # 69. WAP to create dictionary from two lists
+
 # 70. WAP to print bigger value among pairs
 # 71. WAP to print smaller value among pairs
 # 72. WAP to concatenate strings from two lists
