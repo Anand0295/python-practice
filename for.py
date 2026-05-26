@@ -1421,7 +1421,16 @@ n x different
 """
 
 # 88. WAP to create dictionary from unequal lists
+# lst1 = [1, 2, 3]
+# lst2 = [1, 2, 3, 4]
+# res = {}
+# for i, j in zip_longest(lst1, lst2):
+#     res[i] = j
+# print(res)
 
+"""
+{1: 1, 2: 2, 3: 3, None: 4}
+"""
 # 89. WAP to replace missing values with 0
 # 90. WAP to replace missing values with '*'
 # 91. WAP to print longest paired sequence
