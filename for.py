@@ -1143,8 +1143,8 @@ names = ["anand", "neeraj", "john", "abdul", "ramya"]
 marks = [85, 80, 76, 35, 59, 15]
 d = {}
 for a, b in zip(names, marks):
-    lst.extend((a, b))
-print(lst)
+    d[a] = b
+print(d)
 # 69. WAP to create dictionary from two lists
 # 70. WAP to print bigger value among pairs
 # 71. WAP to print smaller value among pairs
