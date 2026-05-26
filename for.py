@@ -1156,6 +1156,7 @@ lst2 = ["apple", "banana", "orange", "pineapple"]
 d = {}
 for a, b in zip(lst1, lst2):
     d[a] = b
+print(d)
 # 70. WAP to print bigger value among pairs
 # 71. WAP to print smaller value among pairs
 # 72. WAP to concatenate strings from two lists
