@@ -40,11 +40,16 @@ hello world
 
 
 # 2. WAP to print your name using function
-def name(name):
-    print(name)
+# def name(name):
+#     print(name)
 
 
-name(input("enter your name: "))
+# name(input("enter your name: "))
+
+"""
+enter your name: Anand
+Anand
+"""
 
 # 3. WAP to print numbers from 1 to 10 using function
 # 4. WAP to print even numbers using function
