@@ -1228,16 +1228,159 @@ C 67
 2
 """
 # 75. WAP to merge tuple elements
+# t1 = (1, 2, 3)
+# t2 = (4, 5, 6)
+# res = ()
+# for a, b in zip(t1, t2):
+#     res += (a, b)
+# print(res)
+
+"""
+(1, 4, 2, 5, 3, 6)
+"""
+
+
 # 76. WAP to print student name with grade
+# names = ["ram", "sam", "tom"]
+# grades = ["A", "B", "A+"]
+# for a, b in zip(names, grades):
+#     print(a, ":", b)
+
+"""
+ram : A
+sam : B
+tom : A+
+"""
+
+
 # 77. WAP to create list of tuples
+# lst1 = [1, 2, 3]
+# lst2 = ["a", "b", "c"]
+# res = []
+# for a, b in zip(lst1, lst2):
+#     res.append((a, b))
+# print(res)
+
+"""
+[(1, 'a'), (2, 'b'), (3, 'c')]
+"""
+
+
 # 78. WAP to unzip list of tuples
+# lst = [(1, 'a'), (2, 'b'), (3, 'c')]
+# lst1 = []
+# lst2 = []
+# for a, b in lst:
+#     lst1.append(a)
+#     lst2.append(b)
+# print(lst1)
+# print(lst2)
+
+"""
+[1, 2, 3]
+['a', 'b', 'c']
+"""
+
+
 # 79. WAP to print sum of pair values
+# lst1 = [1, 2, 3]
+# lst2 = [4, 5, 6]
+# for a, b in zip(lst1, lst2):
+#     print(a + b, end=" ")
+
+"""
+5 7 9
+"""
+
+
 # 80. WAP to print product of pair values
+# lst1 = [1, 2, 3]
+# lst2 = [4, 5, 6]
+# for a, b in zip(lst1, lst2):
+#     print(a * b, end=" ")
+
+"""
+4 10 18
+"""
+
+
 # 81. WAP to combine keys and values into dictionary
+# keys = ["a", "b", "c"]
+# values = [100, 200, 300]
+# d = {}
+# for a, b in zip(keys, values):
+#     d[a] = b
+# print(d)
+
+"""
+{'a': 100, 'b': 200, 'c': 300}
+"""
+
+
 # 82. WAP to compare characters of two strings
+# s1 = "python"
+# s2 = "pythxx"
+# for a, b in zip(s1, s2):
+#     if a == b:
+#         print(a, "same")
+#     else:
+#         print(a, b, "different")
+
+"""
+p same
+y same
+t same
+h same
+o x different
+n x different
+"""
+
+
 # 83. WAP to create matrix addition using zip
+# m1 = [[1,2],[3,4]]
+# m2 = [[5,6],[7,8]]
+
+# for a, b in zip(m1, m2):
+
+#     row = []
+
+#     for x, y in zip(a, b):
+#         row.append(x + y)
+
+#     print(row)
+
+"""
+[6, 8]
+[10, 12]
+"""
+
+
 # 84. WAP to transpose matrix using zip
+# matrix = [[1,2,3],
+#           [4,5,6]]
+
+# for i in zip(*matrix):
+#     print(list(i))
+
+"""
+[1, 4]
+[2, 5]
+[3, 6]
+"""
+
+
 # 85. WAP to pair vowels and consonants
+# vowels = ['a', 'e', 'i']
+# consonants = ['b', 'c', 'd']
+
+# for a, b in zip(vowels, consonants):
+#     print((a, b))
+
+"""
+('a', 'b')
+('e', 'c')
+('i', 'd')
+"""
 
 
 # =========================
