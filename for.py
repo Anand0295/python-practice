@@ -1416,6 +1416,11 @@ res = {}
 for i, j in zip_longest(s1, s2):
     res[i] = j
 print(res)
+
+"""
+{'h': 'q', 'e': 's', 'l': 'i', 'o': 'd', None: 's'}
+"""
+
 # 88. WAP to create dictionary from unequal lists
 # 89. WAP to replace missing values with 0
 # 90. WAP to replace missing values with '*'
