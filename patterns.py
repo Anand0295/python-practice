@@ -509,3 +509,30 @@ A B C D E
 # 118. WAP to print valley pattern
 # 119. WAP to print hill pattern
 # 120. WAP to print nested box pattern
+
+# 121. WAP to print letter A using stars
+# 122. WAP to print letter B using stars
+# 123. WAP to print letter C using stars
+# 124. WAP to print letter D using stars
+# 125. WAP to print letter E using stars
+# 126. WAP to print letter F using stars
+# 127. WAP to print letter G using stars
+# 128. WAP to print letter H using stars
+# 129. WAP to print letter I using stars
+# 130. WAP to print letter J using stars
+# 131. WAP to print letter K using stars
+# 132. WAP to print letter L using stars
+# 133. WAP to print letter M using stars
+# 134. WAP to print letter N using stars
+# 135. WAP to print letter O using stars
+# 136. WAP to print letter P using stars
+# 137. WAP to print letter Q using stars
+# 138. WAP to print letter R using stars
+# 139. WAP to print letter S using stars
+# 140. WAP to print letter T using stars
+# 141. WAP to print letter U using stars
+# 142. WAP to print letter V using stars
+# 143. WAP to print letter W using stars
+# 144. WAP to print letter X using stars
+# 145. WAP to print letter Y using stars
+# 146. WAP to print letter Z using stars
