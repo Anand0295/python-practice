@@ -1115,7 +1115,11 @@ C 67
 
 
 # 66. WAP to add elements of two lists
-
+lst1 = [1, 2, 3, 4, 5]
+lst2 = [6, 7, 8, 9, 10]
+res = []
+for a, b in zip(lst1, lst2):
+    print(res.append(a + b))
 # 67. WAP to multiply elements of two lists
 # 68. WAP to combine names and marks
 # 69. WAP to create dictionary from two lists
