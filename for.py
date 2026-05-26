@@ -967,11 +967,18 @@ e r j u a
 """
 
 # 55. WAP to find index of vowels
-s = input("enter a string: ")
-for i, j in enumerate(s):
-    if j in "aeiouAEIOU":
-        print(i, end=" ")
+# s = input("enter a string: ")
+# for i, j in enumerate(s):
+#     if j in "aeiouAEIOU":
+#         print(i, end=" ")
+
+"""
+enter a string: hello world
+1 4 7
+"""
+
 # 56. WAP to create dictionary with index and value
+
 # 57. WAP to print elements greater than index
 # 58. WAP to replace even index values with square
 # 59. WAP to print index positions of spaces
