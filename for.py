@@ -1141,7 +1141,7 @@ C 67
 # 68. WAP to combine names and marks
 names = ["anand", "neeraj", "john", "abdul", "ramya"]
 marks = [85, 80, 76, 35, 59, 15]
-lst = []
+d = {}
 for a, b in zip(names, marks):
     lst.extend((a, b))
 print(lst)
