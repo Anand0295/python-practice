@@ -1,7 +1,6 @@
 # =========================
 # FOR LOOP
 # =========================
-from itertools import zip_longest
 
 # ┌──► for variable in iterable:
 # │        |----------------------|
@@ -1433,12 +1432,16 @@ n x different
 {1: 1, 2: 2, 3: 3, None: 4}
 """
 # 89. WAP to replace missing values with 0
-lst1 = [1, 2, 3, 4, 5]
-lst2 = [6, 7, 8, 9]
-d = {}
-for i, j in zip_longest(lst1, lst2, fillvalue=0):
-    d[i] = j
-print(d)
+# lst1 = [1, 2, 3, 4, 5]
+# lst2 = [6, 7, 8, 9]
+# d = {}
+# for i, j in zip_longest(lst1, lst2, fillvalue=0):
+#     d[i] = j
+# print(d)
+
+"""
+{1: 6, 2: 7, 3: 8, 4: 9, 5: 0}
+"""
 
 # 90. WAP to replace missing values with '*'
 # 91. WAP to print longest paired sequence
