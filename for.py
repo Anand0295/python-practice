@@ -1,6 +1,7 @@
 # =========================
 # FOR LOOP
 # =========================
+from itertools import zip_longest
 
 # ┌──► for variable in iterable:
 # │        |----------------------|
