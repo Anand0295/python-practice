@@ -1194,7 +1194,7 @@ C 67
 # res = []
 # for i, j in zip(lst1, lst2):
 #     res.append(i + j)
-print(res)
+# print(res)
 
 """
 ['python', 'java']
