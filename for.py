@@ -1189,6 +1189,9 @@ C 67
 """
 
 # 72. WAP to concatenate strings from two lists
+lst1 = ["py", "ja", "c"]
+lst2 = ["thon", va]
+
 # 73. WAP to compare elements of two lists
 # 74. WAP to count matching elements
 # 75. WAP to merge tuple elements
