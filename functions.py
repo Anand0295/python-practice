@@ -314,3 +314,89 @@
 # 98. WAP to print letter X using function
 # 99. WAP to print letter Y using function
 # 100. WAP to print your name using star patterns and functions
+
+
+# =========================================================
+# EXTRA FUNCTION TOPICS LEFT
+# =========================================================
+
+# 101. WAP to create nested functions
+# 102. WAP to call inner function from outer function
+# 103. WAP to return function from another function
+# 104. WAP to pass function as argument
+# 105. WAP to create calculator using multiple functions
+# 106. WAP to create ATM application using functions
+# 107. WAP to create library management using functions
+# 108. WAP to create student management system using functions
+# 109. WAP to create employee payroll using functions
+# 110. WAP to create shopping cart using functions
+
+# =========================================================
+# RECURSION
+# =========================================================
+
+# def fun(n):
+#     |------------------------------|
+#     | function calls itself        |
+#     |------------------------------|
+
+# 111. WAP to find factorial using recursion
+# 112. WAP to print Fibonacci using recursion
+# 113. WAP to reverse string using recursion
+# 114. WAP to calculate power using recursion
+# 115. WAP to find sum of digits using recursion
+# 116. WAP to count digits using recursion
+# 117. WAP to check palindrome using recursion
+# 118. WAP to print numbers from 1 to n using recursion
+# 119. WAP to print numbers from n to 1 using recursion
+# 120. WAP to find GCD using recursion
+
+# =========================================================
+# REAL-TIME FUNCTION PROGRAMS
+# =========================================================
+
+# 121. WAP to create login authentication system
+# 122. WAP to create signup validation system
+# 123. WAP to create password validation function
+# 124. WAP to create email validation function
+# 125. WAP to create OTP generator function
+# 126. WAP to create banking transaction system
+# 127. WAP to create billing system
+# 128. WAP to create attendance management system
+# 129. WAP to create marks card generator
+# 130. WAP to create result processing system
+
+# =========================================================
+# ADVANCED ARGUMENT COMBINATIONS
+# =========================================================
+
+# def fun(a,b,/ , c,d , *args , e,f , **kwargs):
+#     |------------------------------|
+#     | all argument types together  |
+#     |------------------------------|
+
+# 131. WAP using positional + keyword + *args together
+# 132. WAP using positional-only + keyword-only together
+# 133. WAP using *args and **kwargs together
+# 134. WAP to create dynamic calculator using *args
+# 135. WAP to create dynamic dictionary using **kwargs
+# 136. WAP to create flexible student report system
+# 137. WAP to create invoice generator
+# 138. WAP to create salary slip generator
+# 139. WAP to create online order system
+# 140. WAP to create dynamic menu-driven application
+
+# =========================================================
+# FUNCTION + PATTERN COMBINATIONS
+# =========================================================
+
+# 141. WAP to create star pattern functions
+# 142. WAP to create alphabet pattern functions
+# 143. WAP to create number pattern functions
+# 144. WAP to create hollow pattern functions
+# 145. WAP to create diagonal patterns using functions
+# 146. WAP to create butterfly pattern using functions
+# 147. WAP to create diamond pattern using functions
+# 148. WAP to print your name using functions and patterns
+# 149. WAP to print INDIA using star patterns
+# 150. WAP to print PYTHON using star patterns
