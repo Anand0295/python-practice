@@ -978,7 +978,11 @@ enter a string: hello world
 """
 
 # 56. WAP to create dictionary with index and value
-
+lst = eval("enter a list: ")
+d = {}
+for i, j in enumerate(lst):
+    d[i] = j
+print(d)
 # 57. WAP to print elements greater than index
 # 58. WAP to replace even index values with square
 # 59. WAP to print index positions of spaces
