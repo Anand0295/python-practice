@@ -978,7 +978,7 @@ enter a string: hello world
 """
 
 # 56. WAP to create dictionary with index and value
-lst = eval("enter a list: ")
+lst = eval(input(("enter a list: ")))
 d = {}
 for i, j in enumerate(lst):
     d[i] = j
