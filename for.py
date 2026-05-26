@@ -1140,13 +1140,8 @@ C 67
 
 # 68. WAP to combine names and marks
 names = ["anand", "neeraj", "john", "abdul", "ramya"]
-marks = [
-    85,
-    80,
-    76,
-    35,
-    59,
-]
+marks = [85, 80, 76, 35, 59, 15]
+
 # 69. WAP to create dictionary from two lists
 # 70. WAP to print bigger value among pairs
 # 71. WAP to print smaller value among pairs
