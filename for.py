@@ -1189,12 +1189,16 @@ C 67
 """
 
 # 72. WAP to concatenate strings from two lists
-lst1 = ["py", "ja", "c"]
-lst2 = ["thon", "va"]
-res = []
-for i, j in zip(lst1, lst2):
-    res.append(i + j)
+# lst1 = ["py", "ja", "c"]
+# lst2 = ["thon", "va"]
+# res = []
+# for i, j in zip(lst1, lst2):
+#     res.append(i + j)
 print(res)
+
+"""
+['python', 'java']
+"""
 
 # 73. WAP to compare elements of two lists
 # 74. WAP to count matching elements
