@@ -978,12 +978,19 @@ enter a string: hello world
 """
 
 # 56. WAP to create dictionary with index and value
-lst = eval(input(("enter a list: ")))
-d = {}
-for i, j in enumerate(lst):
-    d[i] = j
-print(d)
+# lst = eval(input(("enter a list: ")))
+# d = {}
+# for i, j in enumerate(lst):
+#     d[i] = j
+# print(d)
+
+"""
+enter a list: [1,2,'hello',[1,2,3],(100,99,98),{11,22,33}]
+{0: 1, 1: 2, 2: 'hello', 3: [1, 2, 3], 4: (100, 99, 98), 5: {33, 11, 22}}
+"""
+
 # 57. WAP to print elements greater than index
+
 # 58. WAP to replace even index values with square
 # 59. WAP to print index positions of spaces
 # 60. WAP to count indexes containing vowels
