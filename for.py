@@ -1432,6 +1432,8 @@ n x different
 {1: 1, 2: 2, 3: 3, None: 4}
 """
 # 89. WAP to replace missing values with 0
+lst1 = [1, 2, 3, 4, 5]
+lst2 = [6, 7, 8, 9]
 
 # 90. WAP to replace missing values with '*'
 # 91. WAP to print longest paired sequence
