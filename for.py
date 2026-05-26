@@ -990,15 +990,115 @@ enter a list: [1,2,'hello',[1,2,3],(100,99,98),{11,22,33}]
 """
 
 # 57. WAP to print elements greater than index
+# lst = eval(input("enter a list: "))
+# for i, j in enumerate(lst):
+#     if j > i:
+#         print(j, end=" ")
+
+"""
+enter a list: [0,2,1,5,3,8]
+2 5 8
+"""
 
 # 58. WAP to replace even index values with square
+# lst = eval(input("enter a list: "))
+# for i, j in enumerate(lst):
+#     if i % 2 == 0:
+#         lst[i] = j ** 2
+# print(lst)
+
+"""
+enter a list: [1,2,3,4,5]
+[1, 2, 9, 4, 25]
+"""
+
 # 59. WAP to print index positions of spaces
+# s = input("enter a string: ")
+# for i, j in enumerate(s):
+#     if j == " ":
+#         print(i, end=" ")
+
+"""
+enter a string: hello world python
+5 11
+"""
+
 # 60. WAP to count indexes containing vowels
+# s = input("enter a string: ")
+# count = 0
+# for i, j in enumerate(s):
+#     if j.lower() in "aeiou":
+#         count += 1
+# print(count)
+
+"""
+enter a string: education
+5
+"""
+
 # 61. WAP to print indexes divisible by 3
+# lst = eval(input("enter a list: "))
+# for i, j in enumerate(lst):
+#     if i % 3 == 0:
+#         print(i, end=" ")
+
+"""
+enter a list: [10,20,30,40,50,60,70]
+0 3 6
+"""
+
 # 62. WAP to reverse indexes and values
+# lst = eval(input("enter a list: "))
+# for i, j in reversed(list(enumerate(lst))):
+#     print(i, j)
+
+"""
+enter a list: [10,20,30,40]
+3 40
+2 30
+1 20
+0 10
+"""
+
 # 63. WAP to create tuple of index and word
+# lst = input("enter words: ").split()
+# res = []
+# for i, j in enumerate(lst):
+#     res.append((i, j))
+# print(tuple(res))
+
+"""
+enter words: python java sql html
+((0, 'python'), (1, 'java'), (2, 'sql'), (3, 'html'))
+"""
+
 # 64. WAP to print elements whose index is prime
+# lst = eval(input("enter a list: "))
+# for i, j in enumerate(lst):
+
+#     if i > 1:
+#         for k in range(2, i):
+#             if i % k == 0:
+#                 break
+#         else:
+#             print(j, end=" ")
+
+"""
+enter a list: [10,20,30,40,50,60,70]
+30 40 60 70
+"""
+
 # 65. WAP to print characters with ASCII values
+# s = input("enter a string: ")
+# for i, j in enumerate(s):
+#     print(j, ord(j))
+
+"""
+enter a string: ABC
+A 65
+B 66
+C 67
+"""
 
 
 # =========================
