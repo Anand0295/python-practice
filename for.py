@@ -1200,7 +1200,21 @@ C 67
 ['python', 'java']
 """
 
-# 73. WAP to compare elements of two lists
+# lst1 = [1, 2, 3, 4]
+# lst2 = [1, 5, 3, 8]
+# for a, b in zip(lst1, lst2):
+#     if a == b:
+#         print(a, "same")
+#     else:
+#         print(a, b, "different")
+
+"""
+1 same
+2 5 different
+3 same
+4 8 different
+"""
+
 # 74. WAP to count matching elements
 # 75. WAP to merge tuple elements
 # 76. WAP to print student name with grade
