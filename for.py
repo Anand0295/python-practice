@@ -1151,12 +1151,17 @@ C 67
 """
 
 # 69. WAP to create dictionary from two lists
-lst1 = [1, 2, 3, 4, 5]
-lst2 = ["apple", "banana", "orange", "pineapple"]
-d = {}
-for a, b in zip(lst1, lst2):
-    d[a] = b
-print(d)
+# lst1 = [1, 2, 3, 4, 5]
+# lst2 = ["apple", "banana", "orange", "pineapple"]
+# d = {}
+# for a, b in zip(lst1, lst2):
+#     d[a] = b
+# print(d)
+
+"""
+{1: 'apple', 2: 'banana', 3: 'orange', 4: 'pineapple'}
+"""
+
 # 70. WAP to print bigger value among pairs
 # 71. WAP to print smaller value among pairs
 # 72. WAP to concatenate strings from two lists
