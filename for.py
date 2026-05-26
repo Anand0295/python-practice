@@ -762,18 +762,18 @@ not a prime number
 """
 
 # 44. WAP to print prime numbers from 1 to n
-n = int(input("Enter your number: "))
+# n = int(input("Enter your number: "))
 
-for i in range(2, n + 1):
-    is_prime = True
+# for i in range(2, n + 1):
+#     is_prime = True
 
-    for j in range(2, i):
-        if i % j == 0:
-            is_prime = False
-            break
+#     for j in range(2, i):
+#         if i % j == 0:
+#             is_prime = False
+#             break
 
-    if is_prime:
-        print(i, end=" ")
+#     if is_prime:
+#         print(i, end=" ")
 
 """
 Enter your number: 10
@@ -781,17 +781,110 @@ Enter your number: 10
 """
 
 # 45. WAP to print Armstrong numbers from 1 to n
+# n = int(input("enter range: "))
+
+# for i in range(1, n + 1):
+#     temp = i
+#     digits = len(str(i))
+#     total = 0
+
+#     for j in str(i):
+#         total += int(j) ** digits
+
+#     if total == temp:
+#         print(i, end=" ")
+
+"""
+enter range: 100 
+1 2 3 4 5 6 7 8 9
+"""
 
 # 46. WAP to print perfect numbers from 1 to n
+# n = int(input("enter range: "))
+
+# for i in range(1, n + 1):
+#     total = 0
+
+#     for j in range(1, i):
+#         if i % j == 0:
+#             total += j
+
+#     if total == i:
+#         print(i, end=" ")
+
+"""
+enter range: 100
+6 28
+"""
 
 # 47. WAP to print strong numbers from 1 to n
+# n = int(input("enter range: "))
+
+# for i in range(1, n + 1):
+#     temp = i
+#     total = 0
+
+#     for j in str(i):
+#         fact = 1
+
+#         for k in range(1, int(j) + 1):
+#             fact *= k
+
+#         total += fact
+
+#     if total == temp:
+#         print(i, end=" ")
+
+"""
+enter range: 100
+1 2
+"""
 
 # 48. WAP to print palindrome numbers from 1 to n
+# n = int(input("enter range: "))
+
+# for i in range(1, n + 1):
+#     if str(i) == str(i)[::-1]:
+#         print(i, end=" ")
+
+"""
+enter range: 500 
+1 2 3 4 5 6 7 8 9 11 22 33 44 55 66 77 88 99 101 111 121 131 141 151 161 171 181 191 202 212 222 232 242 252 262 272 282 292 303 313 323 333 343 353 363 373 383 393 404 414 424 434 444 454 464 474 484 494
+"""
 
 # 49. WAP to print leap years between ranges
+# start = int(input("enter start year: "))
+# end = int(input("enter end year: "))
+
+# for i in range(start, end + 1):
+#     if (i % 4 == 0 and i % 100 != 0) or (i % 400 == 0):
+#         print(i, end=" ")
+
+"""
+enter start year: 1900
+enter end year: 3000
+1904 1908 1912 1916 1920 1924 1928 1932 1936 1940 1944 1948 1952 1956 1960 1964 1968 1972 1976 1980 1984 1988 1992 1996 2000 2004 2008 2012 2016 2020 2024 2028 2032 2036 2040 2044 2048 2052 2056 2060 2064 2068 2072 2076 2080 2084 2088 2092 2096 2104 2108 2112 2116 2120 2124 2128 2132 2136 2140 2144 2148 2152 2156 2160 2164 2168 2172 2176 2180 2184 2188 2192 2196 2204 2208 2212 2216 2220 2224 2228 2232 2236 2240 2244 2248 2252 2256 2260 2264 2268 2272 2276 2280 2284 2288 2292 2296 2304 2308 2312 2316 2320 2324 2328 2332 2336 2340 2344 2348 2352 2356 2360 2364 2368 2372 2376 2380 2384 2388 2392 2396 2400 2404 2408 2412 2416 2420 2424 2428 2432 2436 2440 2444 2448 2452 2456 2460 2464 2468 2472 2476 2480 2484 2488 2492 2496 2504 2508 2512 2516 2520 2524 2528 2532 2536 2540 2544 2548 2552 2556 2560 2564 2568 2572 2576 2580 2584 2588 2592 2596 2604 2608 2612 2616 2620 2624 2628 2632 2636 2640 2644 2648 2652 2656 2660 2664 2668 2672 2676 2680 2684 2688 2692 2696 2704 2708 2712 2716 2720 2724 2728 2732 2736 2740 2744 2748 2752 2756 2760 2764 2768 2772 2776 2780 2784 2788 2792 2796 2800 2804 2808 2812 2816 2820 2824 2828 2832 2836 2840 2844 2848 2852 2856 2860 2864 2868 2872 2876 2880 2884 2888 2892 2896 2904 2908 2912 2916 2920 2924 2928 2932 2936 2940 2944 2948 2952 2956 2960 2964 2968 2972 2976 2980 2984 2988 2992 2996 
+"""
 
 # 50. WAP to print tables in reverse order
+# n = int(input("enter number: "))
 
+# for i in range(10, 0, -1):
+#     print(f"{n} x {i} = {n * i}")
+
+"""
+enter number: 15
+15 x 10 = 150
+15 x 9 = 135
+15 x 8 = 120
+15 x 7 = 105
+15 x 6 = 90
+15 x 5 = 75
+15 x 4 = 60
+15 x 3 = 45
+15 x 2 = 30
+15 x 1 = 15
+"""
 
 # =========================
 # ENUMERATE()
@@ -807,9 +900,72 @@ Enter your number: 10
 
 
 # 51. WAP to print index and element from list
+# lst = eval(input("enter a list: "))
+# for i, j in enumerate(lst):
+#     print(i, j)
+
+"""
+enter a list: [1,2,3,4,5]
+0 1
+1 2
+2 3
+3 4
+4 5
+"""
+
+# lst = eval(input("enter a list: "))
+# for i in enumerate(lst):
+#     print(i)
+
+"""
+enter a list: [1,2,3,4,5]
+(0, 1)
+(1, 2)
+(2, 3)
+(3, 4)
+(4, 5)
+"""
+
 # 52. WAP to print index and character from string
+# s = input("enter a string: ")
+# for i, j in enumerate(s):
+#     print(i, j)
+
+"""
+enter a string: hello
+0 h
+1 e
+2 l
+3 l
+4 o
+"""
+
 # 53. WAP to print even index characters
+# s = input("enter a string: ")
+# for i, j in enumerate(s):
+#     if i % 2 == 0:
+#         print(j)
+
+"""
+enter a string: hello python
+h
+l
+o
+p
+t
+o
+"""
+
 # 54. WAP to print odd index characters
+# s = input("enter a string: ")
+# for i, j in enumerate(s):
+#     if i % 2 != 0:
+#         print(j, end=" ")
+"""
+enter a string: NeerajKumar
+e r j u a
+"""
+
 # 55. WAP to find index of vowels
 # 56. WAP to create dictionary with index and value
 # 57. WAP to print elements greater than index
