@@ -1432,10 +1432,12 @@ n x different
 {1: 1, 2: 2, 3: 3, None: 4}
 """
 # 89. WAP to replace missing values with 0
-lst1=[1,2,3,4,5]
-lst2=[6,7,8,9]
-res=[]
-for i,j in zip_longest(lst1,lst2, fillvalue=0):
+lst1 = [1, 2, 3, 4, 5]
+lst2 = [6, 7, 8, 9]
+res = []
+for i, j in zip_longest(lst1, lst2, fillvalue=0):
+    res.append(i, j)
+print(res)
 
 # 90. WAP to replace missing values with '*'
 # 91. WAP to print longest paired sequence
