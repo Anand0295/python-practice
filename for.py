@@ -1115,6 +1115,7 @@ C 67
 
 
 # 66. WAP to add elements of two lists
+
 # 67. WAP to multiply elements of two lists
 # 68. WAP to combine names and marks
 # 69. WAP to create dictionary from two lists
