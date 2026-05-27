@@ -1500,13 +1500,13 @@ John *
 """
 
 # 94. WAP to merge uneven matrices
-from itertools import zip_longest  # noqa: E402
+# from itertools import zip_longest  # noqa: E402
 
-m1 = [[1, 2], [3, 4]]
-m2 = [[5, 6]]
+# m1 = [[1, 2], [3, 4]]
+# m2 = [[5, 6]]
 
-for row1, row2 in zip_longest(m1, m2, fillvalue=["*"]):
-    print(row1, row2)
+# for row1, row2 in zip_longest(m1, m2, fillvalue=["*"]):
+#     print(row1, row2)
 
 """
 Output:
@@ -1514,12 +1514,12 @@ Output:
 [3, 4] ['*']
 """
 # 95. WAP to print missing positions
-a = [10, 20, 30, 40]
-b = [10, 20]
+# a = [10, 20, 30, 40]
+# b = [10, 20]
 
-for index, (i, j) in enumerate(zip_longest(a, b, fillvalue="*")):
-    if i == "*" or j == "*":
-        print("Missing position:", index)
+# for index, (i, j) in enumerate(zip_longest(a, b, fillvalue="*")):
+#     if i == "*" or j == "*":
+#         print("Missing position:", index)
 
 """
 Output:
