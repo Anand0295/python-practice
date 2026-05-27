@@ -1444,6 +1444,7 @@ n x different
 """
 
 # 90. WAP to replace missing values with '*'
+s1 = "pyt"
 # 91. WAP to print longest paired sequence
 # 92. WAP to compare unequal tuples
 # 93. WAP to align names and marks
