@@ -1448,10 +1448,10 @@ from itertools import zip_longest
 
 s1 = ["pyth"]
 s2 = ["on"]
-
-# Wrap the asterisk in quotes
+lst = []
 for i, j in zip_longest(s1, s2, fillvalue="*"):
-    result = 
+    l.extend(i, j)
+print(lst)
 
 # 91. WAP to print longest paired sequence
 # 92. WAP to compare unequal tuples
