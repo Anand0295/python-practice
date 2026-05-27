@@ -1450,7 +1450,7 @@ s1 = ["pyth"]
 s2 = ["on"]
 lst = []
 for i, j in zip_longest(s1, s2, fillvalue="*"):
-    l.extend(i, j)
+    lst.extend(i, j)
 print(lst)
 
 # 91. WAP to print longest paired sequence
