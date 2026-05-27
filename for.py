@@ -1545,7 +1545,16 @@ Missing position: 3
 lst = [9, 8, 7, 6, 4, 3, 2, 1]
 for i in sorted(lst):
     print(i, end=" ")
+
+"""
+1 2 3 4 6 7 8 9
+"""
+
 # 97. WAP to sort list in descending order
+lst = [9, 8, 7, 6, 4, 3, 2, 1]
+for i in sorted(lst):
+    print(i, end=" ")
+
 # 98. WAP to sort tuple
 # 99. WAP to sort set
 # 100. WAP to sort dictionary keys
