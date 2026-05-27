@@ -1552,7 +1552,7 @@ for i in sorted(lst):
 
 # 97. WAP to sort list in descending order
 lst = [9, 8, 7, 6, 4, 3, 2, 1]
-for i in sorted    print(i, end=" ")
+
 
 # 98. WAP to sort tuple
 # 99. WAP to sort set
