@@ -1551,10 +1551,13 @@ Missing position: 3
 """
 
 # 97. WAP to sort list in descending order
-lst = [9, 8, 7, 6, 4, 3, 2, 1]
-for i in sorted(lst, reverse=True):
-    print(i, end=" ")
+# lst = [9, 8, 7, 6, 4, 3, 2, 1]
+# for i in sorted(lst, reverse=True):
+#     print(i, end=" ")
 
+"""
+9 8 7 6 4 3 2 1
+"""
 
 # 98. WAP to sort tuple
 # 99. WAP to sort set
