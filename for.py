@@ -1458,8 +1458,8 @@ n x different
 """
 
 # 91. WAP to print longest paired sequence
-lst1 = []
-lst2 = []
+lst1 = [1, 2, 3]
+lst2 = ["a", "b", "c"]
 for i in zip_longest(lst1, lst2, fillvalue="*"):
     print(i)
 # 92. WAP to compare unequal tuples
