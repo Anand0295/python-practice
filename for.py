@@ -1,4 +1,3 @@
-import itertools
 
 # =========================
 # FOR LOOP
@@ -1472,13 +1471,20 @@ n x different
 """
 
 # 92. WAP to compare unequal tuples
-t1 = (1, 2, 3)
-t2 = (4, 5)
-for i, j in itertools.zip_longest(t1, t2):
-    if i == j:
-        print("Even")
-    else:
-        print("Uneven")
+# t1 = (1, 2, 3)
+# t2 = (4, 5)
+# for i, j in itertools.zip_longest(t1, t2):
+#     if i == j:
+#         print("Even")
+#     else:
+#         print("Uneven")
+
+"""
+Uneven
+Uneven
+Uneven
+"""
+
 # 93. WAP to align names and marks
 # 94. WAP to merge uneven matrices
 # 95. WAP to print missing positions
