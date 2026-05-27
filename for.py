@@ -1451,7 +1451,7 @@ s2 = "on"
 
 # Wrap the asterisk in quotes
 for i, j in zip_longest(s1, s2, fillvalue="*"):
-    print(i, j)
+    print("".join((i, j)))
 
 
 # 91. WAP to print longest paired sequence
