@@ -1,4 +1,3 @@
-
 # =========================
 # FOR LOOP
 # =========================
@@ -1486,6 +1485,20 @@ Uneven
 """
 
 # 93. WAP to align names and marks
+names = ["Ram", "Sam", "John"]
+marks = [85, 92]
+
+print("\n93. Align names and marks:")
+
+for name, mark in zip_longest(names, marks, fillvalue="*"):
+    print(name, mark)
+
+"""
+Output:
+Ram 85
+Sam 92
+John *
+"""
 # 94. WAP to merge uneven matrices
 # 95. WAP to print missing positions
 
