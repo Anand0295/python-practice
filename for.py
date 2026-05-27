@@ -1500,7 +1500,19 @@ John *
 """
 
 # 94. WAP to merge uneven matrices
+from itertools import zip_longest  # noqa: E402
 
+m1 = [[1, 2], [3, 4]]
+m2 = [[5, 6]]
+
+for row1, row2 in zip_longest(m1, m2, fillvalue=["*"]):
+    print(row1, row2)
+
+"""
+Output:
+[1, 2] [5, 6]
+[3, 4] ['*']
+"""
 # 95. WAP to print missing positions
 
 
