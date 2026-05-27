@@ -1444,6 +1444,9 @@ n x different
 """
 
 # 90. WAP to replace missing values with '*'
+from itertools import zip_longest
+
+
 s1 = "pyth"
 s2 = "on"
 for i,j in zip_longest(s1,s2, fillvalue=*):
