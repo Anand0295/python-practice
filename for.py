@@ -1485,12 +1485,12 @@ Uneven
 """
 
 # 93. WAP to align names and marks
-from itertools import zip_longest  # noqa: E402
+# from itertools import zip_longest  # noqa: E402
 
-names = ["Ram", "Sam", "John"]
-marks = [85, 92]
-for name, mark in zip_longest(names, marks, fillvalue="*"):
-    print(name, mark)
+# names = ["Ram", "Sam", "John"]
+# marks = [85, 92]
+# for name, mark in zip_longest(names, marks, fillvalue="*"):
+#     print(name, mark)
 
 """
 Output:
