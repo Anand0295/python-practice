@@ -1544,7 +1544,7 @@ Missing position: 3
 # 96. WAP to sort list in ascending order
 lst = [9, 8, 7, 6, 4, 3, 2, 1]
 for i in sorted(lst):
-    print(i)
+    print(i, end=" ")
 # 97. WAP to sort list in descending order
 # 98. WAP to sort tuple
 # 99. WAP to sort set
