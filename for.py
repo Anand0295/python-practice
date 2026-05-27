@@ -1451,8 +1451,7 @@ s2 = ["on"]
 
 # Wrap the asterisk in quotes
 for i, j in zip_longest(s1, s2, fillvalue="*"):
-    result = "".join(i + j for i, j in zip_longest(s1, s2, fillvalue="*"))
-print(result)
+    result = 
 
 # 91. WAP to print longest paired sequence
 # 92. WAP to compare unequal tuples
