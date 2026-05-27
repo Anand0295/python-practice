@@ -1542,9 +1542,9 @@ Missing position: 3
 
 
 # 96. WAP to sort list in ascending order
-lst = [9, 8, 7, 6, 4, 3, 2, 1]
-for i in sorted(lst):
-    print(i, end=" ")
+# lst = [9, 8, 7, 6, 4, 3, 2, 1]
+# for i in sorted(lst):
+#     print(i, end=" ")
 
 """
 1 2 3 4 6 7 8 9
