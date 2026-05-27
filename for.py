@@ -1458,6 +1458,10 @@ n x different
 """
 
 # 91. WAP to print longest paired sequence
+lst1 = []
+lst2 = []
+for i in zip_longest(lst1, lst2, fillvalue="*"):
+    print(i)
 # 92. WAP to compare unequal tuples
 # 93. WAP to align names and marks
 # 94. WAP to merge uneven matrices
