@@ -1485,6 +1485,8 @@ Uneven
 """
 
 # 93. WAP to align names and marks
+from itertools import zip_longest
+
 names = ["Ram", "Sam", "John"]
 marks = [85, 92]
 for name, mark in zip_longest(names, marks, fillvalue="*"):
