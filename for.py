@@ -1444,14 +1444,18 @@ n x different
 """
 
 # 90. WAP to replace missing values with '*'
-from itertools import zip_longest
+# from itertools import zip_longest
 
-list1 = [1, 2, 3]
-list2 = ["a", "b"]
+# list1 = [1, 2, 3]
+# list2 = ["a", "b"]
 
-result = list(zip_longest(list1, list2, fillvalue="*"))
+# result = list(zip_longest(list1, list2, fillvalue="*"))
 
-print(result)
+# print(result)
+
+"""
+[(1, 'a'), (2, 'b'), (3, '*')]
+"""
 
 # 91. WAP to print longest paired sequence
 # 92. WAP to compare unequal tuples
