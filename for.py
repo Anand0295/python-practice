@@ -1514,6 +1514,18 @@ Output:
 [3, 4] ['*']
 """
 # 95. WAP to print missing positions
+a = [10, 20, 30, 40]
+b = [10, 20]
+
+for index, (i, j) in enumerate(zip_longest(a, b, fillvalue="*")):
+    if i == "*" or j == "*":
+        print("Missing position:", index)
+
+"""
+Output:
+Missing position: 2
+Missing position: 3
+"""
 
 
 # =========================
