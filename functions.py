@@ -65,13 +65,19 @@ Anand
 
 
 # 4. WAP to print even numbers using function
-def even(no):
-    for i in range(1, no + 1):
-        if i % 2 == 0:
-            print(i, end=" ")
+# def even(no):
+#     for i in range(1, no + 1):
+#         if i % 2 == 0:
+#             print(i, end=" ")
 
 
-even(int(input("enter a number: ")))
+# even(int(input("enter a number: ")))
+
+"""
+enter a number: 25
+2 4 6 8 10 12 14 16 18 20 22 24
+"""
+
 # 5. WAP to print multiplication table using function
 
 
