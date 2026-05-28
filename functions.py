@@ -63,7 +63,15 @@ Anand
 1 2 3 4 5 6 7 8 9 10
 """
 
+
 # 4. WAP to print even numbers using function
+def even(no):
+    for i in range(1, no + 1):
+        if i % 2 == 0:
+            print(i)
+
+
+even(int(input("enter a number: ")))
 # 5. WAP to print multiplication table using function
 
 
