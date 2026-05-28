@@ -51,9 +51,13 @@ enter your name: Anand
 Anand
 """
 
+
 # 3. WAP to print numbers from 1 to 10 using function
-def num(no):
-    
+def num():
+    for i in range(1, 11):
+        print(i)
+
+
 # 4. WAP to print even numbers using function
 # 5. WAP to print multiplication table using function
 
