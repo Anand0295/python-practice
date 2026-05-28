@@ -55,7 +55,7 @@ Anand
 # 3. WAP to print numbers from 1 to 10 using function
 def num():
     for i in range(1, 11):
-        print(i)
+        print(i, end=" ")
 
 
 num()
