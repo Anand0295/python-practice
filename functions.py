@@ -58,6 +58,9 @@ def num():
         print(i)
 
 
+num()
+
+
 # 4. WAP to print even numbers using function
 # 5. WAP to print multiplication table using function
 
