@@ -60,6 +60,9 @@ def num():
 
 num()
 
+"""
+1 2 3 4 5 6 7 8 9 10
+"""
 
 # 4. WAP to print even numbers using function
 # 5. WAP to print multiplication table using function
