@@ -460,7 +460,14 @@ Output:
 """
 225
 """
+
+
 # 29. WAP to print all elements using *args
+def print(*args):
+    for i in args:
+        print(i)
+    re
+
 
 # 30. WAP to count total arguments using *args
 
