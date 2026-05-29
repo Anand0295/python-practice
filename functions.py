@@ -368,9 +368,8 @@ Login Successful
 10
 """
 
+
 # 22. WAP to calculate SI using default rate
-
-
 def simple_interest(p, t, r=5):
     return (p * t * r) / 100
 
@@ -393,9 +392,31 @@ Output:
 hello
 """
 
-# 24. WAP to calculate salary with default bonus
-# 25. WAP to create default login credentials
 
+# 24. WAP to calculate salary with default bonus
+def salary(amount, bonus=2000):
+    return amount + bonus
+
+
+print(salary(30000))
+
+"""
+Output:
+32000
+"""
+
+
+# 25. WAP to create default login credentials
+def login(username="admin", password="1234"):
+    return username, password
+
+
+print(login())
+
+"""
+Output:
+('admin', '1234')
+"""
 
 # =========================================================
 # VARIABLE LENGTH ARGUMENTS (*args)
