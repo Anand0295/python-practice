@@ -477,7 +477,7 @@ Output:
 
 def display(*args):
     for i in args:
-        return args
+        print(i)
 
 
 print(display("hello", "hi", 1, 2, 3))
