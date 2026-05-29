@@ -466,7 +466,6 @@ Output:
 def display(*args):
     for i in args:
         print(i)
-    return display
 
 
 print(display("hello", "hi", 1, 2, 3))
