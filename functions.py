@@ -470,11 +470,12 @@ Output:
 
 # print(display("hello", "hi", 1, 2, 3))
 
-'''
+"""
 ('hello', 'hi', 1, 2, 3)
-'''
+"""
 
-ef display(*args):
+
+def display(*args):
     for i in args:
         return args
 
