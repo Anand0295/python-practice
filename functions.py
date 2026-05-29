@@ -463,7 +463,18 @@ Output:
 
 
 # 29. WAP to print all elements using *args
-def display(*args):
+# def display(*args):
+#     for i in args:
+#         return args
+
+
+# print(display("hello", "hi", 1, 2, 3))
+
+'''
+('hello', 'hi', 1, 2, 3)
+'''
+
+ef display(*args):
     for i in args:
         return args
 
