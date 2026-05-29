@@ -431,6 +431,7 @@ Output:
 
 # QUESTIONS:
 # 26. WAP to find sum using *args
+def sum(*args)
 # 27. WAP to find largest number using *args
 # 28. WAP to multiply all numbers using *args
 # 29. WAP to print all elements using *args
