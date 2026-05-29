@@ -491,7 +491,16 @@ hi
 None
 """
 
+
 # 30. WAP to count total arguments using *args
+def count(*args):
+    count = 0
+    for i in args:
+        count += 1
+    return count
+
+
+print(count(1, 2, 3, 4, 5, "hello", "hi"))
 
 
 # =========================================================
