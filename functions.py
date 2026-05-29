@@ -463,13 +463,13 @@ Output:
 
 
 # 29. WAP to print all elements using *args
-def print(*args):
+def display(*args):
     for i in args:
         print(i)
-    return print
+    return display
 
 
-print(print("hello", "hi", 1, 2, 3))
+print(display("hello", "hi", 1, 2, 3))
 # 30. WAP to count total arguments using *args
 
 
