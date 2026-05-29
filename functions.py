@@ -466,9 +466,10 @@ Output:
 def print(*args):
     for i in args:
         print(i)
-    re
+    return print
 
 
+print(print("hello", "hi", 1, 2, 3))
 # 30. WAP to count total arguments using *args
 
 
