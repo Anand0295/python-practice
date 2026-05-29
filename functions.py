@@ -475,12 +475,22 @@ Output:
 """
 
 
-def display(*args):
-    for i in args:
-        print(i)
+# def display(*args):
+#     for i in args:
+#         print(i)
 
 
-print(display("hello", "hi", 1, 2, 3))
+# print(display("hello", "hi", 1, 2, 3))
+
+"""
+hello
+hi
+1
+2
+3
+None
+"""
+
 # 30. WAP to count total arguments using *args
 
 
