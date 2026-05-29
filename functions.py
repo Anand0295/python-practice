@@ -371,6 +371,17 @@ Login Successful
 # 22. WAP to calculate SI using default rate
 
 
+def simple_interest(p, t, r=5):
+    return (p * t * r) / 100
+
+
+print(simple_interest(1000, 2))
+
+"""
+Output:
+100.0
+"""
+
 # 23. WAP to print greeting using default parameter
 # def greet(a="hello"):
 #     return a
