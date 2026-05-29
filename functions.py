@@ -432,14 +432,19 @@ Output:
 
 # QUESTIONS:
 # 26. WAP to find sum using *args
-def sum(*args):
-    total = 0
-    for i in args:
-        total += i
-    return total
+# def sum(*args):
+#     total = 0
+#     for i in args:
+#         total += i
+#     return total
 
 
-print(sum(1, 2, 3, 4, 5))
+# print(sum(1, 2, 3, 4, 5))
+
+"""
+15
+"""
+
 # 27. WAP to find largest number using *args
 # 28. WAP to multiply all numbers using *args
 # 29. WAP to print all elements using *args
