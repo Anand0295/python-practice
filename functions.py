@@ -429,9 +429,16 @@ Output:
 
 # function_name(1,2,3,4)
 
+
 # QUESTIONS:
 # 26. WAP to find sum using *args
-def sum(*args)
+def sum(*args):
+    total = 0
+    for i in args:
+        total += i
+
+
+print(sum(1, 2, 3, 4, 5))
 # 27. WAP to find largest number using *args
 # 28. WAP to multiply all numbers using *args
 # 29. WAP to print all elements using *args
