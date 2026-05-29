@@ -78,8 +78,28 @@ enter a number: 25
 2 4 6 8 10 12 14 16 18 20 22 24
 """
 
-# 5. WAP to print multiplication table using function
 
+# 5. WAP to print multiplication table using function
+# def mul(no):
+#     for i in range(1, no + 1):
+#         print(f"{no} * {i} = {no * i}")
+
+
+# mul(int(input("enter a number: ")))
+
+"""
+enter a number: 10
+10 * 1 = 10
+10 * 2 = 20
+10 * 3 = 30
+10 * 4 = 40
+10 * 5 = 50
+10 * 6 = 60
+10 * 7 = 70
+10 * 8 = 80
+10 * 9 = 90
+10 * 10 = 100
+"""
 
 # =========================================================
 # RETURN FUNCTION
@@ -89,15 +109,86 @@ enter a number: 25
 #     |--------------------------------|
 #     |  calculate result              |
 #     |--------------------------------|
-#     return result
+#     return result ---> return stops the program and returns the value to the user, unlike print which prints the value not store it.
+# return --> reusable value; print --> non-reusable value
+
 
 # QUESTIONS:
 # 6. WAP to return sum of two numbers
-# 7. WAP to return square of a number
-# 8. WAP to return cube of a number
-# 9. WAP to return factorial of number
-# 10. WAP to return reversed string
+# def sum(a, b):
+#     return a + b
 
+# print(sum(10, 5))
+
+"""
+15
+"""
+
+
+# 7. WAP to return square of a number
+# def sq(a):
+#     return a**2
+
+# print(sq(15))
+
+"""
+225
+"""
+
+
+# 8. WAP to return cube of a number
+# def cube(a):
+#     return a**3
+
+
+# print(cube(3))
+
+"""
+27
+"""
+
+
+# 9. WAP to return factorial of number
+# def fact(no):
+#     fact = 1
+#     for i in range(1, no + 1):
+#         fact = fact * i
+#     return fact
+
+
+# print(fact(5))
+
+"""
+120
+"""
+
+
+# 10. WAP to return reversed string
+# def rev(s):
+#     return s[::-1]
+
+
+# print(rev("hello"))
+
+"""
+olleh
+"""
+
+
+# def reverse_string(s):
+#     rev = ""
+
+#     for char in s:
+#         rev = char + rev
+
+#     return rev
+
+
+# print(reverse_string("python"))
+
+"""
+nohtyp
+"""
 
 # =========================================================
 # POSITIONAL ARGUMENTS
@@ -113,13 +204,69 @@ enter a number: 25
 # a = 10
 # b = 20
 
+
 # QUESTIONS:
 # 11. WAP to add two numbers using positional arguments
-# 12. WAP to subtract two numbers using positional arguments
-# 13. WAP to multiply two numbers using positional arguments
-# 14. WAP to divide two numbers using positional arguments
-# 15. WAP to swap two numbers using positional arguments
+# def add(a, b):
+#     return a + b
 
+
+# print(add(2, 3))
+
+"""
+5
+"""
+
+
+# 12. WAP to subtract two numbers using positional arguments
+# def sub(a, b):
+#     return a - b
+
+
+# print(sub(5 - 6))
+
+"""
+1
+"""
+
+
+# 13. WAP to multiply two numbers using positional arguments
+# def mul(x, y):
+#     return x * y
+
+
+# print(mul(2, 2))
+
+"""
+4
+"""
+
+
+# 14. WAP to divide two numbers using positional arguments
+# def div(a, b):
+#     return a // b
+
+
+# print(div(10, 5))
+
+"""
+2
+"""
+
+
+# 15. WAP to swap two numbers using positional arguments
+# def swap(a, b):
+#     a = a + b
+#     b = a - b
+#     a = a - b
+#     return a, b
+
+
+# print(swap(10, 20))
+
+"""
+(20, 10)
+"""
 
 # =========================================================
 # KEYWORD ARGUMENTS
@@ -132,13 +279,72 @@ enter a number: 25
 
 # function_name(b=20,a=10)
 
+
 # QUESTIONS:
 # 16. WAP to create student details using keyword args
-# 17. WAP to create employee details using keyword args
-# 18. WAP to create bank account using keyword args
-# 19. WAP to create product bill using keyword args
-# 20. WAP to create login system using keyword args
+# def student_details(name, age, course):
+#     return name, age, course
 
+
+# print(student_details(name="Anand", age=21, course="Python"))
+
+"""
+('Anand', 21, 'Python')
+"""
+
+# 17. WAP to create employee details using keyword args
+
+
+# def employee_details(name, salary, department):
+#     return name, salary, department
+
+
+# print(employee_details(name="Ram", salary=50000, department="IT"))
+
+"""
+('Ram', 50000, 'IT')
+"""
+
+
+# 18. WAP to create bank account using keyword args
+# def bank_account(name, account_no, balance):
+#     return name, account_no, balance
+
+
+# print(bank_account(name="Sam", account_no=12345, balance=10000))
+
+"""
+('Sam', 12345, 10000)
+"""
+
+
+# 19. WAP to create product bill using keyword args
+# def product_bill(shirt, shoes, watch):
+#     total = shirt + shoes + watch
+#     return total
+
+
+# print(product_bill(shirt=800, shoes=1500, watch=2000))
+
+"""
+Output:
+4300
+"""
+
+# 20. WAP to create login system using keyword args
+# def login(username, password):
+#     if username == "admin" and password == "1234":
+#         return "Login Successful"
+
+#     return "Invalid Login"
+
+
+# print(login(username="admin", password="1234"))
+
+"""
+Output:
+Login Successful
+"""
 
 # =========================================================
 # DEFAULT PARAMETERS
@@ -149,10 +355,33 @@ enter a number: 25
 #     | uses default value if missing  |
 #     |--------------------------------|
 
+
 # QUESTIONS:
 # 21. WAP to add numbers using default parameter
+# def sum(a, b, c, d=4):
+#     return a + b + c + d
+
+
+# print(sum(1, 2, 3))
+
+"""
+10
+"""
+
 # 22. WAP to calculate SI using default rate
+
+
 # 23. WAP to print greeting using default parameter
+# def greet(a="hello"):
+#     return a
+
+
+# print(greet())
+
+"""
+hello
+"""
+
 # 24. WAP to calculate salary with default bonus
 # 25. WAP to create default login credentials
 
