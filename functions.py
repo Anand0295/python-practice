@@ -394,11 +394,11 @@ hello
 
 
 # 24. WAP to calculate salary with default bonus
-def salary(amount, bonus=2000):
-    return amount + bonus
+# def salary(amount, bonus=2000):
+#     return amount + bonus
 
 
-print(salary(30000))
+# print(salary(30000))
 
 """
 Output:
@@ -407,11 +407,11 @@ Output:
 
 
 # 25. WAP to create default login credentials
-def login(username="admin", password="1234"):
-    return username, password
+# def login(username="admin", password="1234"):
+#     return username, password
 
 
-print(login())
+# print(login())
 
 """
 Output:
