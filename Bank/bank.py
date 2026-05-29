@@ -1,7 +1,7 @@
 database = {"user1": ["User@123", "1234", 1000], "user2": ["Python#123", "5678", 0]}
 
 
-def validate_password(password):
+def valid_password(password):
     upper = 0
     lower = 0
     special = 0
@@ -22,7 +22,7 @@ def validate_password(password):
     return False
 
 
-def validate_pin(pin):
+def valid_pin(pin):
     if pin.isdigit() and len(pin) == 4:
         return True
     return False
@@ -34,7 +34,7 @@ def signup():
         print("Sorry, Username already Exists!!")
     else:
         password = input("enter your new password: ")
-        if not validate_password(password):
+        if not valid_password(password):
             print("Enter a valid password.")
             return
         confirm_password = input("Confirm you Password: ")
@@ -42,7 +42,7 @@ def signup():
             print("passwords do not match!!")
             return
         pin = input("enter your new pin: ")
-        if not validate_pin(pin):
+        if not valid_pin(pin):
             print("Enter a valid pin.")
             return
         confirm_pin = input("Confirm your pin: ")
