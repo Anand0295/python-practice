@@ -445,8 +445,17 @@ Output:
 15
 """
 
+
 # 27. WAP to find largest number using *args
 # 28. WAP to multiply all numbers using *args
+def mul(*args):
+    total = 1
+    for i in args:
+        total *= i
+    return total
+
+
+print(mul(15, 15))
 # 29. WAP to print all elements using *args
 # 30. WAP to count total arguments using *args
 
