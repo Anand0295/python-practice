@@ -551,7 +551,21 @@ None
 Output:
 {'name': 'Laptop', 'price': 50000, 'brand': 'Dell'}
 """
+
+
 # 34. WAP to print keys and values using **kwargs
+# def print_details(**kwargs):
+#     for key, value in kwargs.items():
+#         print(key, ":", value)
+
+
+# print_details(name="Anand", city="Chennai")
+
+"""
+Output:
+name : Anand
+city : Chennai
+"""
 # 35. WAP to count keyword arguments using **kwargs
 
 
