@@ -518,12 +518,23 @@ None
 
 # QUESTIONS:
 # 31. WAP to create student dictionary using **kwargs
-def student_details(**kwargs):
+# def student_details(**kwargs):
+#     return kwargs
+
+
+# print(student_details(name="Anand", age=21, course="Python"))
+
+"""
+{'name': 'Anand', 'age': 21, 'course': 'Python'}
+"""
+
+
+# 32. WAP to create employee dictionary using **kwargs
+def employee_details(**kwargs):
     return kwargs
 
 
-print(student_details(name="Anand", age=21, course="Python"))
-# 32. WAP to create employee dictionary using **kwargs
+print(employee_details(name="Ram", salary=50000, department="IT"))
 # 33. WAP to create product details using **kwargs
 # 34. WAP to print keys and values using **kwargs
 # 35. WAP to count keyword arguments using **kwargs
