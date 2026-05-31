@@ -541,13 +541,11 @@ None
 """
 
 # 33. WAP to create product details using **kwargs
+# def product_details(**kwargs):
+#     return kwargs
 
 
-def product_details(**kwargs):
-    return kwargs
-
-
-print(product_details(name="Laptop", price=50000, brand="Dell"))
+# print(product_details(name="Laptop", price=50000, brand="Dell"))
 
 """
 Output:
