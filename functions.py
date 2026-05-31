@@ -541,6 +541,18 @@ None
 """
 
 # 33. WAP to create product details using **kwargs
+
+
+def product_details(**kwargs):
+    return kwargs
+
+
+print(product_details(name="Laptop", price=50000, brand="Dell"))
+
+"""
+Output:
+{'name': 'Laptop', 'price': 50000, 'brand': 'Dell'}
+"""
 # 34. WAP to print keys and values using **kwargs
 # 35. WAP to count keyword arguments using **kwargs
 
