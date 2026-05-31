@@ -566,8 +566,19 @@ Output:
 name : Anand
 city : Chennai
 """
-# 35. WAP to count keyword arguments using **kwargs
 
+
+# 35. WAP to count keyword arguments using **kwargs
+# def count_kwargs(**kwargs):
+#     return len(kwargs)
+
+
+# print(count_kwargs(name="Anand", age=21, course="Python"))
+
+"""
+Output:
+3
+"""
 
 # =========================================================
 # ONLY POSITIONAL ARGUMENTS (/)
