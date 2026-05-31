@@ -530,11 +530,16 @@ None
 
 
 # 32. WAP to create employee dictionary using **kwargs
-def employee_details(**kwargs):
-    return kwargs
+# def employee_details(**kwargs):
+#     return kwargs
 
 
-print(employee_details(name="Ram", salary=50000, department="IT"))
+# print(employee_details(name="Ram", salary=50000, department="IT"))
+
+"""
+{'name': 'Ram', 'salary': 50000, 'department': 'IT'}
+"""
+
 # 33. WAP to create product details using **kwargs
 # 34. WAP to print keys and values using **kwargs
 # 35. WAP to count keyword arguments using **kwargs
