@@ -515,8 +515,14 @@ None
 #     | stores key-value dictionary    |
 #     |--------------------------------|
 
+
 # QUESTIONS:
 # 31. WAP to create student dictionary using **kwargs
+def student_details(**kwargs):
+    return kwargs
+
+
+print(student_details(name="Anand", age=21, course="Python"))
 # 32. WAP to create employee dictionary using **kwargs
 # 33. WAP to create product details using **kwargs
 # 34. WAP to print keys and values using **kwargs
